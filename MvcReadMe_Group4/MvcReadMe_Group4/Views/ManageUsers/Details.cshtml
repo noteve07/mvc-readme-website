@@ -1,0 +1,121 @@
+﻿@model MvcReadMe_Group4.Models.User
+
+@{
+    ViewData["Title"] = "User Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .details-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 50vh;
+        padding-top: 50px;
+    }
+
+    .details-container {
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+
+
+    .header-title {
+        width: 500px;
+        text-align: center;
+        background-color: #2b3a55;
+        color: #f0f0f0;
+        padding: 10px 0;
+        font-size: 26px;
+        font-weight: bold;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .details-card {
+        background-color: #1a2029;
+        color: white;
+        width: 500px;
+        padding: 40px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .card-body-custom {
+        margin-top: 10px;
+    }
+
+    dt {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    dd {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .button-spacing {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-custom {
+        background-color: #c27a1d;
+        color: white;
+        padding: 10px 25px;
+        border-radius: 10px;
+        border: none;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-custom:hover {
+            background-color: #e67e22;
+            color: white;
+        }
+
+    .btn-secondary-custom {
+        background-color: transparent;
+        color: #359b9f;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+    }
+
+        .btn-secondary-custom:hover {
+            color: #1b6f71;
+        }
+</style>
+
+<div class="details-wrapper">
+    <div class="details-container">
+        <div class="header-title">User Details</div>
+
+        <div class="details-card">
+            <div class="card-body-custom">
+                <div class="details-column">
+                    <dl class="row">
+                        <dt class="col-sm-4">Username</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.UserName)</dd>
+
+                        <dt class="col-sm-4">Password</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Password)</dd>
+                    </dl>
+
+                    <div class="button-spacing">
+                        <a asp-action="Index" class="btn-secondary-custom">Back to List</a>
+                        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn-custom">Edit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>

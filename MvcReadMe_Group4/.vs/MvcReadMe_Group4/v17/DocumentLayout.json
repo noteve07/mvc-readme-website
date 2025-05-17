@@ -1,0 +1,587 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\admin\\developers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\admin\\developers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\admin\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\admin\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\manageusers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\manageusers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\manageusers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\manageusers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\manageusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\manageusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\manageusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\manageusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\managebooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\managebooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\manageusers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\manageusers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\managebooks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\managebooks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\managebooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\managebooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\managebooks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\managebooks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\managebooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\managebooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\data\\mvcreadme_group4context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\data\\mvcreadme_group4context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\data\\initializedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\data\\initializedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\controllers\\manageuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\controllers\\manageuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\controllers\\managebookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\controllers\\managebookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\models\\bookaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\models\\bookaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\migrations\\20250512172624_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\migrations\\20250512172624_m1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\migrations\\20250512172410_questionmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\migrations\\20250512172410_questionmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\migrations\\20250512151420_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\migrations\\20250512151420_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|c:\\users\\admin\\documents\\my documents\\school\\bscs-2a\\2nd semester\\object oriented programming\\mvcreadme_group4\\mvcreadme_group4\\migrations\\20250513052324_m2pluralcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52693AF-5694-4CA3-AB10-2F84B38D3CB2}|MvcReadMe_Group4\\MvcReadMe_Group4.csproj|solutionrelative:mvcreadme_group4\\migrations\\20250513052324_m2pluralcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Admin\\About.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\Admin\\About.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Admin\\About.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\Admin\\About.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T07:01:16.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Developers.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Admin\\Developers.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\Admin\\Developers.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Admin\\Developers.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\Admin\\Developers.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T15:41:55.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:37:35.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageUsers\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Delete.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageUsers\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T12:49:50.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageUsers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Edit.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageUsers\\Edit.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAvwFgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T12:44:52.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageUsers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Index.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageUsers\\Index.cshtml",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAswCABAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T06:37:10.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageUsers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Create.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageUsers\\Create.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAvwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T21:18:28.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageBooks\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Edit.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageBooks\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T20:18:47.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageBooks\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Details.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageBooks\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T19:02:29.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:17:19.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAiwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T06:29:39.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageUsers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageUsers\\Details.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageUsers\\Details.cshtml",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAswHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T05:29:03.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250513052324_M2PluralContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Migrations\\20250513052324_M2PluralContext.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Migrations\\20250513052324_M2PluralContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Migrations\\20250513052324_M2PluralContext.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Migrations\\20250513052324_M2PluralContext.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:23:24.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InitializeData.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Data\\InitializeData.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Data\\InitializeData.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Data\\InitializeData.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Data\\InitializeData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:32:20.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250512172624_M1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Migrations\\20250512172624_M1.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Migrations\\20250512172624_M1.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Migrations\\20250512172624_M1.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Migrations\\20250512172624_M1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:26:24.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250512172410_QuestionMark.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Migrations\\20250512172410_QuestionMark.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Migrations\\20250512172410_QuestionMark.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Migrations\\20250512172410_QuestionMark.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Migrations\\20250512172410_QuestionMark.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:24:10.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\appsettings.json",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\appsettings.json",
+              "RelativeToolTip": "MvcReadMe_Group4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T16:33:55.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250512151420_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Migrations\\20250512151420_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Migrations\\20250512151420_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Migrations\\20250512151420_InitialCreate.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Migrations\\20250512151420_InitialCreate.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:14:21.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageBooks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Index.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageBooks\\Index.cshtml",
+              "ViewState": "AgIAAJcAAAAAAAAAAAApwK0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T05:29:13.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ManageUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Controllers\\ManageUsersController.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Controllers\\ManageUsersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Controllers\\ManageUsersController.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Controllers\\ManageUsersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:13:39.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MvcReadMe_Group4Context.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Data\\MvcReadMe_Group4Context.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Data\\MvcReadMe_Group4Context.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Data\\MvcReadMe_Group4Context.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Data\\MvcReadMe_Group4Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:07:49.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageBooks\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Create.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageBooks\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:00:32.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\ManageBooks\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\ManageBooks\\Delete.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\ManageBooks\\Delete.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAswJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T13:59:41.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ManageBooksController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Controllers\\ManageBooksController.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Controllers\\ManageBooksController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Controllers\\ManageBooksController.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Controllers\\ManageBooksController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAwH8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:55:29.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BookAccess.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Models\\BookAccess.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Models\\BookAccess.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Models\\BookAccess.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Models\\BookAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:12:49.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Models\\User.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:12:13.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Models\\Book.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Models\\Book.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:58:19.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:54:44.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T12:54:32.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-11T11:38:37.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T11:38:19.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T11:38:14.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MvcReadMe_Group4\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T11:38:12.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:38:03.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Program.cs",
+              "RelativeDocumentMoniker": "MvcReadMe_Group4\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\Program.cs",
+              "RelativeToolTip": "MvcReadMe_Group4\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:31:29.523Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

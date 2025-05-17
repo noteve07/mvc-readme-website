@@ -1,0 +1,359 @@
+﻿@model IEnumerable<MvcReadMe_Group4.Models.Book>
+
+@{
+    ViewData["Title"] = "E-Book Inventory List";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .table-container {
+        max-height: 74vh;
+        overflow-y: auto;
+        border: 1px solid #3d4554;
+        border-top: 2px solid #359b9f;
+        border-bottom: 2px solid #3d4554;
+        scrollbar-width: thin;
+        scrollbar-color: #555 transparent;
+        border-radius: 15px;
+    }
+
+    .table-dark {
+        width: 100%;
+        font-size: 14px;
+        border-collapse: collapse;
+        background-color: #2b2f38;
+        table-layout: fixed;
+        border-top: 2px solid #359b9f;
+        border-radius: 15px;
+    }
+
+        .table-dark thead th {
+            background-color: #1c1f26;
+            color: #ffffff;
+            font-weight: 700;
+            text-align: center;
+            padding: 14px;
+            border-top: 2px solid #359b9f;
+            border-left: 1px solid #3d4554;
+            border-right: 1px solid #3d4554;
+            border-bottom: 1px solid #3d4554;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            cursor: pointer;
+            user-select: none;
+        }
+
+            .table-dark thead th.sortable:hover {
+                background-color: #2d313a;
+            }
+
+            .table-dark thead th.sorted-asc::after {
+                content: " ▲";
+                font-size: 12px;
+            }
+
+            .table-dark thead th.sorted-desc::after {
+                content: " ▼";
+                font-size: 12px;
+            }
+
+        .table-dark tbody td {
+            padding: 9px 12px 9px 12px;
+            text-align: center;
+            color: #f0f0f0;
+            border: 1px solid #3d4554;
+            vertical-align: middle;
+            word-wrap: break-word;
+        }
+
+        .table-dark img {
+            width: 80px;
+            border-radius: 4px;
+        }
+
+    .icons-row {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .icon-btn {
+        font-size: 14px;
+        padding: 8px 10px 8px 10px;
+        border-radius: 6px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .icon-view {
+        background-color: #3498db;
+    }
+
+        .icon-view:hover {
+            background-color: #2980b9;
+        }
+
+    .icon-edit {
+        background-color: #f39c12;
+
+    }
+
+        .icon-edit:hover {
+            background-color: #e67e22;
+        }
+
+    .icon-delete {
+        background-color: #e74c3c;
+    }
+
+        .icon-delete:hover {
+            background-color: #c0392b;
+        }
+
+    .btn-viewfile {
+        font-size: 13px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .table-container::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .table-container::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .table-container::-webkit-scrollbar-thumb {
+        background-color: #555;
+        border-radius: 10px;
+    }
+
+        .table-container::-webkit-scrollbar-thumb:hover {
+            background-color: #777;
+        }
+
+    /* Flexbox for Header */
+    .header-bar {
+        display: flex;
+        justify-content: space-between; /* Distributes space between the elements */
+        align-items: center; /* Vertically align items */
+        margin-bottom: 30px;
+    }
+
+        .header-bar > h1 {
+            margin: 0;
+            font-size: 36px;
+            
+        }
+
+        .header-bar > div {
+            display: flex;
+            align-items: center;
+            gap: 30px; /* Space between search and button */
+            font-size: 20px;
+        }
+
+    .search-input {
+        font-size: 16px;
+        padding: 7px 10px;
+        border-radius: 5px;
+        background-color: #37414f;
+        color: white;
+        border: 1px solid #444;
+        width: 270px;
+    }
+
+        .search-input:focus {
+            outline: none;
+        }
+
+    .add-button {
+        padding: 7px 10px;
+        font-size: 16px;
+        background-color: #27ae60;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+        .add-button:hover {
+            background-color: #2ecc71;
+        }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Adjust column widths */
+    .table-dark th:nth-child(1), .table-dark td:nth-child(1) {
+        width: 10%; /* Cover column */
+    }
+
+    .table-dark th:nth-child(2), .table-dark td:nth-child(2) {
+        width: 21%; /* Title column */
+    }
+
+    .table-dark th:nth-child(3), .table-dark td:nth-child(3) {
+        width: 20%; /* Author column */
+    }
+
+    .table-dark th:nth-child(4), .table-dark td:nth-child(4) {
+        width: 15%; /* Category column */
+    }
+
+    .table-dark th:nth-child(5), .table-dark td:nth-child(5) {
+        width: 20%; /* Description column */
+    }
+
+    .table-dark th:nth-child(6), .table-dark td:nth-child(6) {
+        width: 16%; /* ISBN column */
+    }
+
+    .table-dark th:nth-child(7), .table-dark td:nth-child(7) {
+        width: 10%; /* File column */
+    }
+
+    .table-dark th:nth-child(8), .table-dark td:nth-child(8) {
+        width: 10%; /* Number of Reads column */
+    }
+
+    .table-dark th:nth-child(9), .table-dark td:nth-child(9) {
+        width: 18%; /* Actions column */
+    }
+</style>
+
+<!-- Header with Flexbox for Title, Search, and Add Book -->
+<div class="header-bar">
+    <h1>E-Book Inventory List</h1>
+    <div>
+        <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search..." class="search-input">
+        <a href="@Url.Action("Create")" class="add-button">➕ Add New Book</a>
+    </div>
+</div>
+
+<div class="table-container">
+    <table class="table-dark" id="bookTable">
+        <thead>
+            <tr>
+                <th class="sortable" onclick="sortTable(0)">Cover</th>
+                <th class="sortable" onclick="sortTable(1)">Title</th>
+                <th class="sortable" onclick="sortTable(2)">Author</th>
+                <th class="sortable" onclick="sortTable(3)">Category</th>
+                <th>Description</th>
+                <th class="sortable" onclick="sortTable(5)">ISBN</th>
+                <th>File</th>
+                <th class="sortable" onclick="sortTable(7)">Number of Reads</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><img src="@item.CoverImagePath" alt="Cover" /></td>
+                    <td>@item.Title</td>
+                    <td>@item.Author</td>
+                    <td>@item.Category</td>
+                    <td style="max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                        @item.Description
+                    </td>
+                    <td>@item.ISBN</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.FilePath))
+                        {
+                            <a class="btn btn-secondary btn-viewfile" href="@item.FilePath" target="_blank">View</a>
+                        }
+                        else
+                        {
+                            <span style="color: gray;">No File</span>
+                        }
+                    </td>
+                    <td>@item.NumberOfReads</td>
+                    <td>
+                        <div class="icons-row">
+                            @if (!string.IsNullOrEmpty(item.FilePath))
+                            {
+                                <a class="icon-btn icon-view" href="@Url.Action("Details", new { id = item.Id })" title="Details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a class="icon-btn icon-edit" href="@Url.Action("Edit", new { id = item.Id })" title="Edit">
+                                    <i class="fas fa-pen"></i>
+                                </a>
+                                <a class="icon-btn icon-delete" href="@Url.Action("Delete", new { id = item.Id })" title="Delete">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            }
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        function filterTable() {
+            const input = document.getElementById("searchInput").value.toLowerCase();
+            const rows = document.querySelectorAll("#bookTable tbody tr");
+            rows.forEach(row => {
+                const text = row.innerText.toLowerCase();
+                row.style.display = text.includes(input) ? "" : "none";
+            });
+        }
+
+        let currentSortColumn = -1;
+        let ascending = true;
+
+        function sortTable(n) {
+            const table = document.getElementById("bookTable");
+            let rows, switching, i, x, y, shouldSwitch;
+            switching = true;
+            ascending = currentSortColumn === n ? !ascending : true;
+            currentSortColumn = n;
+
+            // remove existing sort indicators
+            table.querySelectorAll("th").forEach(th => {
+                th.classList.remove("sorted-asc", "sorted-desc");
+            });
+
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+                    if (x && y) {
+                        const xContent = x.textContent || x.innerText;
+                        const yContent = y.textContent || y.innerText;
+
+                        if (ascending) {
+                            if (xContent.toLowerCase() > yContent.toLowerCase()) {
+                                shouldSwitch = true;
+                                break;
+                            }
+                        } else {
+                            if (xContent.toLowerCase() < yContent.toLowerCase()) {
+                                shouldSwitch = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                }
+            }
+
+            // add sort indicator
+            const header = table.getElementsByTagName("TH")[n];
+            header.classList.add(ascending ? "sorted-asc" : "sorted-desc");
+        }
+    </script>
+}

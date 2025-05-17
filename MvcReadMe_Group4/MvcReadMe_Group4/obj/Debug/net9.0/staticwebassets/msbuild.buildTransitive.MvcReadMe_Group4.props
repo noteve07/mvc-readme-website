@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MvcReadMe_Group4.props" />
+</Project>

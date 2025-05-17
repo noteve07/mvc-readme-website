@@ -1,0 +1,173 @@
+﻿@{
+    ViewData["Title"] = "About ReadMe";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .about-container {
+        max-width: 1000px;
+        margin: 38px auto 40px;
+        padding: 0 50px;
+        color: #c9d1d9;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    .card-section {
+        background-color: #1a2029;
+        border-radius: 20px;
+        padding: 30px;
+        margin-bottom: 40px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .about-title {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: #ebebeb;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .about-group {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #359b9f;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
+
+    .about-desc {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #a8b0b9;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .tech-stack {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .tech-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90px;
+    }
+
+    .tech-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        width: 70px;
+        margin-bottom: 10px;
+    }
+
+        .tech-img img {
+            max-width: 100%;
+            max-height: 100%;
+            background-color: transparent;
+            padding: 0;
+            filter: brightness(0.9);
+            /* transition: filter 0.3s ease; */
+            transition: transform 0.2s ease-in-out;
+        }
+
+            .tech-img img:hover {
+                filter: brightness(1.05);
+                cursor: default;
+                transform: translateY(-3px);
+            }
+
+    .tech-label {
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: #a8b0b9;
+        text-align: center;
+    }
+</style>
+
+<div class="about-container">
+
+    <div class="card-section">
+        <h1 class="about-title">About the Project</h1>
+        <div class="about-group">Group 4: The Classified</div>
+        
+        <p class="about-desc">
+            ReadMe is a Smart E-Library Portal and Management System that allows users to read eBooks online and receive personalized book suggestions through a recommendation system. It also includes an admin dashboard to manage book files, update metadata, and monitor user activity. The platform aims to make digital library access easier and more efficient.
+        </p>
+        <br />
+
+        <p class="about-desc">
+            This project was developed as an application of Object-Oriented Programming concepts in a real-world system. It was built using ASP.NET and C# for the backend, and Razor Pages, Bootstrap, CSS, and JavaScript for the frontend, and SQLite as the database. These technologies worked together to bring the system’s core features to life, from reading books online to managing library content. The project served as both a learning experience and a practical demonstration of integrating programming skills into a full system.
+        </p>
+
+        </p>
+    </div>
+
+    <div class="card-section">
+        <div class="tech-stack">
+            <div class="tech-item">
+                <div class="tech-img">
+                    <img src="~/assets/logos/c-sharp.png" alt="C#" title="C#" style="padding: 4px;" />
+                </div>
+                <div class="tech-label">C#</div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-img">
+                    <img src="~/assets/logos/aspnet.png" alt="ASP.NET" title="ASP.NET" style="padding: 4px;" />
+                </div>
+                <div class="tech-label">ASP.NET</div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-img">
+                    <img src="~/assets/logos/boostrap-3d.png" alt="Bootstrap" title="Bootstrap" style="padding-top: 5px;" />
+                </div>
+                <div class="tech-label">Bootstrap</div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-img">
+                    <img src="~/assets/logos/csspng.png" alt="CSS3" title="CSS3" style="padding: 1px;" />
+                </div>
+                <div class="tech-label">CSS3</div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-img">
+                    <img src="~/assets/logos/javascript-png.png" alt="JavaScript" title="JavaScript" style="padding: 5px;" />
+                </div>
+                <div class="tech-label">JavaScript</div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-img">
+                    <img src="~/assets/logos/sql-logo.png" alt="SQLite" title="SQLite" style="padding: 4px;" />
+                </div>
+                <div class="tech-label">SQLite</div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-img">
+                    <img src="~/assets/logos/visual-studio-removebg.png" alt="Visual Studio" title="Visual Studio" style="padding: 4px;" />
+                </div>
+                <div class="tech-label">Visual Studio</div>
+            </div>
+            @* Uncomment this if you want GitHub later *@
+            @* 
+            <div class="tech-item">
+                <div class="tech-img">
+                    <img src="~/assets/logos/github.png" alt="GitHub" title="GitHub" />
+                </div>
+                <div class="tech-label">GitHub</div>
+            </div>
+            *@
+        </div>
+    </div>
+
+</div>

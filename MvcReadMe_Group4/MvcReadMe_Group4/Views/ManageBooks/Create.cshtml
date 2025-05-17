@@ -1,0 +1,165 @@
+﻿@model MvcReadMe_Group4.Models.Book
+
+@{
+    ViewData["Title"] = "Add a New Book";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .scale-wrapper {
+        transform: scale(0.8);
+        transform-origin: top center;
+    }
+
+    .form-wrapper {
+        margin-top: 20px;
+    }
+
+    .form-container {
+        background-color: #1a2029;
+        border-radius: 0px 0px 20px 20px;
+        padding: 30px 70px 30px 70px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .card-header-text {
+        background-color: #195f61;
+        color: #f0f0f0;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 20px 20px 1px 1px;
+    }
+
+        .card-header-text h4 {
+            margin: 0;
+            font-size: 1.45em;
+            font-weight: bold;
+        }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        background-color: #243040;
+        color: #fff;
+        border: 1px solid #195f61;
+        border-radius: 8px;
+        padding: 8px 12px 8px 12px;
+        font-size: 1rem;
+        transition: all 0.2s ease;
+    }
+
+        .form-control:focus {
+            background-color: #2b3a55;
+            color: #fff;
+            border-color: #359b9f;
+            box-shadow: 0 0 0 0.15rem rgba(53, 155, 159, 0.35);
+        }
+
+    .btn-create {
+        background-color: #197550;
+        color: white;
+        font-size: 1.2rem;
+        padding: 12px 40px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        margin-top: 40px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-create:hover {
+            background-color: #01804d;
+        }
+
+    .text-center a {
+        color: #359b9f;
+        font-weight: bold;
+    }
+
+        .text-center a:hover {
+            color: #1b6f71;
+        }
+</style>
+
+<div class="scale-wrapper">
+    <div class="container form-wrapper">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card-header-text">
+                    <h4>Add E-Book</h4>
+                </div>
+                <div class="form-container">
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Title" class="control-label text-white"></label>
+                            <input asp-for="Title" class="form-control" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Author" class="control-label text-white"></label>
+                            <input asp-for="Author" class="form-control" />
+                            <span asp-validation-for="Author" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Category" class="control-label text-white"></label>
+                            <input asp-for="Category" class="form-control" />
+                            <span asp-validation-for="Category" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Description" class="control-label text-white"></label>
+                            <input asp-for="Description" class="form-control" />
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="ISBN" class="control-label text-white"></label>
+                            <input asp-for="ISBN" class="form-control" />
+                            <span asp-validation-for="ISBN" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="FilePath" class="control-label text-white"></label>
+                            <input asp-for="FilePath" class="form-control" />
+                            <span asp-validation-for="FilePath" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="CoverImagePath" class="control-label text-white"></label>
+                            <input asp-for="CoverImagePath" class="form-control" />
+                            <span asp-validation-for="CoverImagePath" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="NumberOfReads" class="control-label text-white"></label>
+                            <input asp-for="NumberOfReads" class="form-control" />
+                            <span asp-validation-for="NumberOfReads" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <input type="submit" value="Create" class="btn-create" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
