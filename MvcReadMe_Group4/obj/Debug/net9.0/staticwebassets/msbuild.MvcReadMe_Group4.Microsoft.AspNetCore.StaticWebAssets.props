@@ -1890,23 +1890,5 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MvcReadMe_Group4.gd81q8d9lo.bundle.scp.css'))">
-      <SourceType>Package</SourceType>
-      <SourceId>MvcReadMe_Group4</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcReadMe_Group4</BasePath>
-      <RelativePath>MvcReadMe_Group4.gd81q8d9lo.bundle.scp.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>Reference</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName>ScopedCss</AssetTraitName>
-      <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>gd81q8d9lo</Fingerprint>
-      <Integrity>pGpZc7wWX/RtIxv4bpPH8PdGeEXnBQn5fBExWpthbtA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MvcReadMe_Group4.gd81q8d9lo.bundle.scp.css'))</OriginalItemSpec>
-    </StaticWebAsset>
   </ItemGroup>
 </Project>

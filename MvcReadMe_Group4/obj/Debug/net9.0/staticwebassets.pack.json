@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MvcReadMe_Group4.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MvcReadMe_Group4.gd81q8d9lo.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\atomic-habits.pdf",
       "PackagePath": "staticwebassets\\assets\\books\\atomic-habits.pdf"
     },

@@ -578,9 +578,7 @@ C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\ne
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\MvcReadMe_Group4.RazorAssemblyInfo.cache
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\MvcReadMe_Group4.RazorAssemblyInfo.cs
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\MvcReadMe_Group4.sourcelink.json
-C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\scopedcss\bundle\MvcReadMe_Group4.styles.css
-C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\scopedcss\projectbundle\MvcReadMe_Group4.bundle.scp.css
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\compressed\x4p9fh1lm7-b9sayid5wm.gz
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\compressed\bdkn3pizhh-61n19gt1b8.gz
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\compressed\vchjucbf0y-xtxxf3hu2r.gz
@@ -643,8 +641,6 @@ C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\ne
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\compressed\bemrfc2j1p-muycvpuwrr.gz
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\compressed\2dlohzup7b-87fc7y1x7t.gz
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\compressed\rok0gi7z4a-mlv21k5csn.gz
-C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\compressed\x77p1jr734-gd81q8d9lo.gz
-C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\compressed\8qi64jeor6-gd81q8d9lo.gz
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\ADMIN\Documents\GitHub\mvc-readme-website\MvcReadMe_Group4\obj\Debug\net9.0\staticwebassets.build.endpoints.json

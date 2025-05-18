@@ -1,0 +1,279 @@
+﻿@model MvcReadMe_Group4.Models.Book
+@{
+    ViewData["Title"] = "Book Details";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<style>
+    .back-button {
+        color: #58a6ff;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        margin: 1.6rem 0;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+    }
+
+        .back-button:hover {
+            color: #408ff7;
+            transform: translateX(-5px);
+        }
+
+    .book-details {
+        background: rgba(26, 31, 44, 0.8);
+        border-radius: 12px;
+        padding: 1.6rem;
+        margin: 0 auto;
+        max-width: 920px;
+        border: 1px solid rgba(52, 152, 219, 0.1);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .book-cover {
+        width: 100%;
+        max-width: 240px;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+    }
+
+        .book-cover:hover {
+            transform: translateY(-5px);
+        }
+
+    .book-info {
+        padding: 0.8rem;
+    }
+
+    .book-title {
+        color: #fff;
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+        text-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+    }
+
+    .book-author {
+        color: #58a6ff;
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .book-description {
+        color: #a0aec0;
+        line-height: 1.6;
+        margin-bottom: 1.6rem;
+        font-size: 0.9rem;
+    }
+
+    .meta-info {
+        background: rgba(26, 31, 44, 0.5);
+        border-radius: 8px;
+        padding: 1.2rem;
+        margin-top: 0.8rem;
+    }
+
+    .meta-item {
+        margin-bottom: 0.8rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .meta-label {
+        color: #58a6ff;
+        font-weight: 600;
+        min-width: 120px;
+        font-size: 0.9rem;
+    }
+
+    .meta-value {
+        color: #e0e0e0;
+        font-size: 0.9rem;
+    }
+
+    .read-button {
+        background: #58a6ff;
+        color: #fff;
+        border: none;
+        padding: 0.6rem 1.6rem;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 1.2rem;
+    }
+
+        .read-button:hover {
+            background: #408ff7;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(88, 166, 255, 0.3);
+        }
+
+    @@media (max-width: 768px) {
+        .book-details {
+            padding: 1.5rem;
+        }
+
+        .book-cover {
+            max-width: 250px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .book-title {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .book-author {
+            font-size: 1.1rem;
+        }
+
+        .meta-label {
+            min-width: 120px;
+        }
+    }
+
+    .recommendations-section {
+        margin-top: 2.4rem;
+        padding: 0 20px;
+        max-width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .recommendations-title {
+        color: #fff;
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+        font-weight: 600;
+    }
+
+    .recommendations-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 16px;
+    }
+
+    .recommendation-card {
+        background: rgba(26, 31, 44, 0.8);
+        border: 1px solid rgba(52, 152, 219, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .recommendation-card:hover {
+        transform: translateY(-5px);
+        border-color: #3498db;
+        box-shadow: 0 10px 20px rgba(52, 152, 219, 0.2);
+    }
+
+    .recommendation-cover {
+        width: 100%;
+        aspect-ratio: 2/3;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .recommendation-info {
+        padding: 10px;
+    }
+
+    .recommendation-title {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 0.3rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .recommendation-author {
+        font-size: 0.75rem;
+        color: #a0aec0;
+    }
+
+    @@media (max-width: 1200px) {
+        .recommendations-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    @@media (max-width: 992px) {
+        .recommendations-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @@media (max-width: 768px) {
+        .recommendations-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @@media (max-width: 480px) {
+        .recommendations-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+</style>
+
+<div class="container">
+    <a href="@Url.Action("Home")" class="back-button">
+        <i class="bi bi-arrow-left me-2"></i>
+        Back to Library
+    </a>
+
+    <div class="book-details">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="@Model.CoverImagePath" alt="@Model.Title" class="book-cover">
+            </div>
+            <div class="col-md-8">
+                <div class="book-info">
+                    <h1 class="book-title">@Model.Title</h1>
+                    <p class="book-author">@Model.Author</p>
+                    <div class="book-description">@Model.Description</div>
+
+                    <div class="meta-info">
+                        <div class="meta-item">
+                            <span class="meta-label">Category:</span>
+                            <span class="meta-value">@Model.Category</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">ISBN:</span>
+                            <span class="meta-value">@Model.ISBN</span>
+                        </div>
+                    </div>
+
+                    <a href="@Model.FilePath" target="_blank" class="read-button">
+                        <i class="bi bi-book me-2"></i>Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recommendations-section">
+        <h2 class="recommendations-title">More Books You Might Like</h2>
+        <div class="recommendations-grid">
+            @foreach (var book in ViewBag.Recommendations)
+            {
+                <a href="@Url.Action("BookDetails", new { id = book.Id })" class="recommendation-card">
+                    <img src="@book.CoverImagePath" alt="@book.Title" class="recommendation-cover">
+                    <div class="recommendation-info">
+                        <div class="recommendation-title">@book.Title</div>
+                        <div class="recommendation-author">@book.Author</div>
+                    </div>
+                </a>
+            }
+        </div>
+    </div>
+</div>

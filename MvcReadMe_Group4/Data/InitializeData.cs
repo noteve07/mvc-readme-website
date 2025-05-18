@@ -15,7 +15,7 @@ namespace MvcReadMe_Group4.Data
                 // delete existing data
                 if (context.Books.Any())
                 {
-                    
+                    return; /* DEBUG */
                     context.Books.RemoveRange(context.Books);
                     context.SaveChanges();
                 }
@@ -23,7 +23,7 @@ namespace MvcReadMe_Group4.Data
                 // delete existing data
                 if (context.Users.Any())
                 {
-                    
+                    return; /* DEBUG */
                     context.Users.RemoveRange(context.Users);
                     context.SaveChanges();
                 }

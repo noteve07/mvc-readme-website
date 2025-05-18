@@ -1,71 +1,128 @@
+@model MvcReadMe_Group4.ViewModels.RegisterViewModel
+
 @{
     Layout = "../Shared/_LayoutAccount.cshtml";
     ViewData["Title"] = "Register";
 }
+
 <style>
-    .register-container {
+    body {
+        background-color: #0b0f14;
+        color: #c9d1d9;
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-card {
+        background-color: #1a2029;
+        border-radius: 20px;
+        padding: 40px 35px;
+        width: 460px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        margin: auto;
+    }
+
+    .login-card h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        height: 100vh;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 8px;
         color: #c9d1d9;
     }
-    .register-form {
-        background-color: #1a2029;
-        padding: 20px;
+
+    input[type="text"],
+    input[type="password"] {
+        background-color: #243040;
+        border: 1px solid #195f61;
         border-radius: 8px;
-        width: 300px;
+        padding: 14px 16px;
+        font-size: 1rem;
+        color: #fff;
+        transition: all 0.3s ease;
+        width: 92%;
+        outline: none;
     }
-    .register-form h2 {
-        text-align: center;
-        margin-bottom: 20px;
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+        background-color: #2b3a55;
+        border-color: #359b9f;
+        box-shadow: 0 0 6px 2px rgba(53, 155, 159, 0.4);
     }
-    .register-form div {
-        margin-bottom: 15px;
+
+    span.text-danger {
+        font-size: 0.85rem;
+        color: #ff6b6b;
+        margin-top: 6px;
     }
-    .register-form label {
-        display: block;
-        margin-bottom: 5px;
-    }
-    .register-form input {
-        width: 100%;
-        padding: 8px;
-        border: 1px solid #3d4554;
-        border-radius: 4px;
-        background-color: #2b2f38;
-        color: #c9d1d9;
-    }
-    .register-form button {
-        width: 100%;
-        padding: 10px;
-        background-color: #3498db;
+
+    button[type="submit"] {
+        background-color: #359b9f;
         color: white;
+        font-size: 1.15rem;
+        font-weight: 600;
+        padding: 14px 0;
         border: none;
-        border-radius: 4px;
+        border-radius: 12px;
         cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+        width: 30%;
     }
-    .register-form button:hover {
-        background-color: #2980b9;
+
+    button[type="submit"]:hover {
+        background-color: #2a7e87;
     }
 </style>
-<div class="register-container">
-    <div class="register-form">
-        <h2>Register</h2>
-        <form asp-controller="Account" asp-action="Register" method="post">
-            <div>
-                <label for="Username">Username</label>
-                <input type="text" id="Username" name="Username" required />
-            </div>
-            <div>
-                <label for="Password">Password</label>
-                <input type="password" id="Password" name="Password" required />
-            </div>
-            <div>
-                <label for="ConfirmPassword">Confirm Password</label>
-                <input type="password" id="ConfirmPassword" name="ConfirmPassword" required />
-            </div>
-            <button type="submit">Register</button>
-        </form>
-    </div>
+
+<div class="login-card">
+    <h2>Register</h2>
+    <form asp-controller="Account" asp-action="Register" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger" style="margin-bottom: 15px;"></div>
+
+        <div class="form-group">
+            <label asp-for="UserName">Username</label>
+            <input asp-for="UserName" autocomplete="username" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password">Password</label>
+            <input asp-for="Password" type="password" autocomplete="new-password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ConfirmPassword">Confirm Password</label>
+            <input asp-for="ConfirmPassword" type="password" autocomplete="new-password" />
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
 </div> 
