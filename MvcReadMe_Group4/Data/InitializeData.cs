@@ -15,7 +15,7 @@ namespace MvcReadMe_Group4.Data
                 // delete existing data
                 if (context.Books.Any())
                 {
-                    return; /* DEBUG */
+                    
                     context.Books.RemoveRange(context.Books);
                     context.SaveChanges();
                 }
@@ -23,7 +23,7 @@ namespace MvcReadMe_Group4.Data
                 // delete existing data
                 if (context.Users.Any())
                 {
-                    return; /* DEBUG */
+                    
                     context.Users.RemoveRange(context.Users);
                     context.SaveChanges();
                 }
@@ -147,8 +147,14 @@ namespace MvcReadMe_Group4.Data
                 context.Users.AddRange(
                     new User
                     {
+                        UserName = "Admin",
+                        Password = "admin_123",
+                        Role = "Admin"
+                    },
+                    new User
+                    {
                         UserName = "nicko_712",
-                        Password = "tralaleo23"
+                        Password = "tralaleo23",
                     },
                     new User
                     {
@@ -178,7 +184,8 @@ namespace MvcReadMe_Group4.Data
                     new User
                     {
                         UserName = "skywalker001",
-                        Password = "sharknado42"
+                        Password = "sharknado42",
+                        Role = "User"
                     },
                     new User
                     {

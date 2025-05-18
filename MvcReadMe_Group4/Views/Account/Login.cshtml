@@ -1,0 +1,119 @@
+@model MvcReadMe_Group4.Models.User
+
+@{
+    Layout = "../Shared/_LayoutAccount.cshtml";
+    ViewData["Title"] = "Login";
+}
+
+<style>
+    body {
+        background-color: #0b0f14;
+        color: #c9d1d9;
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-card {
+        background-color: #1a2029;
+        border-radius: 20px;
+        padding: 60px 50px;
+        width: 520px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+
+        .login-card h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 40px;
+            letter-spacing: 0.05em;
+            text-align: center;
+        }
+
+    form {
+        width: 95%;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 8px;
+        color: #c9d1d9;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        background-color: #243040;
+        border: 1px solid #195f61;
+        border-radius: 8px;
+        padding: 14px 16px;
+        font-size: 1rem;
+        color: #fff;
+        transition: all 0.3s ease;
+        width: 100%;
+        outline: none;
+    }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            background-color: #2b3a55;
+            border-color: #359b9f;
+            box-shadow: 0 0 6px 2px rgba(53, 155, 159, 0.4);
+        }
+
+    span.text-danger {
+        font-size: 0.85rem;
+        color: #ff6b6b;
+        margin-top: 6px;
+    }
+
+    button[type="submit"] {
+        background-color: #359b9f;
+        color: white;
+        font-size: 1.15rem;
+        font-weight: 600;
+        padding: 14px 0;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+        button[type="submit"]:hover {
+            background-color: #2a7e87;
+        }
+</style>
+
+<div class="login-card">
+    <h2>Login</h2>
+    <form asp-controller="Account" asp-action="Login" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger" style="margin-bottom: 15px;"></div>
+
+        <div class="form-group">
+            <label asp-for="UserName"></label>
+            <input asp-for="UserName" autocomplete="username" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" type="password" autocomplete="current-password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <button type="submit">Log In</button>
+    </form>
+</div>

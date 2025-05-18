@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HIrzheu6eLI=",
+  "dgSpecHash": "21PYLdyg/BU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\My Documents\\School\\BSCS-2A\\2nd Semester\\Object Oriented Programming\\MvcReadMe_Group4\\MvcReadMe_Group4\\MvcReadMe_Group4.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\MvcReadMe_Group4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

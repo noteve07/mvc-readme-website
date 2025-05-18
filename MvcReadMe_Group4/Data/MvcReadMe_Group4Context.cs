@@ -9,7 +9,7 @@ namespace MvcReadMe_Group4.Data
 {
     public class MvcReadMe_Group4Context : DbContext
     {
-        public MvcReadMe_Group4Context (DbContextOptions<MvcReadMe_Group4Context> options)
+        public MvcReadMe_Group4Context(DbContextOptions<MvcReadMe_Group4Context> options)
             : base(options)
         {
         }
@@ -18,5 +18,12 @@ namespace MvcReadMe_Group4.Data
         public DbSet<MvcReadMe_Group4.Models.User> Users { get; set; } = default!;
         public DbSet<MvcReadMe_Group4.Models.BookAccess> BookAccesses { get; set; } = default!;
 
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+                .Property(u => u.Role)
+                .HasDefaultValue("User");
+        }
     }
 }
