@@ -23,31 +23,95 @@
         display: flex;
         gap: 5px;
         position: relative;
-        background: white;
+        background: #f2ece4;
         perspective: 2000px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 8px 16px rgba(150, 140, 125, 0.3);
+        transform: translateY(-4px);
+    }
+
+    .page-spread::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 100%;
+        background: linear-gradient(to right, #8b4513 0%, #a0522d 20%, #8b4513 40%, #a0522d 60%, #8b4513 80%, #a0522d 100% );
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 1;
     }
 
     .page-container {
         display: flex;
         gap: 5px;
+        position: relative;
+        z-index: 2;
     }
 
     .page {
         background: white;
         position: relative;
+        box-shadow: 
+            -8px 0 20px rgba(0, 0, 0, 0.15),
+            0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 2;
     }
 
-    .page.right {
-        transform-origin: left center;
-        transition: transform 0.6s ease-in-out;
+    .left-page {
+        position: relative;
+        transform-origin: right center;
+        /* transition: transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1); */
+        transition: transform 0.6s cubic-bezier(0.7, 0, 1, 1);
         transform-style: preserve-3d;
     }
 
-    .page.right.flipping {
+    .right-page {
+        position: relative;
+        transform-origin: left center;
+        /* transition: transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1); */
+        transition: transform 0.6s cubic-bezier(0.7, 0, 1, 1);
+        transform-style: preserve-3d;
+    }
+
+    .left-page.flipping {
+        transform: rotateY(180deg);
+    }
+
+    .right-page.flipping {
         transform: rotateY(-180deg);
     }
 
-    .page.right .page-back {
+    .left-page::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to left, rgba(0,0,0,0.25), rgba(0,0,0,0));
+        opacity: 0.35;
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    .right-page::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0));
+        opacity: 0.35;
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    .left-page .page-back {
         position: absolute;
         top: 0;
         left: 0;
@@ -57,6 +121,69 @@
         transform: rotateY(180deg);
         backface-visibility: hidden;
         transform-style: preserve-3d;
+        box-shadow: 8px 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .right-page .page-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        box-shadow: -8px 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .static-page {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        box-shadow: 
+            -8px 0 20px rgba(0, 0, 0, 0.15),
+            0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+
+    .static-page.left {
+        position: relative;
+        transform-origin: right center;
+    }
+
+    .static-page.right {
+        position: relative;
+        transform-origin: left center;
+    }
+
+    .static-page.left {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0));
+        opacity: 0.35;
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    .static-page.right {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0));
+        opacity: 0.35;
+        pointer-events: none;
+        z-index: 2;
     }
 
     .page canvas {
@@ -121,7 +248,7 @@
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
         let pdfDoc = null;
-        let currentPage = 1;
+        let currentPage = 64;
         let totalPages = 0;
         const pageSpread = document.getElementById('page-spread');
         const container1 = document.getElementById('container-1');
@@ -135,8 +262,8 @@
             try {
                 const loadingTask = pdfjsLib.getDocument('@Model.FilePath');
                 pdfDoc = await loadingTask.promise;
-                totalPages = Math.min(10, pdfDoc.numPages);
-                document.getElementById('total-pages').textContent = totalPages;
+                totalPages = pdfDoc.numPages;
+                document.getElementById('total-pages').textContent = totalPages - 1;
                 await renderPages(currentPage);
             } catch (error) {
                 console.error('Error loading PDF:', error);
@@ -150,17 +277,26 @@
 
             try {
                 // Show/hide navigation buttons based on current page
-                document.getElementById('prev-page').style.display = startPage <= 1 ? 'none' : 'block';
+                document.getElementById('prev-page').style.display = startPage <= 2 ? 'none' : 'block';
                 document.getElementById('next-page').style.display = startPage + 1 >= totalPages ? 'none' : 'block';
 
                 // Clear the inactive container
                 inactiveContainer.innerHTML = '';
 
+                // Add static pages first
+                const staticLeftPage = document.createElement('div');
+                staticLeftPage.className = 'static-page left';
+                const staticRightPage = document.createElement('div');
+                staticRightPage.className = 'static-page';
+                
+                inactiveContainer.appendChild(staticLeftPage);
+                inactiveContainer.appendChild(staticRightPage);
+
                 // Create page containers
                 const leftPageDiv = document.createElement('div');
-                leftPageDiv.className = 'page';
+                leftPageDiv.className = 'page left-page';
                 const rightPageDiv = document.createElement('div');
-                rightPageDiv.className = 'page right';
+                rightPageDiv.className = 'page right-page';
 
                 // Add containers to inactive container
                 inactiveContainer.appendChild(leftPageDiv);
@@ -196,7 +332,7 @@
                     }).promise;
 
                     // Create back of the page with next left page
-                    if (startPage + 2 <= totalPages && startPage + 2 <= 10) {
+                    if (startPage + 2 <= totalPages) {
                         const pageBack = document.createElement('div');
                         pageBack.className = 'page-back';
                         const nextPage = await pdfDoc.getPage(startPage + 2);
@@ -220,7 +356,7 @@
                 inactiveContainer.style.display = 'flex';
                 [activeContainer, inactiveContainer] = [inactiveContainer, activeContainer];
 
-                document.getElementById('current-page').textContent = startPage;
+                document.getElementById('current-page').textContent = startPage - 1;
             } finally {
                 isRendering = false;
             }
@@ -230,18 +366,20 @@
             if (isRendering) return;
             
             if (direction === 'next' && currentPage + 2 <= totalPages) {
-                const rightPage = activeContainer.querySelector('.page.right');
+                const rightPage = activeContainer.querySelector('.page.right-page');
                 if (rightPage) {
                     rightPage.classList.add('flipping');
                     await new Promise(resolve => setTimeout(resolve, 600));
                     rightPage.classList.remove('flipping');
                 }
                 currentPage += 2;
-            } else if (direction === 'prev' && currentPage > 1) {
+            } else if (direction === 'prev' && currentPage > 2) {
                 currentPage -= 2;
-                if (currentPage < 1) currentPage = 1;
+                if (currentPage < 2) {
+                    currentPage = 2;
+                }
             }
-            renderPages(currentPage);
+            await renderPages(currentPage);
         }
 
         document.getElementById('prev-page').addEventListener('click', () => changePage('prev'));
@@ -257,5 +395,4 @@
 
         document.addEventListener('DOMContentLoaded', loadPDF);
     </script>
-} 
 } 
