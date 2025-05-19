@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MvcReadMe_Group4.Data;
 
@@ -10,9 +11,11 @@ using MvcReadMe_Group4.Data;
 namespace MvcReadMe_Group4.Migrations
 {
     [DbContext(typeof(MvcReadMe_Group4Context))]
-    partial class MvcReadMe_Group4ContextModelSnapshot : ModelSnapshot
+    [Migration("20250519051846_SimpleDailyRead")]
+    partial class SimpleDailyRead
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");

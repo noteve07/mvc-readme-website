@@ -17,6 +17,7 @@ namespace MvcReadMe_Group4.Data
         public DbSet<MvcReadMe_Group4.Models.Book> Books { get; set; } = default!;
         public DbSet<MvcReadMe_Group4.Models.User> Users { get; set; } = default!;
         public DbSet<MvcReadMe_Group4.Models.BookAccess> BookAccesses { get; set; } = default!;
+        public DbSet<MvcReadMe_Group4.Models.BookRead> BookReads { get; set; } = default!;
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

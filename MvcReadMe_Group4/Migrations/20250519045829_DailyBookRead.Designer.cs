@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MvcReadMe_Group4.Data;
 
@@ -10,9 +11,11 @@ using MvcReadMe_Group4.Data;
 namespace MvcReadMe_Group4.Migrations
 {
     [DbContext(typeof(MvcReadMe_Group4Context))]
-    partial class MvcReadMe_Group4ContextModelSnapshot : ModelSnapshot
+    [Migration("20250519045829_DailyBookRead")]
+    partial class DailyBookRead
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
@@ -86,13 +89,15 @@ namespace MvcReadMe_Group4.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("ReadCount")
+                    b.Property<int>("BookId")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("ReadDate")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("BookId");
 
                     b.ToTable("BookReads");
                 });
@@ -139,6 +144,17 @@ namespace MvcReadMe_Group4.Migrations
                     b.Navigation("Book");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("MvcReadMe_Group4.Models.BookRead", b =>
+                {
+                    b.HasOne("MvcReadMe_Group4.Models.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
                 });
 
             modelBuilder.Entity("MvcReadMe_Group4.Models.Book", b =>
