@@ -11,7 +11,7 @@
     }
 
     .book-reader {
-        height: 90vh;
+        height: 88vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -23,12 +23,14 @@
         display: flex;
         gap: 5px;
         position: relative;
-        background: #f2ece4;
+        background: #515f70;
         perspective: 2000px;
         padding: 20px;
         border-radius: 5px;
-        box-shadow: 0 8px 16px rgba(150, 140, 125, 0.3);
+        box-shadow: 0 8px 16px rgba(88, 166, 255, 0.3);
         transform: translateY(-4px);
+        transform-origin: center center;
+        transition: transform 0.3s ease;
     }
 
     .page-spread::before {
@@ -39,8 +41,8 @@
         transform: translateX(-50%);
         width: 20px;
         height: 100%;
-        background: linear-gradient(to right, #8b4513 0%, #a0522d 20%, #8b4513 40%, #a0522d 60%, #8b4513 80%, #a0522d 100% );
-        border-radius: 2px;
+            background: linear-gradient( to right, #359b9f 0%, rgba(41, 117, 120, 0.8) 20%, #359b9f 40%, rgba(41, 117, 120, 0.8) 60%, #359b9f 80%, rgba(41, 117, 120, 0.8) 100% );
+            border-radius: 2px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         z-index: 1;
     }
@@ -220,7 +222,7 @@
 
     .page-info {
         position: absolute;
-        bottom: 20px;
+        bottom: -10px;
         left: 50%;
         transform: translateX(-50%);
         color: white;
@@ -228,9 +230,44 @@
         padding: 8px 16px;
         border-radius: 20px;
     }
+
+    .back-btn {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: rgba(81, 95, 112, 0.4);
+        color: rgba(255, 255, 255, 0.8);
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4px);
+    }
+
+    .back-btn:hover {
+        background: rgba(81, 95, 112, 0.6);
+        color: rgba(255, 255, 255, 1);
+        transform: translateY(-1px);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .back-btn i {
+        font-size: 16px;
+        margin-right: 6px;
+    }
 </style>
 
 <div class="book-reader">
+    <a href="#" class="back-btn" title="Close Tab" onclick="window.close(); return false;">
+        <i class="fas fa-arrow-left"></i>
+    </a>
     <button class="nav-btn prev" id="prev-page">&lt;</button>
     <div id="page-spread" class="page-spread">
         <div id="container-1" class="page-container"></div>
@@ -244,6 +281,7 @@
 
 @section Scripts {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script>
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
@@ -258,6 +296,23 @@
         let activeContainer = container1;
         let inactiveContainer = container2;
 
+        async function checkAndScalePDF() {
+            try {
+                const page = await pdfDoc.getPage(2); // Check first content page
+                const viewport = page.getViewport({ scale: 1.0 }); // Get original size
+                const containerHeight = window.innerHeight * 0.88; // 88vh
+                
+                if (viewport.height > containerHeight) {
+                    const scaleFactor = 0.8;
+                    pageSpread.style.transform = `translateY(-4px) scale(${scaleFactor})`;
+                } else {
+                    pageSpread.style.transform = 'translateY(-4px) scale(1)';
+                }
+            } catch (error) {
+                console.error('Error checking PDF size:', error);
+            }
+        }
+
         async function loadPDF() {
             try {
                 const loadingTask = pdfjsLib.getDocument('@Model.FilePath');
@@ -265,11 +320,29 @@
                 totalPages = pdfDoc.numPages;
                 document.getElementById('total-pages').textContent = totalPages - 1;
                 await renderPages(currentPage);
+                // Check container size after first render
+                setTimeout(checkAndScaleContainer, 100);
             } catch (error) {
                 console.error('Error loading PDF:', error);
                 pageSpread.innerHTML = '<div style="color: white; padding: 20px;">Error loading PDF</div>';
             }
         }
+
+        function checkAndScaleContainer() {
+            const screenHeight = window.innerHeight;
+            const containerHeight = pageSpread.offsetHeight;
+            
+            if (containerHeight > screenHeight * 0.8) {
+                pageSpread.style.transform = 'translateY(-4px) scale(0.8)';
+            } else {
+                pageSpread.style.transform = 'translateY(-4px) scale(1)';
+            }
+        }
+
+        // Add window resize handler to recheck scaling
+        window.addEventListener('resize', () => {
+            setTimeout(checkAndScaleContainer, 100);
+        });
 
         async function renderPages(startPage) {
             if (isRendering) return;
