@@ -236,7 +236,7 @@
               "RelativeDocumentMoniker": "MvcReadMe_Group4\\Views\\Books\\Read.cshtml",
               "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\Views\\Books\\Read.cshtml",
               "RelativeToolTip": "MvcReadMe_Group4\\Views\\Books\\Read.cshtml",
-              "ViewState": "AgIAAM8AAAAAAAAAAADwv90AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-19T10:49:42.182Z",
               "EditorCaption": ""
@@ -276,8 +276,7 @@
               "RelativeToolTip": "MvcReadMe_Group4\\Data\\InitializeData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T03:32:20.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T03:32:20.2Z"
             },
             {
               "$type": "Document",
@@ -289,8 +288,7 @@
               "RelativeToolTip": "MvcReadMe_Group4\\Views\\Admin\\Dashboard.cshtml",
               "ViewState": "AgIAAGoBAAAAAAAAAAD4vycBAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T16:11:17.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T16:11:17.019Z"
             },
             {
               "$type": "Document",
@@ -302,8 +300,7 @@
               "RelativeToolTip": "MvcReadMe_Group4\\Views\\Admin\\Developers.cshtml",
               "ViewState": "AgIAADUAAAAAAAAAAAAAADUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T15:41:55.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T15:41:55.079Z"
             },
             {
               "$type": "Document",
@@ -315,8 +312,7 @@
               "RelativeToolTip": "MvcReadMe_Group4\\Views\\User\\Home.cshtml",
               "ViewState": "AgIAAJUAAAAAAAAAAADgv7UAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T12:54:32.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T12:54:32.282Z"
             },
             {
               "$type": "Document",
@@ -328,8 +324,7 @@
               "RelativeToolTip": "MvcReadMe_Group4\\Views\\Shared\\_LayoutAccount.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T16:52:45.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T16:52:45.648Z"
             },
             {
               "$type": "Document",
@@ -341,8 +336,7 @@
               "RelativeToolTip": "MvcReadMe_Group4\\Views\\Shared\\_LayoutAdmin.cshtml",
               "ViewState": "AgIAALEAAAAAAAAAAADgv8sAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T06:29:39.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T06:29:39.023Z"
             },
             {
               "$type": "Document",
@@ -354,8 +348,7 @@
               "RelativeToolTip": "MvcReadMe_Group4\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAADcAAAAAAAAAAADgv04AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T11:38:19.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T11:38:19.615Z"
             },
             {
               "$type": "Document",

@@ -23,7 +23,13 @@
         display: flex;
         gap: 5px;
         position: relative;
+        background: white;
         perspective: 2000px;
+    }
+
+    .page-container {
+        display: flex;
+        gap: 5px;
     }
 
     .page {
@@ -33,9 +39,8 @@
 
     .page.right {
         transform-origin: left center;
-        transition: transform 1.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-        backface-visibility: hidden;
-        z-index: 2;
+        transition: transform 0.6s ease-in-out;
+        transform-style: preserve-3d;
     }
 
     .page.right.flipping {
@@ -51,22 +56,12 @@
         background: white;
         transform: rotateY(180deg);
         backface-visibility: hidden;
-    }
-
-    .next-spread {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        gap: 5px;
-        z-index: 1;
-        opacity: 0.3;
+        transform-style: preserve-3d;
     }
 
     .page canvas {
         display: block;
+        backface-visibility: hidden;
     }
 
     .nav-btn {
@@ -81,7 +76,6 @@
         border-radius: 50%;
         font-size: 24px;
         cursor: pointer;
-        transition: background 0.2s;
         z-index: 1000;
     }
 
@@ -111,7 +105,10 @@
 
 <div class="book-reader">
     <button class="nav-btn prev" id="prev-page">&lt;</button>
-    <div id="page-spread" class="page-spread"></div>
+    <div id="page-spread" class="page-spread">
+        <div id="container-1" class="page-container"></div>
+        <div id="container-2" class="page-container" style="display: none;"></div>
+    </div>
     <button class="nav-btn next" id="next-page">&gt;</button>
     <div class="page-info">
         Page <span id="current-page">1</span> of <span id="total-pages">0</span>
@@ -127,15 +124,20 @@
         let currentPage = 1;
         let totalPages = 0;
         const pageSpread = document.getElementById('page-spread');
+        const container1 = document.getElementById('container-1');
+        const container2 = document.getElementById('container-2');
         const scale = 1.12;
+        let isRendering = false;
+        let activeContainer = container1;
+        let inactiveContainer = container2;
 
         async function loadPDF() {
             try {
                 const loadingTask = pdfjsLib.getDocument('@Model.FilePath');
                 pdfDoc = await loadingTask.promise;
-                totalPages = Math.min(6, pdfDoc.numPages);
+                totalPages = Math.min(10, pdfDoc.numPages);
                 document.getElementById('total-pages').textContent = totalPages;
-                renderPages(currentPage);
+                await renderPages(currentPage);
             } catch (error) {
                 console.error('Error loading PDF:', error);
                 pageSpread.innerHTML = '<div style="color: white; padding: 20px;">Error loading PDF</div>';
@@ -143,102 +145,117 @@
         }
 
         async function renderPages(startPage) {
-            pageSpread.innerHTML = '';
-            
-            // Show/hide navigation buttons based on current page
-            const prevButton = document.getElementById('prev-page');
-            const nextButton = document.getElementById('next-page');
-            
-            prevButton.style.display = startPage <= 1 ? 'none' : 'block';
-            nextButton.style.display = startPage + 1 >= totalPages ? 'none' : 'block';
-            
-            // Render first page
-            const page1 = await pdfDoc.getPage(startPage);
-            const viewport1 = page1.getViewport({ scale });
-            const canvas1 = document.createElement('canvas');
-            const context1 = canvas1.getContext('2d');
-            canvas1.width = viewport1.width;
-            canvas1.height = viewport1.height;
+            if (isRendering) return;
+            isRendering = true;
 
-            const pageDiv1 = document.createElement('div');
-            pageDiv1.className = 'page';
-            pageDiv1.appendChild(canvas1);
-            pageSpread.appendChild(pageDiv1);
+            try {
+                // Show/hide navigation buttons based on current page
+                document.getElementById('prev-page').style.display = startPage <= 1 ? 'none' : 'block';
+                document.getElementById('next-page').style.display = startPage + 1 >= totalPages ? 'none' : 'block';
 
-            await page1.render({
-                canvasContext: context1,
-                viewport: viewport1
-            }).promise;
+                // Clear the inactive container
+                inactiveContainer.innerHTML = '';
 
-            // Render second page if it exists
-            if (startPage + 1 <= totalPages) {
-                const page2 = await pdfDoc.getPage(startPage + 1);
-                const viewport2 = page2.getViewport({ scale });
-                const canvas2 = document.createElement('canvas');
-                const context2 = canvas2.getContext('2d');
-                canvas2.width = viewport2.width;
-                canvas2.height = viewport2.height;
+                // Create page containers
+                const leftPageDiv = document.createElement('div');
+                leftPageDiv.className = 'page';
+                const rightPageDiv = document.createElement('div');
+                rightPageDiv.className = 'page right';
 
-                const pageDiv2 = document.createElement('div');
-                pageDiv2.className = 'page right';
-                pageDiv2.appendChild(canvas2);
+                // Add containers to inactive container
+                inactiveContainer.appendChild(leftPageDiv);
+                inactiveContainer.appendChild(rightPageDiv);
 
-                // Create back of the page
-                const pageBack = document.createElement('div');
-                pageBack.className = 'page-back';
-                if (startPage + 2 <= totalPages) {
-                    const nextPage = await pdfDoc.getPage(startPage + 2);
-                    const nextViewport = nextPage.getViewport({ scale });
-                    const nextCanvas = document.createElement('canvas');
-                    const nextContext = nextCanvas.getContext('2d');
-                    nextCanvas.width = nextViewport.width;
-                    nextCanvas.height = nextViewport.height;
-                    pageBack.appendChild(nextCanvas);
-                    await nextPage.render({
-                        canvasContext: nextContext,
-                        viewport: nextViewport
-                    }).promise;
-                }
-                pageDiv2.appendChild(pageBack);
-                pageSpread.appendChild(pageDiv2);
+                // Render first page
+                const page1 = await pdfDoc.getPage(startPage);
+                const viewport1 = page1.getViewport({ scale });
+                const canvas1 = document.createElement('canvas');
+                const context1 = canvas1.getContext('2d');
+                canvas1.width = viewport1.width;
+                canvas1.height = viewport1.height;
+                leftPageDiv.appendChild(canvas1);
 
-                await page2.render({
-                    canvasContext: context2,
-                    viewport: viewport2
+                await page1.render({
+                    canvasContext: context1,
+                    viewport: viewport1
                 }).promise;
-            }
 
-            document.getElementById('current-page').textContent = startPage;
+                // Render second page if it exists
+                if (startPage + 1 <= totalPages) {
+                    const page2 = await pdfDoc.getPage(startPage + 1);
+                    const viewport2 = page2.getViewport({ scale });
+                    const canvas2 = document.createElement('canvas');
+                    const context2 = canvas2.getContext('2d');
+                    canvas2.width = viewport2.width;
+                    canvas2.height = viewport2.height;
+                    rightPageDiv.appendChild(canvas2);
+
+                    await page2.render({
+                        canvasContext: context2,
+                        viewport: viewport2
+                    }).promise;
+
+                    // Create back of the page with next left page
+                    if (startPage + 2 <= totalPages && startPage + 2 <= 10) {
+                        const pageBack = document.createElement('div');
+                        pageBack.className = 'page-back';
+                        const nextPage = await pdfDoc.getPage(startPage + 2);
+                        const nextViewport = nextPage.getViewport({ scale });
+                        const nextCanvas = document.createElement('canvas');
+                        const nextContext = nextCanvas.getContext('2d');
+                        nextCanvas.width = nextViewport.width;
+                        nextCanvas.height = nextViewport.height;
+                        pageBack.appendChild(nextCanvas);
+                        rightPageDiv.appendChild(pageBack);
+
+                        await nextPage.render({
+                            canvasContext: nextContext,
+                            viewport: nextViewport
+                        }).promise;
+                    }
+                }
+
+                // Swap containers
+                activeContainer.style.display = 'none';
+                inactiveContainer.style.display = 'flex';
+                [activeContainer, inactiveContainer] = [inactiveContainer, activeContainer];
+
+                document.getElementById('current-page').textContent = startPage;
+            } finally {
+                isRendering = false;
+            }
         }
 
-        async function flipPage(direction) {
-            const rightPage = document.querySelector('.page.right');
-            if (rightPage) {
-                rightPage.classList.add('flipping');
-                await new Promise(resolve => setTimeout(resolve, 600));
-            }
-
+        async function changePage(direction) {
+            if (isRendering) return;
+            
             if (direction === 'next' && currentPage + 2 <= totalPages) {
+                const rightPage = activeContainer.querySelector('.page.right');
+                if (rightPage) {
+                    rightPage.classList.add('flipping');
+                    await new Promise(resolve => setTimeout(resolve, 600));
+                    rightPage.classList.remove('flipping');
+                }
                 currentPage += 2;
             } else if (direction === 'prev' && currentPage > 1) {
                 currentPage -= 2;
                 if (currentPage < 1) currentPage = 1;
             }
-
-            await renderPages(currentPage);
+            renderPages(currentPage);
         }
 
-        document.getElementById('prev-page').addEventListener('click', () => flipPage('prev'));
-        document.getElementById('next-page').addEventListener('click', () => flipPage('next'));
+        document.getElementById('prev-page').addEventListener('click', () => changePage('prev'));
+        document.getElementById('next-page').addEventListener('click', () => changePage('next'));
 
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowLeft') {
-                flipPage('prev');
+                changePage('prev');
             } else if (e.key === 'ArrowRight') {
-                flipPage('next');
+                changePage('next');
             }
         });
 
         document.addEventListener('DOMContentLoaded', loadPDF);
     </script>
+} 
 } 
