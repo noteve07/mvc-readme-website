@@ -905,6 +905,252 @@
       ]
     },
     {
+      "Route": "assets/icon/jheris-icon.39runrwifv.png",
+      "AssetFile": "assets/icon/jheris-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"idcPR1TipG2f7Ud3DuZxWsv7C03sNY9UgVIhtMQA4kQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:13:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "39runrwifv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-idcPR1TipG2f7Ud3DuZxWsv7C03sNY9UgVIhtMQA4kQ="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/icon/jheris-icon.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/icon/jheris-icon.png",
+      "AssetFile": "assets/icon/jheris-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"idcPR1TipG2f7Ud3DuZxWsv7C03sNY9UgVIhtMQA4kQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:13:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-idcPR1TipG2f7Ud3DuZxWsv7C03sNY9UgVIhtMQA4kQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/icon/nicko-icon.png",
+      "AssetFile": "assets/icon/nicko-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "179788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y+ehV96kgqNXzxKkd1yV8QEa7J+Si3AfUJdsmsXQMnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:13:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y+ehV96kgqNXzxKkd1yV8QEa7J+Si3AfUJdsmsXQMnw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/icon/nicko-icon.ze36ttc0dg.png",
+      "AssetFile": "assets/icon/nicko-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "179788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y+ehV96kgqNXzxKkd1yV8QEa7J+Si3AfUJdsmsXQMnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:13:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ze36ttc0dg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y+ehV96kgqNXzxKkd1yV8QEa7J+Si3AfUJdsmsXQMnw="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/icon/nicko-icon.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/icon/reinald-icon.pk3sr1vylj.png",
+      "AssetFile": "assets/icon/reinald-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "167219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5+/kF6xy6sOIvkiJRqnjpcGoDb5F+Ma4rskr/y6xjJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:14:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pk3sr1vylj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5+/kF6xy6sOIvkiJRqnjpcGoDb5F+Ma4rskr/y6xjJs="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/icon/reinald-icon.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/icon/reinald-icon.png",
+      "AssetFile": "assets/icon/reinald-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "167219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5+/kF6xy6sOIvkiJRqnjpcGoDb5F+Ma4rskr/y6xjJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 10:14:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5+/kF6xy6sOIvkiJRqnjpcGoDb5F+Ma4rskr/y6xjJs="
+        }
+      ]
+    },
+    {
       "Route": "assets/img/covers/atomic-habits-cover.jpg",
       "AssetFile": "assets/img/covers/atomic-habits-cover.jpg",
       "Selectors": [],

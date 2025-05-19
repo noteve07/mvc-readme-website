@@ -256,6 +256,41 @@
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
+        let dailyReadsChart;
+        let categoryPieChart;
+
+        // Function to refresh dashboard data
+        async function refreshDashboardData() {
+            try {
+                const response = await fetch('/Admin/GetDashboardData');
+                if (!response.ok) throw new Error('Failed to fetch dashboard data');
+                const data = await response.json();
+                
+                // Update statistics
+                document.querySelector('.stat-value:nth-child(1)').textContent = data.totalUsers;
+                document.querySelector('.stat-value:nth-child(2)').textContent = data.totalBooks;
+                document.querySelector('.stat-value:nth-child(3)').textContent = data.totalReads;
+
+                // Update daily reads chart
+                dailyReadsChart.data.labels = data.dailyReads.map(d => new Date(d.date).toLocaleDateString('en-US', { weekday: 'short' }));
+                dailyReadsChart.data.datasets[0].data = data.dailyReads.map(d => d.count);
+                dailyReadsChart.update();
+
+                // Update category distribution
+                categoryPieChart.data.labels = data.categoryDistribution.map(c => c.category);
+                categoryPieChart.data.datasets[0].data = data.categoryDistribution.map(c => c.count);
+                categoryPieChart.update();
+
+                // Update popular books
+                const popularBooksGrid = document.querySelector('.popular-books-grid');
+                popularBooksGrid.innerHTML = data.popularBooks.map(book => 
+                    `<img src="${book.coverImagePath}" alt="${book.title}" class="book-cover" title="${book.title} - ${book.numberOfReads} reads">`
+                ).join('');
+            } catch (error) {
+                console.error('Error refreshing dashboard:', error);
+            }
+        }
+
         // Daily Reads Chart
         const dailyReadsCtx = document.getElementById('dailyReadsChart').getContext('2d');
         const dailyReadsData = @Html.Raw(Json.Serialize(ViewBag.DailyReads));
@@ -265,7 +300,7 @@
         gradient.addColorStop(0, 'rgba(53, 155, 159, 0.2)');
         gradient.addColorStop(1, 'rgba(53, 155, 159, 0)');
 
-        new Chart(dailyReadsCtx, {
+        dailyReadsChart = new Chart(dailyReadsCtx, {
             type: 'line',
             data: {
                 labels: dailyReadsData.map(d => new Date(d.date).toLocaleDateString('en-US', { weekday: 'short' })),
@@ -362,7 +397,7 @@
         const categoryCtx = document.getElementById('categoryPieChart').getContext('2d');
         const categoryData = @Html.Raw(Json.Serialize(ViewBag.CategoryDistribution));
         
-        new Chart(categoryCtx, {
+        categoryPieChart = new Chart(categoryCtx, {
             type: 'doughnut',
             data: {
                 labels: categoryData.map(c => c.category),
@@ -412,6 +447,9 @@
                 }
             }
         });
+
+        // Set up auto-refresh every 5 seconds
+        setInterval(refreshDashboardData, 5000);
 
         function getCategoryColor(category) {
             const colors = {

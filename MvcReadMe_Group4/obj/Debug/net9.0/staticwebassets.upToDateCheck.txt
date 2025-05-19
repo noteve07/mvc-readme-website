@@ -71,6 +71,9 @@ wwwroot\assets\books\the-courage-to-be-disliked.pdf
 wwwroot\assets\books\the-hobbit.pdf
 wwwroot\assets\books\the-midnight-library.pdf
 wwwroot\assets\icon\admin-icon-1.avif
+wwwroot\assets\icon\jheris-icon.png
+wwwroot\assets\icon\nicko-icon.png
+wwwroot\assets\icon\reinald-icon.png
 wwwroot\assets\img\covers\atomic-habits-cover.jpg
 wwwroot\assets\img\covers\automate-the-boring-stuff-with-python-cover.jpg
 wwwroot\assets\img\covers\cosmos-cover.jpg

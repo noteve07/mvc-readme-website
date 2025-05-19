@@ -45,6 +45,18 @@
       "PackagePath": "staticwebassets\\assets\\icon\\admin-icon-1.avif"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\icon\\jheris-icon.png",
+      "PackagePath": "staticwebassets\\assets\\icon\\jheris-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\icon\\nicko-icon.png",
+      "PackagePath": "staticwebassets\\assets\\icon\\nicko-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\icon\\reinald-icon.png",
+      "PackagePath": "staticwebassets\\assets\\icon\\reinald-icon.png"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\atomic-habits-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\covers\\atomic-habits-cover.jpg"
     },

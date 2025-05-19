@@ -74,5 +74,52 @@ namespace YourProjectNamespace.Controllers
             ViewData["Title"] = "About";
             return View();
         }
+
+        // GET: /Admin/GetDashboardData
+        public async Task<IActionResult> GetDashboardData()
+        {
+            // Get total users (excluding admins)
+            var totalUsers = await _context.Users.CountAsync(u => u.Role == "User");
+
+            // Get total books
+            var totalBooks = await _context.Books.CountAsync();
+
+            // Get total reads
+            var totalReads = await _context.Books.SumAsync(b => b.NumberOfReads);
+
+            // Get daily reads for the past week
+            var today = DateTime.Today;
+            var dailyReads = await _context.BookReads
+                .Where(br => br.ReadDate >= today.AddDays(-6) && br.ReadDate <= today)
+                .OrderBy(x => x.ReadDate)
+                .Select(br => new { date = br.ReadDate, count = br.ReadCount })
+                .ToListAsync();
+
+            // Get category distribution
+            var categoryDistribution = await _context.Books
+                .GroupBy(b => b.Category)
+                .Select(g => new { category = g.Key, count = g.Count() })
+                .ToListAsync();
+
+            // Get top 7 most popular books
+            var popularBooks = await _context.Books
+                .OrderByDescending(b => b.NumberOfReads)
+                .Take(7)
+                .Select(b => new { 
+                    title = b.Title, 
+                    coverImagePath = b.CoverImagePath, 
+                    numberOfReads = b.NumberOfReads 
+                })
+                .ToListAsync();
+
+            return Json(new {
+                totalUsers,
+                totalBooks,
+                totalReads,
+                dailyReads,
+                categoryDistribution,
+                popularBooks
+            });
+        }
     }
 }

@@ -253,7 +253,7 @@
                         </div>
                     </div>
 
-                    <a href="@Model.FilePath" target="_blank" class="read-button">
+                    <a asp-controller="Books" asp-action="Read" asp-route-id="@Model.Id" class="read-button" target="_blank">
                         <i class="bi bi-book me-2"></i>Read Book
                     </a>
                 </div>
