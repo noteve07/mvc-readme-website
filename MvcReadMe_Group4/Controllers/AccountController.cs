@@ -4,6 +4,7 @@ using MvcReadMe_Group4.Models;
 using MvcReadMe_Group4.ViewModels;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace MvcReadMe_Group4.Controllers
 {
@@ -38,19 +39,9 @@ namespace MvcReadMe_Group4.Controllers
                 return View(model);
             }
 
-            if (user.Role == "Admin")
-            {
-                return RedirectToAction("Dashboard", "Admin");
-            }
-            else if (user.Role == "User")
-            {
-                return RedirectToAction("Home", "User");
-            }
-            else
-            {
-                ModelState.AddModelError(string.Empty, "User role not recognized");
-                return View(model);
-            }
+            // Just pass the role to LoginLoading
+            ViewBag.Role = user.Role;
+            return View("LoginLoading");
         }
 
         [HttpGet]
@@ -89,6 +80,12 @@ namespace MvcReadMe_Group4.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Login");
+        }
+
+        [HttpGet]
+        public IActionResult LoginLoading()
+        {
+            return View();
         }
 
         [HttpGet]
