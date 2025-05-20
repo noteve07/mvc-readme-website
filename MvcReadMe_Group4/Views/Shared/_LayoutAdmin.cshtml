@@ -33,13 +33,13 @@
             color: white;
         }
 
-            .topbar .brand {
-                font-size: 1.5rem;
-                font-weight: bold;
-                color: #ffffff;
-                margin-left: 32px;
-                text-align: center;
-            }
+        .topbar .brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffffff;
+            margin-left: 32px;
+            text-align: center;
+        }
 
 
         .sidebar {
@@ -116,7 +116,7 @@
                     padding-left: 35px;
                 }
 
-
+            
         .content {
             margin-left: 330px;
             padding: 30px 0px 30px 0px;
@@ -157,8 +157,12 @@
 </head>
 <body>
     <div class="topbar">
-        <div class="brand">📚 ReadMe</div>
-        <div><a asp-controller="Account" asp-action="Logout" style="color: white; text-decoration: none; font-size: 18px"><i class="bi bi-box-arrow-right"></i>  Logout</a></div>
+        <div class="brand">
+            <a href="/Admin/Dashboard" style="color: white; text-decoration: none;">
+                <i class="fas fa-book" style="color: #359b9f;"></i>&nbsp;&nbsp;ReadMe
+            </a>
+        </div>
+        <div><a asp-controller="Account" asp-action="Logout" style="color: #c9d1d9; text-decoration: none; font-size: 18px"><i class="bi bi-box-arrow-right"></i>  Logout</a></div>
     </div>
 
     <div class="sidebar">

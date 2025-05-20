@@ -1,124 +1,124 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/atomic-habits.4h7knkqods.pdf">
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/atomic-habits.9f0sagcyji.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\atomic-habits.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4h7knkqods"},{"Name":"integrity","Value":"sha256-2ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/atomic-habits.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4012926"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00222ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 05:14:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9f0sagcyji"},{"Name":"integrity","Value":"sha256-JbtSm61178FB4wDhfX/b\u002BR2f3bzQJF7v7bhcH6VATy8="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/atomic-habits.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1118210"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022JbtSm61178FB4wDhfX/b\u002BR2f3bzQJF7v7bhcH6VATy8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/atomic-habits.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\atomic-habits.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4012926"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00222ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 05:14:57 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/automate-the-boring-stuff-with-python.2n6vasm018.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\automate-the-boring-stuff-with-python.pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2n6vasm018"},{"Name":"integrity","Value":"sha256-Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/automate-the-boring-stuff-with-python.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12805695"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:06:24 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JbtSm61178FB4wDhfX/b\u002BR2f3bzQJF7v7bhcH6VATy8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1118210"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022JbtSm61178FB4wDhfX/b\u002BR2f3bzQJF7v7bhcH6VATy8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/automate-the-boring-stuff-with-python.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\automate-the-boring-stuff-with-python.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12805695"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:06:24 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SyYA92F4UT0spFBiuguQEuSR63kldlvs\u002BwlAKgHJxFs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"655909"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022SyYA92F4UT0spFBiuguQEuSR63kldlvs\u002BwlAKgHJxFs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/cosmos.cqlubjujtv.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\cosmos.pdf'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/automate-the-boring-stuff-with-python.vvxf9lrc1n.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\automate-the-boring-stuff-with-python.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cqlubjujtv"},{"Name":"integrity","Value":"sha256-hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB\u002BkrwtywA="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/cosmos.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1162310"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB\u002BkrwtywA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:18:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vvxf9lrc1n"},{"Name":"integrity","Value":"sha256-SyYA92F4UT0spFBiuguQEuSR63kldlvs\u002BwlAKgHJxFs="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/automate-the-boring-stuff-with-python.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"655909"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022SyYA92F4UT0spFBiuguQEuSR63kldlvs\u002BwlAKgHJxFs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/cosmos.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\cosmos.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB\u002BkrwtywA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1162310"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB\u002BkrwtywA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:18:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4qFd\u002BAxq1ANKOuNap\u002BYO6LpQ40jVJMyrhfq2Cf0exUE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"202947"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00224qFd\u002BAxq1ANKOuNap\u002BYO6LpQ40jVJMyrhfq2Cf0exUE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/man-search-for-meaning.4rv1mbwlsb.pdf">
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/cosmos.ygsvoimkcb.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\cosmos.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ygsvoimkcb"},{"Name":"integrity","Value":"sha256-4qFd\u002BAxq1ANKOuNap\u002BYO6LpQ40jVJMyrhfq2Cf0exUE="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/cosmos.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"202947"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00224qFd\u002BAxq1ANKOuNap\u002BYO6LpQ40jVJMyrhfq2Cf0exUE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/man-search-for-meaning.mar0gazvn6.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\man-search-for-meaning.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4rv1mbwlsb"},{"Name":"integrity","Value":"sha256-AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82\u002B7aLZ9o="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/man-search-for-meaning.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1006124"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82\u002B7aLZ9o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:20:51 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mar0gazvn6"},{"Name":"integrity","Value":"sha256-LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A\u002BrwFEg\u002B6j4="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/man-search-for-meaning.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232871"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A\u002BrwFEg\u002B6j4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/man-search-for-meaning.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\man-search-for-meaning.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82\u002B7aLZ9o="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1006124"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82\u002B7aLZ9o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:20:51 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A\u002BrwFEg\u002B6j4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"232871"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A\u002BrwFEg\u002B6j4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/philosophy-101.32v5tyt6qb.pdf">
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/philosophy-101.gjfl5uhu45.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\philosophy-101.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"32v5tyt6qb"},{"Name":"integrity","Value":"sha256-hX56jALTm/v9gnhORVpX/QnzL\u002BcS2ubonRKJNIhUIFE="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/philosophy-101.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6486998"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hX56jALTm/v9gnhORVpX/QnzL\u002BcS2ubonRKJNIhUIFE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:21:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gjfl5uhu45"},{"Name":"integrity","Value":"sha256-7C6yjYhAv41WXvtVK4SmaPu3EfMFtrm\u002BRVc8P9h4aME="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/philosophy-101.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"347930"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227C6yjYhAv41WXvtVK4SmaPu3EfMFtrm\u002BRVc8P9h4aME=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/philosophy-101.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\philosophy-101.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hX56jALTm/v9gnhORVpX/QnzL\u002BcS2ubonRKJNIhUIFE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6486998"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hX56jALTm/v9gnhORVpX/QnzL\u002BcS2ubonRKJNIhUIFE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:21:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7C6yjYhAv41WXvtVK4SmaPu3EfMFtrm\u002BRVc8P9h4aME="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"347930"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00227C6yjYhAv41WXvtVK4SmaPu3EfMFtrm\u002BRVc8P9h4aME=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/python-crash-course.a56pbt1hk5.pdf">
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/python-crash-course.ebh3d4t4s3.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\python-crash-course.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a56pbt1hk5"},{"Name":"integrity","Value":"sha256-okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/python-crash-course.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5749514"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:05:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ebh3d4t4s3"},{"Name":"integrity","Value":"sha256-agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/python-crash-course.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"450999"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/python-crash-course.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\python-crash-course.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5749514"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:05:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"450999"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/quantum-supremacy.jtc5zj6vpe.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\quantum-supremacy.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jtc5zj6vpe"},{"Name":"integrity","Value":"sha256-Jx\u002BU\u002Bqh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/quantum-supremacy.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2998146"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Jx\u002BU\u002Bqh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/quantum-supremacy.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\quantum-supremacy.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4477476"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:19:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jx\u002BU\u002Bqh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2998146"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Jx\u002BU\u002Bqh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/quantum-supremacy.yw3urjlf29.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\quantum-supremacy.pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yw3urjlf29"},{"Name":"integrity","Value":"sha256-Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/quantum-supremacy.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4477476"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:19:57 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-courage-to-be-disliked.jcujqhjz2j.pdf">
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-courage-to-be-disliked.l8rqdcmb9z.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-courage-to-be-disliked.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jcujqhjz2j"},{"Name":"integrity","Value":"sha256-Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-courage-to-be-disliked.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1301770"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:09:14 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l8rqdcmb9z"},{"Name":"integrity","Value":"sha256-m/YiHwnVWlrn6\u002Bxjb2GERIUhTCDA7MPOVzPwuKFZrfs="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-courage-to-be-disliked.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"294775"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022m/YiHwnVWlrn6\u002Bxjb2GERIUhTCDA7MPOVzPwuKFZrfs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-courage-to-be-disliked.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-courage-to-be-disliked.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1301770"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:09:14 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-m/YiHwnVWlrn6\u002Bxjb2GERIUhTCDA7MPOVzPwuKFZrfs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"294775"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022m/YiHwnVWlrn6\u002Bxjb2GERIUhTCDA7MPOVzPwuKFZrfs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-hobbit.4m667dyg2x.pdf">
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-hobbit.8z3qedkk8d.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-hobbit.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4m667dyg2x"},{"Name":"integrity","Value":"sha256-/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-hobbit.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13676795"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:16:55 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8z3qedkk8d"},{"Name":"integrity","Value":"sha256-pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-hobbit.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"388359"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-hobbit.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-hobbit.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13676795"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:16:55 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-midnight-library.ikxpi27xec.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-midnight-library.pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ikxpi27xec"},{"Name":"integrity","Value":"sha256-zj\u002BtXRmNlA\u002BgdfPrNbRvW1DG\u002BM7Xup5ZqFgzVjSxIns="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-midnight-library.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1508754"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022zj\u002BtXRmNlA\u002BgdfPrNbRvW1DG\u002BM7Xup5ZqFgzVjSxIns=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:13:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"388359"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-midnight-library.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-midnight-library.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zj\u002BtXRmNlA\u002BgdfPrNbRvW1DG\u002BM7Xup5ZqFgzVjSxIns="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1508754"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022zj\u002BtXRmNlA\u002BgdfPrNbRvW1DG\u002BM7Xup5ZqFgzVjSxIns=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:13:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"178068"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-midnight-library.scvmj7ysqg.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-midnight-library.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"scvmj7ysqg"},{"Name":"integrity","Value":"sha256-PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-midnight-library.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"178068"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/icon/admin-icon-1.avif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\admin-icon-1.avif'))</AssetFile>
@@ -143,6 +143,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-idcPR1TipG2f7Ud3DuZxWsv7C03sNY9UgVIhtMQA4kQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"180425"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022idcPR1TipG2f7Ud3DuZxWsv7C03sNY9UgVIhtMQA4kQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 10:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/icon/nicko-icon-2.plq7o9v9du.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\nicko-icon-2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"plq7o9v9du"},{"Name":"integrity","Value":"sha256-bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/icon/nicko-icon-2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1481136"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 06:38:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/icon/nicko-icon-2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\nicko-icon-2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1481136"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 06:38:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/icon/nicko-icon.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\nicko-icon.png'))</AssetFile>

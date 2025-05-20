@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W/HjrppWwkGhLyg6zMvpkdhY2H1UuJ7rF2etUgFMFeY=",
+  "Hash": "A5ZY0IcUpVk6ZTxfhpFEFkwHJio6VIsYkwDUgGbQmBY=",
   "Source": "MvcReadMe_Group4",
   "BasePath": "_content/MvcReadMe_Group4",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4h7knkqods",
-      "Integrity": "2ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs=",
+      "Fingerprint": "9f0sagcyji",
+      "Integrity": "JbtSm61178FB4wDhfX/b+R2f3bzQJF7v7bhcH6VATy8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\atomic-habits.pdf"
@@ -1354,8 +1354,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2n6vasm018",
-      "Integrity": "Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4=",
+      "Fingerprint": "vvxf9lrc1n",
+      "Integrity": "SyYA92F4UT0spFBiuguQEuSR63kldlvs+wlAKgHJxFs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\automate-the-boring-stuff-with-python.pdf"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cqlubjujtv",
-      "Integrity": "hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB+krwtywA=",
+      "Fingerprint": "ygsvoimkcb",
+      "Integrity": "4qFd+Axq1ANKOuNap+YO6LpQ40jVJMyrhfq2Cf0exUE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\cosmos.pdf"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4rv1mbwlsb",
-      "Integrity": "AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82+7aLZ9o=",
+      "Fingerprint": "mar0gazvn6",
+      "Integrity": "LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A+rwFEg+6j4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\man-search-for-meaning.pdf"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "32v5tyt6qb",
-      "Integrity": "hX56jALTm/v9gnhORVpX/QnzL+cS2ubonRKJNIhUIFE=",
+      "Fingerprint": "gjfl5uhu45",
+      "Integrity": "7C6yjYhAv41WXvtVK4SmaPu3EfMFtrm+RVc8P9h4aME=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\philosophy-101.pdf"
@@ -1438,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a56pbt1hk5",
-      "Integrity": "okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0=",
+      "Fingerprint": "ebh3d4t4s3",
+      "Integrity": "agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\python-crash-course.pdf"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yw3urjlf29",
-      "Integrity": "Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0=",
+      "Fingerprint": "jtc5zj6vpe",
+      "Integrity": "Jx+U+qh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\quantum-supremacy.pdf"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jcujqhjz2j",
-      "Integrity": "Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU=",
+      "Fingerprint": "l8rqdcmb9z",
+      "Integrity": "m/YiHwnVWlrn6+xjb2GERIUhTCDA7MPOVzPwuKFZrfs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\the-courage-to-be-disliked.pdf"
@@ -1501,8 +1501,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4m667dyg2x",
-      "Integrity": "/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ=",
+      "Fingerprint": "8z3qedkk8d",
+      "Integrity": "pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\the-hobbit.pdf"
@@ -1522,8 +1522,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ikxpi27xec",
-      "Integrity": "zj+tXRmNlA+gdfPrNbRvW1DG+M7Xup5ZqFgzVjSxIns=",
+      "Fingerprint": "scvmj7ysqg",
+      "Integrity": "PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\books\\the-midnight-library.pdf"
@@ -1590,6 +1590,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\icon\\nicko-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\icon\\nicko-icon-2.png",
+      "SourceId": "MvcReadMe_Group4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\",
+      "BasePath": "_content/MvcReadMe_Group4",
+      "RelativePath": "assets/icon/nicko-icon-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "plq7o9v9du",
+      "Integrity": "bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\icon\\nicko-icon-2.png"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\icon\\reinald-icon.png",
@@ -3589,7 +3610,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "assets/books/atomic-habits.4h7knkqods.pdf",
+      "Route": "assets/books/atomic-habits.9f0sagcyji.pdf",
       "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\atomic-habits.pdf",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3599,7 +3620,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4012926"
+          "Value": "1118210"
         },
         {
           "Name": "Content-Type",
@@ -3607,11 +3628,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs=\""
+          "Value": "\"JbtSm61178FB4wDhfX/b+R2f3bzQJF7v7bhcH6VATy8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:14:57 GMT"
+          "Value": "Tue, 20 May 2025 02:38:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3621,7 +3642,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4h7knkqods"
+          "Value": "9f0sagcyji"
         },
         {
           "Name": "label",
@@ -3629,7 +3650,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs="
+          "Value": "sha256-JbtSm61178FB4wDhfX/b+R2f3bzQJF7v7bhcH6VATy8="
         }
       ]
     },
@@ -3644,7 +3665,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4012926"
+          "Value": "1118210"
         },
         {
           "Name": "Content-Type",
@@ -3652,11 +3673,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs=\""
+          "Value": "\"JbtSm61178FB4wDhfX/b+R2f3bzQJF7v7bhcH6VATy8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:14:57 GMT"
+          "Value": "Tue, 20 May 2025 02:38:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3666,52 +3687,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs="
-        }
-      ]
-    },
-    {
-      "Route": "assets/books/automate-the-boring-stuff-with-python.2n6vasm018.pdf",
-      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\automate-the-boring-stuff-with-python.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12805695"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:06:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2n6vasm018"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/books/automate-the-boring-stuff-with-python.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4="
+          "Value": "sha256-JbtSm61178FB4wDhfX/b+R2f3bzQJF7v7bhcH6VATy8="
         }
       ]
     },
@@ -3726,7 +3702,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12805695"
+          "Value": "655909"
         },
         {
           "Name": "Content-Type",
@@ -3734,11 +3710,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4=\""
+          "Value": "\"SyYA92F4UT0spFBiuguQEuSR63kldlvs+wlAKgHJxFs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:06:24 GMT"
+          "Value": "Tue, 20 May 2025 02:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3748,13 +3724,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4="
+          "Value": "sha256-SyYA92F4UT0spFBiuguQEuSR63kldlvs+wlAKgHJxFs="
         }
       ]
     },
     {
-      "Route": "assets/books/cosmos.cqlubjujtv.pdf",
-      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\cosmos.pdf",
+      "Route": "assets/books/automate-the-boring-stuff-with-python.vvxf9lrc1n.pdf",
+      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\automate-the-boring-stuff-with-python.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3763,7 +3739,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1162310"
+          "Value": "655909"
         },
         {
           "Name": "Content-Type",
@@ -3771,11 +3747,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB+krwtywA=\""
+          "Value": "\"SyYA92F4UT0spFBiuguQEuSR63kldlvs+wlAKgHJxFs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:18:15 GMT"
+          "Value": "Tue, 20 May 2025 02:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3785,15 +3761,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cqlubjujtv"
+          "Value": "vvxf9lrc1n"
         },
         {
           "Name": "label",
-          "Value": "assets/books/cosmos.pdf"
+          "Value": "assets/books/automate-the-boring-stuff-with-python.pdf"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB+krwtywA="
+          "Value": "sha256-SyYA92F4UT0spFBiuguQEuSR63kldlvs+wlAKgHJxFs="
         }
       ]
     },
@@ -3808,7 +3784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1162310"
+          "Value": "202947"
         },
         {
           "Name": "Content-Type",
@@ -3816,11 +3792,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB+krwtywA=\""
+          "Value": "\"4qFd+Axq1ANKOuNap+YO6LpQ40jVJMyrhfq2Cf0exUE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:18:15 GMT"
+          "Value": "Tue, 20 May 2025 02:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3830,13 +3806,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB+krwtywA="
+          "Value": "sha256-4qFd+Axq1ANKOuNap+YO6LpQ40jVJMyrhfq2Cf0exUE="
         }
       ]
     },
     {
-      "Route": "assets/books/man-search-for-meaning.4rv1mbwlsb.pdf",
-      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\man-search-for-meaning.pdf",
+      "Route": "assets/books/cosmos.ygsvoimkcb.pdf",
+      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\cosmos.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3845,7 +3821,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1006124"
+          "Value": "202947"
         },
         {
           "Name": "Content-Type",
@@ -3853,11 +3829,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82+7aLZ9o=\""
+          "Value": "\"4qFd+Axq1ANKOuNap+YO6LpQ40jVJMyrhfq2Cf0exUE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:20:51 GMT"
+          "Value": "Tue, 20 May 2025 02:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3867,7 +3843,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4rv1mbwlsb"
+          "Value": "ygsvoimkcb"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/cosmos.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4qFd+Axq1ANKOuNap+YO6LpQ40jVJMyrhfq2Cf0exUE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/man-search-for-meaning.mar0gazvn6.pdf",
+      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\man-search-for-meaning.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A+rwFEg+6j4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 02:38:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mar0gazvn6"
         },
         {
           "Name": "label",
@@ -3875,7 +3896,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82+7aLZ9o="
+          "Value": "sha256-LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A+rwFEg+6j4="
         }
       ]
     },
@@ -3890,7 +3911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1006124"
+          "Value": "232871"
         },
         {
           "Name": "Content-Type",
@@ -3898,11 +3919,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82+7aLZ9o=\""
+          "Value": "\"LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A+rwFEg+6j4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:20:51 GMT"
+          "Value": "Tue, 20 May 2025 02:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3912,12 +3933,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82+7aLZ9o="
+          "Value": "sha256-LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A+rwFEg+6j4="
         }
       ]
     },
     {
-      "Route": "assets/books/philosophy-101.32v5tyt6qb.pdf",
+      "Route": "assets/books/philosophy-101.gjfl5uhu45.pdf",
       "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\philosophy-101.pdf",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3927,7 +3948,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6486998"
+          "Value": "347930"
         },
         {
           "Name": "Content-Type",
@@ -3935,11 +3956,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hX56jALTm/v9gnhORVpX/QnzL+cS2ubonRKJNIhUIFE=\""
+          "Value": "\"7C6yjYhAv41WXvtVK4SmaPu3EfMFtrm+RVc8P9h4aME=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:21:34 GMT"
+          "Value": "Tue, 20 May 2025 02:38:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3949,7 +3970,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "32v5tyt6qb"
+          "Value": "gjfl5uhu45"
         },
         {
           "Name": "label",
@@ -3957,7 +3978,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hX56jALTm/v9gnhORVpX/QnzL+cS2ubonRKJNIhUIFE="
+          "Value": "sha256-7C6yjYhAv41WXvtVK4SmaPu3EfMFtrm+RVc8P9h4aME="
         }
       ]
     },
@@ -3972,7 +3993,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6486998"
+          "Value": "347930"
         },
         {
           "Name": "Content-Type",
@@ -3980,11 +4001,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hX56jALTm/v9gnhORVpX/QnzL+cS2ubonRKJNIhUIFE=\""
+          "Value": "\"7C6yjYhAv41WXvtVK4SmaPu3EfMFtrm+RVc8P9h4aME=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:21:34 GMT"
+          "Value": "Tue, 20 May 2025 02:38:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3994,12 +4015,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hX56jALTm/v9gnhORVpX/QnzL+cS2ubonRKJNIhUIFE="
+          "Value": "sha256-7C6yjYhAv41WXvtVK4SmaPu3EfMFtrm+RVc8P9h4aME="
         }
       ]
     },
     {
-      "Route": "assets/books/python-crash-course.a56pbt1hk5.pdf",
+      "Route": "assets/books/python-crash-course.ebh3d4t4s3.pdf",
       "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\python-crash-course.pdf",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4009,7 +4030,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5749514"
+          "Value": "450999"
         },
         {
           "Name": "Content-Type",
@@ -4017,11 +4038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0=\""
+          "Value": "\"agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:05:26 GMT"
+          "Value": "Tue, 20 May 2025 02:38:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4031,7 +4052,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a56pbt1hk5"
+          "Value": "ebh3d4t4s3"
         },
         {
           "Name": "label",
@@ -4039,7 +4060,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0="
+          "Value": "sha256-agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg="
         }
       ]
     },
@@ -4054,7 +4075,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5749514"
+          "Value": "450999"
         },
         {
           "Name": "Content-Type",
@@ -4062,11 +4083,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0=\""
+          "Value": "\"agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:05:26 GMT"
+          "Value": "Tue, 20 May 2025 02:38:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4076,7 +4097,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0="
+          "Value": "sha256-agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/quantum-supremacy.jtc5zj6vpe.pdf",
+      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\quantum-supremacy.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2998146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jx+U+qh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 02:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jtc5zj6vpe"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/quantum-supremacy.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jx+U+qh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk="
         }
       ]
     },
@@ -4091,7 +4157,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4477476"
+          "Value": "2998146"
         },
         {
           "Name": "Content-Type",
@@ -4099,11 +4165,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0=\""
+          "Value": "\"Jx+U+qh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:19:57 GMT"
+          "Value": "Tue, 20 May 2025 02:38:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4113,57 +4179,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0="
+          "Value": "sha256-Jx+U+qh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk="
         }
       ]
     },
     {
-      "Route": "assets/books/quantum-supremacy.yw3urjlf29.pdf",
-      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\quantum-supremacy.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4477476"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:19:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yw3urjlf29"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/books/quantum-supremacy.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0="
-        }
-      ]
-    },
-    {
-      "Route": "assets/books/the-courage-to-be-disliked.jcujqhjz2j.pdf",
+      "Route": "assets/books/the-courage-to-be-disliked.l8rqdcmb9z.pdf",
       "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-courage-to-be-disliked.pdf",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4173,7 +4194,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1301770"
+          "Value": "294775"
         },
         {
           "Name": "Content-Type",
@@ -4181,11 +4202,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU=\""
+          "Value": "\"m/YiHwnVWlrn6+xjb2GERIUhTCDA7MPOVzPwuKFZrfs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:09:14 GMT"
+          "Value": "Tue, 20 May 2025 02:38:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4195,7 +4216,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jcujqhjz2j"
+          "Value": "l8rqdcmb9z"
         },
         {
           "Name": "label",
@@ -4203,7 +4224,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU="
+          "Value": "sha256-m/YiHwnVWlrn6+xjb2GERIUhTCDA7MPOVzPwuKFZrfs="
         }
       ]
     },
@@ -4218,7 +4239,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1301770"
+          "Value": "294775"
         },
         {
           "Name": "Content-Type",
@@ -4226,11 +4247,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU=\""
+          "Value": "\"m/YiHwnVWlrn6+xjb2GERIUhTCDA7MPOVzPwuKFZrfs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:09:14 GMT"
+          "Value": "Tue, 20 May 2025 02:38:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4240,12 +4261,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU="
+          "Value": "sha256-m/YiHwnVWlrn6+xjb2GERIUhTCDA7MPOVzPwuKFZrfs="
         }
       ]
     },
     {
-      "Route": "assets/books/the-hobbit.4m667dyg2x.pdf",
+      "Route": "assets/books/the-hobbit.8z3qedkk8d.pdf",
       "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-hobbit.pdf",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4255,7 +4276,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13676795"
+          "Value": "388359"
         },
         {
           "Name": "Content-Type",
@@ -4263,11 +4284,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ=\""
+          "Value": "\"pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:16:55 GMT"
+          "Value": "Tue, 20 May 2025 02:38:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4277,7 +4298,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4m667dyg2x"
+          "Value": "8z3qedkk8d"
         },
         {
           "Name": "label",
@@ -4285,7 +4306,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ="
+          "Value": "sha256-pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8="
         }
       ]
     },
@@ -4300,7 +4321,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13676795"
+          "Value": "388359"
         },
         {
           "Name": "Content-Type",
@@ -4308,11 +4329,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ=\""
+          "Value": "\"pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:16:55 GMT"
+          "Value": "Tue, 20 May 2025 02:38:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4322,52 +4343,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ="
-        }
-      ]
-    },
-    {
-      "Route": "assets/books/the-midnight-library.ikxpi27xec.pdf",
-      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-midnight-library.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1508754"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zj+tXRmNlA+gdfPrNbRvW1DG+M7Xup5ZqFgzVjSxIns=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:13:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ikxpi27xec"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/books/the-midnight-library.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zj+tXRmNlA+gdfPrNbRvW1DG+M7Xup5ZqFgzVjSxIns="
+          "Value": "sha256-pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8="
         }
       ]
     },
@@ -4382,7 +4358,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1508754"
+          "Value": "178068"
         },
         {
           "Name": "Content-Type",
@@ -4390,11 +4366,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zj+tXRmNlA+gdfPrNbRvW1DG+M7Xup5ZqFgzVjSxIns=\""
+          "Value": "\"PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 10:13:30 GMT"
+          "Value": "Tue, 20 May 2025 02:38:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4404,7 +4380,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zj+tXRmNlA+gdfPrNbRvW1DG+M7Xup5ZqFgzVjSxIns="
+          "Value": "sha256-PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-midnight-library.scvmj7ysqg.pdf",
+      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-midnight-library.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 02:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "scvmj7ysqg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-midnight-library.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM="
         }
       ]
     },
@@ -4651,6 +4672,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-y+ehV96kgqNXzxKkd1yV8QEa7J+Si3AfUJdsmsXQMnw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/icon/nicko-icon-2.plq7o9v9du.png",
+      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\icon\\nicko-icon-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1481136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 06:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "plq7o9v9du"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/icon/nicko-icon-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/icon/nicko-icon-2.png",
+      "AssetFile": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\icon\\nicko-icon-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1481136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 06:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo="
         }
       ]
     },

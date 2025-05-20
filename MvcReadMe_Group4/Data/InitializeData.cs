@@ -15,10 +15,10 @@ namespace MvcReadMe_Group4.Data
                 
 
                 // Check if we already have books
-                if (context.Books.Any())
-                {
-                    return;   // DB has been seeded
-                }
+                //if (context.Books.Any())
+                //{
+                //    return;   // DB has been seeded
+                //}
 
                 // Clear existing data
                 context.BookReads.RemoveRange(context.BookReads);

@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4h7knkqods</Fingerprint>
-      <Integrity>2ElbxrO7WvMRJHelmL6X8ELKEifqPQBcCjJQBzSCxzs=</Integrity>
+      <Fingerprint>9f0sagcyji</Fingerprint>
+      <Integrity>JbtSm61178FB4wDhfX/b+R2f3bzQJF7v7bhcH6VATy8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\atomic-habits.pdf'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2n6vasm018</Fingerprint>
-      <Integrity>Xs0s7hJUj6h5j2IWsSVNXrtg7YGE7XOf0hoy7qaMuw4=</Integrity>
+      <Fingerprint>vvxf9lrc1n</Fingerprint>
+      <Integrity>SyYA92F4UT0spFBiuguQEuSR63kldlvs+wlAKgHJxFs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\automate-the-boring-stuff-with-python.pdf'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cqlubjujtv</Fingerprint>
-      <Integrity>hIBFunCJgrcDoyJcQ2OF/ftTM14uECW4JaB+krwtywA=</Integrity>
+      <Fingerprint>ygsvoimkcb</Fingerprint>
+      <Integrity>4qFd+Axq1ANKOuNap+YO6LpQ40jVJMyrhfq2Cf0exUE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\cosmos.pdf'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4rv1mbwlsb</Fingerprint>
-      <Integrity>AIcgQTM0Gt/oLmO2cnPe8XTsCDPBfScXFa82+7aLZ9o=</Integrity>
+      <Fingerprint>mar0gazvn6</Fingerprint>
+      <Integrity>LvLMWDalFYlJwpbE0sENIbr3bebYQkt/A+rwFEg+6j4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\man-search-for-meaning.pdf'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>32v5tyt6qb</Fingerprint>
-      <Integrity>hX56jALTm/v9gnhORVpX/QnzL+cS2ubonRKJNIhUIFE=</Integrity>
+      <Fingerprint>gjfl5uhu45</Fingerprint>
+      <Integrity>7C6yjYhAv41WXvtVK4SmaPu3EfMFtrm+RVc8P9h4aME=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\philosophy-101.pdf'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a56pbt1hk5</Fingerprint>
-      <Integrity>okVGsxvvAOepoShNebS95q51EUR2EYw6Hqo0F5kpyc0=</Integrity>
+      <Fingerprint>ebh3d4t4s3</Fingerprint>
+      <Integrity>agcgRvhzQ5g5vX0WWFxCumx9ZpPtzaR4O0G5sJKcvEg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\python-crash-course.pdf'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yw3urjlf29</Fingerprint>
-      <Integrity>Uqb718wmtdxyXLivzfqQT30ea57FHZLcJmtNqAbIcn0=</Integrity>
+      <Fingerprint>jtc5zj6vpe</Fingerprint>
+      <Integrity>Jx+U+qh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\quantum-supremacy.pdf'))</OriginalItemSpec>
@@ -138,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jcujqhjz2j</Fingerprint>
-      <Integrity>Y06ct00oMj1JyKR8C9fAZ/wy6v0pCeZyClwdRrYNWiU=</Integrity>
+      <Fingerprint>l8rqdcmb9z</Fingerprint>
+      <Integrity>m/YiHwnVWlrn6+xjb2GERIUhTCDA7MPOVzPwuKFZrfs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-courage-to-be-disliked.pdf'))</OriginalItemSpec>
@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4m667dyg2x</Fingerprint>
-      <Integrity>/EHMWADA8oNgfAAhPDBtubw/2ld3gC/O1h/GGjF2LyQ=</Integrity>
+      <Fingerprint>8z3qedkk8d</Fingerprint>
+      <Integrity>pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-hobbit.pdf'))</OriginalItemSpec>
@@ -174,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ikxpi27xec</Fingerprint>
-      <Integrity>zj+tXRmNlA+gdfPrNbRvW1DG+M7Xup5ZqFgzVjSxIns=</Integrity>
+      <Fingerprint>scvmj7ysqg</Fingerprint>
+      <Integrity>PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-midnight-library.pdf'))</OriginalItemSpec>
@@ -233,6 +233,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\nicko-icon.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\nicko-icon-2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcReadMe_Group4</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcReadMe_Group4</BasePath>
+      <RelativePath>assets/icon/nicko-icon-2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>plq7o9v9du</Fingerprint>
+      <Integrity>bY6UjinPRY8sMxkvDjdg0lxSV8bfk3ZxwOte7RsYcgo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\nicko-icon-2.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\reinald-icon.png'))">
       <SourceType>Package</SourceType>
