@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcReadMe_Group4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe5bef0098fc0f5059a5fae83954adc6d36926b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3390214afc58b122cf262e1facb0ceb3efdef765")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcReadMe_Group4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcReadMe_Group4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

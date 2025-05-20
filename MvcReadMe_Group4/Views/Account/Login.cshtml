@@ -6,6 +6,17 @@
 }
 
 <style>
+    @@keyframes cardEntrance {
+        from {
+            opacity: 0;
+            transform: translateX(-30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
     body {
         background: linear-gradient(135deg, #0a0f1a 0%, #080f1c 50%, #141d29 100%);
         color: #c9d1d9;
@@ -17,6 +28,7 @@
         align-items: center;
         position: relative;
         overflow: hidden;
+        transition: background 0.3s ease;
     }
 
     body::before {
@@ -24,17 +36,23 @@
         position: absolute;
         width: 200%;
         height: 200%;
-        background: radial-gradient(circle at center, rgba(64, 143, 247, 0.14) 0%, transparent 50%); /* Slightly increased blue glow */
+        background: radial-gradient(circle at center, rgba(64, 143, 247, 0.14) 0%, transparent 50%);
         animation: rotate 40s linear infinite;
+        will-change: transform;
     }
 
     @@keyframes rotate {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
     }
 
     .login-card {
-        background-color: rgba(15, 23, 42, 0.88); /* Slightly increased opacity */
+        background-color: rgba(15, 23, 42, 0.88);
         border-radius: 15px;
         padding: 0;
         width: 950px;
@@ -43,14 +61,15 @@
         box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
         margin: auto;
         backdrop-filter: blur(8px);
-        border: 1px solid rgba(64, 143, 247, 0.28); /* Slightly increased border visibility */
+        border: 1px solid rgba(64, 143, 247, 0.28);
         position: relative;
         z-index: 1;
         overflow: hidden;
         display: flex;
         gap: 0;
         align-items: stretch;
-        transform: translateY(-10px);
+        animation: cardEntrance 0.5s ease-out;
+        will-change: transform, opacity;
     }
 
     .welcome-section {
@@ -66,16 +85,16 @@
         overflow: hidden;
     }
 
-    .welcome-section::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(45deg, rgba(64, 143, 247, 0.12), rgba(96, 165, 250, 0.12)); /* Slightly increased blue overlay */
-        z-index: 0;
-    }
+        .welcome-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(64, 143, 247, 0.12), rgba(96, 165, 250, 0.12)); /* Slightly increased blue overlay */
+            z-index: 0;
+        }
 
     .login-form-section {
         flex: 1;
@@ -99,12 +118,12 @@
         z-index: 1;
     }
 
-     .welcome-section .subtitle {
+    .welcome-section .subtitle {
         font-size: 1.1rem;
         color: #94a3b8;
         position: relative;
         z-index: 1;
-     }
+    }
 
     .signup-link {
         position: absolute;
@@ -118,9 +137,9 @@
         z-index: 2;
     }
 
-    .signup-link:hover {
-        color: #93c5fd;
-    }
+        .signup-link:hover {
+            color: #93c5fd;
+        }
 
     .login-form-section form {
         width: 100%;
@@ -162,12 +181,12 @@
         outline: none;
     }
 
-    input[type="text"]:focus,
-    input[type="password"]:focus {
-        background-color: rgba(51, 65, 85, 0.75); /* Slightly increased opacity */
-        border-color: rgba(64, 143, 247, 0.42); /* Slightly increased focus visibility */
-        box-shadow: 0 0 6px 2px rgba(64, 143, 247, 0.22); /* Slightly increased glow */
-    }
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            background-color: rgba(51, 65, 85, 0.75); /* Slightly increased opacity */
+            border-color: rgba(64, 143, 247, 0.42); /* Slightly increased focus visibility */
+            box-shadow: 0 0 6px 2px rgba(64, 143, 247, 0.22); /* Slightly increased glow */
+        }
 
     .password-toggle {
         position: absolute;
@@ -183,9 +202,9 @@
         transition: color 0.2s ease;
     }
 
-    .password-toggle:hover {
-        color: #94a3b8;
-    }
+        .password-toggle:hover {
+            color: #94a3b8;
+        }
 
     .validation-summary-errors {
         color: #dc2626;
@@ -198,15 +217,15 @@
         font-size: 0.9rem;
     }
 
-    .validation-summary-errors ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
+        .validation-summary-errors ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
 
-    .validation-summary-errors li {
-        margin: 5px 0;
-    }
+        .validation-summary-errors li {
+            margin: 5px 0;
+        }
 
     span.text-danger {
         font-size: 0.8rem;
@@ -231,14 +250,14 @@
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
-    button[type="submit"]:hover {
-        background: linear-gradient(45deg, rgba(96, 165, 250, 0.85), rgba(59, 130, 246, 0.85)); /* Slightly deeper and less saturated */
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-    }
+        button[type="submit"]:hover {
+            background: linear-gradient(45deg, rgba(96, 165, 250, 0.85), rgba(59, 130, 246, 0.85)); /* Slightly deeper and less saturated */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
 
     .forgot-password {
-       display: none; /* Hide the forgot password link */
+        display: none; /* Hide the forgot password link */
     }
 
     .waves {
@@ -260,12 +279,13 @@
     <div class="welcome-section">
         <h2>Welcome to ReadMe</h2>
         <p class="subtitle">
-            Unlock a growing collection of ideas, perspectives, and possibilities designed to feed your curiosity.</p> @* User's manual change *@
+            Unlock a growing collection of ideas, perspectives, and possibilities designed to feed your curiosity.
+        </p> @* User's manual change *@
         @* Add any other elements for the left section here, like an image or illustration if desired *@
     </div>
 
     <div class="login-form-section">
-         @* The form was previously inside the login-card directly, now it's inside login-form-section *@
+        @* The form was previously inside the login-card directly, now it's inside login-form-section *@
         <form asp-controller="Account" asp-action="Login" method="post">
             <div asp-validation-summary="ModelOnly" class="validation-summary-errors"></div>
 
@@ -279,12 +299,12 @@
 
             <div class="form-group">
                 <label asp-for="Password">Password</label>
-                 <div class="input-wrapper">
+                <div class="input-wrapper">
                     <input asp-for="Password" type="password" autocomplete="current-password" id="password-input" />
                     <button type="button" class="password-toggle" id="password-toggle">
                         <i class="fas fa-eye"></i> <!-- Requires Font Awesome -->
                     </button>
-                 </div>
+                </div>
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
@@ -295,8 +315,8 @@
         </form>
     </div>
 
-     @* The waves are positioned absolutely within the login-card, so they should adapt to the new width and height *@
-     <div class="waves"></div>
+    @* The waves are positioned absolutely within the login-card, so they should adapt to the new width and height *@
+    <div class="waves"></div>
 
 </div>
 

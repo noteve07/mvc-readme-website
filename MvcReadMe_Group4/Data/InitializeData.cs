@@ -24,7 +24,6 @@ namespace MvcReadMe_Group4.Data
                 context.BookReads.RemoveRange(context.BookReads);
                 context.Books.RemoveRange(context.Books);
                 context.Users.RemoveRange(context.Users);
-                context.BookAccesses.RemoveRange(context.BookAccesses);
                 context.SaveChanges();
 
                 // Add books
@@ -167,13 +166,6 @@ namespace MvcReadMe_Group4.Data
                 context.Users.AddRange(users);
                 context.SaveChanges();
 
-                // Add book accesses
-                var bookAccesses = new List<BookAccess>
-                {
-                    // ... existing book accesses ...
-                };
-                context.BookAccesses.AddRange(bookAccesses);
-                context.SaveChanges();
 
                 // Add BookReads with fixed numbers for past 7 days
                 var bookReads = new List<BookRead>();

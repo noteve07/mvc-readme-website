@@ -26,7 +26,5 @@ namespace MvcReadMe_Group4.Models
         public string CoverImagePath { get; set; }
 
         public int NumberOfReads { get; set; }
-
-        public virtual ICollection<BookAccess>? BookAccesses { get; set; }
     }
 }

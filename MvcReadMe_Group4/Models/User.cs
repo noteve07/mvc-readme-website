@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace MvcReadMe_Group4.Models
 {
@@ -15,7 +14,5 @@ namespace MvcReadMe_Group4.Models
 
         [Required]
         public string Role { get; set; } = "User";
-
-        public virtual ICollection<BookAccess>? BookAccesses { get; set; }
     }
 }
