@@ -18,7 +18,7 @@
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
     "Method": "\u003C\u003CMain\u003E$\u003Eb__0_4",
-    "RelativePath": "managebooks",
+    "RelativePath": "managebooks/index",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -34,7 +34,7 @@
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
     "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
-    "RelativePath": "manageusers",
+    "RelativePath": "manageusers/index",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,

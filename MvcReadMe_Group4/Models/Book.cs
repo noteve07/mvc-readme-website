@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-
 namespace MvcReadMe_Group4.Models
 {
     public class Book
@@ -21,10 +20,25 @@ namespace MvcReadMe_Group4.Models
         public string ISBN { get; set; }
 
         [Required]
-        public string FilePath { get; set; }
+        private string _filePath;
+        public string FilePath 
+        { 
+            get { return _filePath; }
+            set { _filePath = value; }
+        }
 
-        public string CoverImagePath { get; set; }
+        private string _coverImagePath;
+        public string CoverImagePath 
+        { 
+            get { return _coverImagePath; }
+            set { _coverImagePath = value; }
+        }
 
-        public int NumberOfReads { get; set; }
+        private int _numberOfReads;
+        public int NumberOfReads 
+        { 
+            get { return _numberOfReads; }
+            set { _numberOfReads = value; }
+        }
     }
 }

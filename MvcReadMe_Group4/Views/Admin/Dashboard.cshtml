@@ -414,6 +414,7 @@
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
+                
                 plugins: {
                     legend: {
                         display: false
@@ -453,12 +454,13 @@
 
         function getCategoryColor(category) {
             const colors = {
-                'Programming': 'rgba(143, 211, 213, 1)',
-                'Science': 'rgba(230, 177, 122, 1)',
-                'Philosophy': 'rgba(143, 211, 160, 1)',
-                'Self-Help': 'rgba(230, 126, 126, 1)'
+                'Business': 'rgba(143, 211, 213, 0.9)',    // First color
+                'Self-Help': 'rgba(230, 177, 122, 0.9)',   // Second color
+                'Fiction': 'rgba(143, 211, 160, 0.9)',     // Third color
+                'Programming': 'rgba(183, 148, 244, 0.9)', // Fourth color
+                'Non-Fiction': 'rgba(230, 126, 126, 0.9)'  // Fifth color
             };
-            return colors[category] || 'rgba(160, 174, 192, 1)';
+            return colors[category] || 'rgba(160, 174, 192, 0.9)';
         }
     </script>
 }
@@ -468,12 +470,13 @@
     {
         var colors = new Dictionary<string, string>
         {
-            { "Programming", "rgba(143, 211, 213, 1)" },
-            { "Science", "rgba(230, 177, 122, 1)" },
-            { "Philosophy", "rgba(143, 211, 160, 1)" },
-            { "Self-Help", "rgba(230, 126, 126, 1)" }
+            { "Business", "rgba(143, 211, 213, 0.9)" },    // First color
+            { "Self-Help", "rgba(230, 177, 122, 0.9)" },   // Second color
+            { "Fiction", "rgba(143, 211, 160, 0.9)" },     // Third color
+            { "Programming", "rgba(183, 148, 244, 0.9)" }, // Fourth color
+            { "Non-Fiction", "rgba(230, 126, 126, 0.9)" }  // Fifth color
         };
-        return colors.ContainsKey(category) ? colors[category] : "rgba(160, 174, 192, 1)";
+        return colors.ContainsKey(category) ? colors[category] : "rgba(160, 174, 192, 0.9)";
     }
 }
 

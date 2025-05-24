@@ -10,9 +10,19 @@ namespace MvcReadMe_Group4.Models
         public string UserName { get; set; }
 
         [Required]
-        public string Password { get; set; }
+        private string _password;
+        public string Password 
+        { 
+            get { return _password; }
+            set { _password = value; }
+        }
 
         [Required]
-        public string Role { get; set; } = "User";
+        private string _role = "User";
+        public string Role 
+        { 
+            get { return _role; }
+            set { _role = value; }
+        }
     }
 }

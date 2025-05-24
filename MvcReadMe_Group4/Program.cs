@@ -73,7 +73,7 @@ app.MapControllerRoute(
 );
 
 // Redirects
-app.MapGet("/manageusers", () => Results.Redirect("/Admin/ManageUsers"));
-app.MapGet("/managebooks", () => Results.Redirect("/Admin/ManageBooks"));
+app.MapGet("/manageusers/index", () => Results.Redirect("/Admin/ManageUsers"));
+app.MapGet("/managebooks/index", () => Results.Redirect("/Admin/ManageBooks"));
 
 app.Run();

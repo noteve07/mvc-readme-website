@@ -12,28 +12,23 @@ namespace MvcReadMe_Group4.Data
             using (var context = new MvcReadMe_Group4Context(
                 serviceProvider.GetRequiredService<DbContextOptions<MvcReadMe_Group4Context>>()))
             {
-                
+
+
+                // Check if we already have data
+                if (context.Books.Any())
+                {
+                    return;   // database has been seeded
+                }
+                else
+                {
                     // Clear existing data
                     context.BookReads.RemoveRange(context.BookReads);
                     context.Books.RemoveRange(context.Books);
                     context.Users.RemoveRange(context.Users);
                     context.SaveChanges();
 
-                //// Check if we already have data
-                //if (context.Books.Any())
-                //{
-                //    return;   // database has been seeded
-                //} 
-                //else 
-                //{
-                //    // Clear existing data
-                //    context.BookReads.RemoveRange(context.BookReads);
-                //    context.Books.RemoveRange(context.Books);
-                //    context.Users.RemoveRange(context.Users);
-                //    context.SaveChanges();
+                }
 
-                //}
-                
 
                 // Add books
                 var books = new List<Book>
