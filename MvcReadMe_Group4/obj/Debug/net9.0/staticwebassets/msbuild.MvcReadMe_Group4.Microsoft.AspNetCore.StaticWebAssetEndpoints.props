@@ -1,5 +1,65 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/a-brief-history-of-time.463ti5gfy5.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\a-brief-history-of-time.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"463ti5gfy5"},{"Name":"integrity","Value":"sha256-TPuj5pz8oMkYFNfx0FMoiTI7WdgyyhN9vfewsVJj3bI="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/a-brief-history-of-time.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"452875"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022TPuj5pz8oMkYFNfx0FMoiTI7WdgyyhN9vfewsVJj3bI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/a-brief-history-of-time.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\a-brief-history-of-time.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TPuj5pz8oMkYFNfx0FMoiTI7WdgyyhN9vfewsVJj3bI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"452875"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022TPuj5pz8oMkYFNfx0FMoiTI7WdgyyhN9vfewsVJj3bI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/a-gentle-reminder.lpuohq3he0.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\a-gentle-reminder.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lpuohq3he0"},{"Name":"integrity","Value":"sha256-h4VI0V6fasndeIjf3OJtwDRuR94hwfTpo03u8nMaGFk="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/a-gentle-reminder.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"156003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022h4VI0V6fasndeIjf3OJtwDRuR94hwfTpo03u8nMaGFk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/a-gentle-reminder.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\a-gentle-reminder.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h4VI0V6fasndeIjf3OJtwDRuR94hwfTpo03u8nMaGFk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"156003"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022h4VI0V6fasndeIjf3OJtwDRuR94hwfTpo03u8nMaGFk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/algorithms-to-live-by.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\algorithms-to-live-by.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3adWBottNRYaQFMHwWaRsYKx\u002BNvLkWtf7GgG/sqZLSM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"590592"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00223adWBottNRYaQFMHwWaRsYKx\u002BNvLkWtf7GgG/sqZLSM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/algorithms-to-live-by.ptzyinbszt.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\algorithms-to-live-by.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ptzyinbszt"},{"Name":"integrity","Value":"sha256-3adWBottNRYaQFMHwWaRsYKx\u002BNvLkWtf7GgG/sqZLSM="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/algorithms-to-live-by.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"590592"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00223adWBottNRYaQFMHwWaRsYKx\u002BNvLkWtf7GgG/sqZLSM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/art-of-war.f1b8nqani7.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\art-of-war.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f1b8nqani7"},{"Name":"integrity","Value":"sha256-42iUU7mCsUhowjOFtdCZYN9csYRYn\u002BYjaQl3Hw/3I/U="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/art-of-war.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"148749"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u002242iUU7mCsUhowjOFtdCZYN9csYRYn\u002BYjaQl3Hw/3I/U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/art-of-war.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\art-of-war.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-42iUU7mCsUhowjOFtdCZYN9csYRYn\u002BYjaQl3Hw/3I/U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"148749"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u002242iUU7mCsUhowjOFtdCZYN9csYRYn\u002BYjaQl3Hw/3I/U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/asp-net-core-in-action.orlr0a5tfj.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\asp-net-core-in-action.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"orlr0a5tfj"},{"Name":"integrity","Value":"sha256-9J7RKT7vArUN9pI7iORsrHNBTvFkb4tn6T\u002BuTXTaQw8="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/asp-net-core-in-action.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28874446"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00229J7RKT7vArUN9pI7iORsrHNBTvFkb4tn6T\u002BuTXTaQw8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/asp-net-core-in-action.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\asp-net-core-in-action.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9J7RKT7vArUN9pI7iORsrHNBTvFkb4tn6T\u002BuTXTaQw8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"28874446"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00229J7RKT7vArUN9pI7iORsrHNBTvFkb4tn6T\u002BuTXTaQw8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/atomic-habits.9f0sagcyji.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\atomic-habits.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -24,6 +84,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vvxf9lrc1n"},{"Name":"integrity","Value":"sha256-SyYA92F4UT0spFBiuguQEuSR63kldlvs\u002BwlAKgHJxFs="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/automate-the-boring-stuff-with-python.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"655909"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022SyYA92F4UT0spFBiuguQEuSR63kldlvs\u002BwlAKgHJxFs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/biochemistry.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\biochemistry.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ay8feVGzsITuEBlzgAJO1UUh4A/FrIkIRXWYckkl18o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3272899"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Ay8feVGzsITuEBlzgAJO1UUh4A/FrIkIRXWYckkl18o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/biochemistry.ph4h4rxnqv.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\biochemistry.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ph4h4rxnqv"},{"Name":"integrity","Value":"sha256-Ay8feVGzsITuEBlzgAJO1UUh4A/FrIkIRXWYckkl18o="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/biochemistry.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3272899"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Ay8feVGzsITuEBlzgAJO1UUh4A/FrIkIRXWYckkl18o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/cosmos.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\cosmos.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -35,6 +107,90 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ygsvoimkcb"},{"Name":"integrity","Value":"sha256-4qFd\u002BAxq1ANKOuNap\u002BYO6LpQ40jVJMyrhfq2Cf0exUE="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/cosmos.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"202947"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00224qFd\u002BAxq1ANKOuNap\u002BYO6LpQ40jVJMyrhfq2Cf0exUE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/cracking-the-coding-interview.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\cracking-the-coding-interview.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bU4eZgqKQ6ftCOuG/O9Qz0gac\u002BM4R173dHbi/FrOFO4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1497371"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bU4eZgqKQ6ftCOuG/O9Qz0gac\u002BM4R173dHbi/FrOFO4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/cracking-the-coding-interview.zs4hzz18jv.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\cracking-the-coding-interview.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zs4hzz18jv"},{"Name":"integrity","Value":"sha256-bU4eZgqKQ6ftCOuG/O9Qz0gac\u002BM4R173dHbi/FrOFO4="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/cracking-the-coding-interview.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1497371"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022bU4eZgqKQ6ftCOuG/O9Qz0gac\u002BM4R173dHbi/FrOFO4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/data-science-from-scratch.lear8it028.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\data-science-from-scratch.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lear8it028"},{"Name":"integrity","Value":"sha256-kzLJndfP6QaTZhjUGOZXnPCXDtDpqjF/lxHTUG0dQ/M="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/data-science-from-scratch.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1370659"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022kzLJndfP6QaTZhjUGOZXnPCXDtDpqjF/lxHTUG0dQ/M=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/data-science-from-scratch.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\data-science-from-scratch.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kzLJndfP6QaTZhjUGOZXnPCXDtDpqjF/lxHTUG0dQ/M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1370659"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022kzLJndfP6QaTZhjUGOZXnPCXDtDpqjF/lxHTUG0dQ/M=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/ego-is-the-enemy.eq1ihs4l5z.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\ego-is-the-enemy.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eq1ihs4l5z"},{"Name":"integrity","Value":"sha256-ugWNo2rVTwuX3VFoeUsoPRIPP6E007FyL3rB0mItABk="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/ego-is-the-enemy.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"512304"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022ugWNo2rVTwuX3VFoeUsoPRIPP6E007FyL3rB0mItABk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/ego-is-the-enemy.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\ego-is-the-enemy.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ugWNo2rVTwuX3VFoeUsoPRIPP6E007FyL3rB0mItABk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"512304"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022ugWNo2rVTwuX3VFoeUsoPRIPP6E007FyL3rB0mItABk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/grokking-deep-learning.4wqep4c5l7.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\grokking-deep-learning.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4wqep4c5l7"},{"Name":"integrity","Value":"sha256-pMiC04PO9q1eHMDgeDPHJHuPchPQrINuJ21IkhWN\u002BUo="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/grokking-deep-learning.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"620252"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022pMiC04PO9q1eHMDgeDPHJHuPchPQrINuJ21IkhWN\u002BUo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/grokking-deep-learning.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\grokking-deep-learning.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pMiC04PO9q1eHMDgeDPHJHuPchPQrINuJ21IkhWN\u002BUo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"620252"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022pMiC04PO9q1eHMDgeDPHJHuPchPQrINuJ21IkhWN\u002BUo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/hyperspace.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\hyperspace.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ntbm2/BiJr93DIRviSZrl/9ZBz8v0TJ7fTdNOVSHX1o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"669935"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Ntbm2/BiJr93DIRviSZrl/9ZBz8v0TJ7fTdNOVSHX1o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/hyperspace.qn23a7izsn.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\hyperspace.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qn23a7izsn"},{"Name":"integrity","Value":"sha256-Ntbm2/BiJr93DIRviSZrl/9ZBz8v0TJ7fTdNOVSHX1o="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/hyperspace.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"669935"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Ntbm2/BiJr93DIRviSZrl/9ZBz8v0TJ7fTdNOVSHX1o=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/ikigai.l53bkap374.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\ikigai.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l53bkap374"},{"Name":"integrity","Value":"sha256-uTAdxdAh5s0sTkXBvSQg/P4\u002Bd2KYar5DxwxWoWcsZOQ="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/ikigai.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"766973"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022uTAdxdAh5s0sTkXBvSQg/P4\u002Bd2KYar5DxwxWoWcsZOQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/ikigai.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\ikigai.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uTAdxdAh5s0sTkXBvSQg/P4\u002Bd2KYar5DxwxWoWcsZOQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"766973"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022uTAdxdAh5s0sTkXBvSQg/P4\u002Bd2KYar5DxwxWoWcsZOQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/introduction-to-algorithms.9cgmcty3w3.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\introduction-to-algorithms.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9cgmcty3w3"},{"Name":"integrity","Value":"sha256-xwMhBcA\u002BYAG18IRS8IvI5cKP7SgOWkiIlpMlUpNmW34="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/introduction-to-algorithms.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"181204"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022xwMhBcA\u002BYAG18IRS8IvI5cKP7SgOWkiIlpMlUpNmW34=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/introduction-to-algorithms.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\introduction-to-algorithms.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xwMhBcA\u002BYAG18IRS8IvI5cKP7SgOWkiIlpMlUpNmW34="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"181204"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022xwMhBcA\u002BYAG18IRS8IvI5cKP7SgOWkiIlpMlUpNmW34=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/man-search-for-meaning.mar0gazvn6.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\man-search-for-meaning.pdf'))</AssetFile>
@@ -84,6 +240,78 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jx\u002BU\u002Bqh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2998146"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022Jx\u002BU\u002Bqh6Sf4C4FcA13iJY0XD3uzPfde/CArmyCl5wPk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/rich-dad-poor-dad.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\rich-dad-poor-dad.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QtO3PDc9tA/a3CbcKaGYP3fFqYzHfFGjq3hMfg7VUTQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"283336"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022QtO3PDc9tA/a3CbcKaGYP3fFqYzHfFGjq3hMfg7VUTQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/rich-dad-poor-dad.q5n6aq8kxa.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\rich-dad-poor-dad.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q5n6aq8kxa"},{"Name":"integrity","Value":"sha256-QtO3PDc9tA/a3CbcKaGYP3fFqYzHfFGjq3hMfg7VUTQ="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/rich-dad-poor-dad.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"283336"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022QtO3PDc9tA/a3CbcKaGYP3fFqYzHfFGjq3hMfg7VUTQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/sapiens.hmb615vl5r.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\sapiens.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hmb615vl5r"},{"Name":"integrity","Value":"sha256-WYUCUs3r\u002BYpU5q7W5debhm5BPjolrX\u002B96E09yoGUa5w="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/sapiens.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"104918"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022WYUCUs3r\u002BYpU5q7W5debhm5BPjolrX\u002B96E09yoGUa5w=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/sapiens.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\sapiens.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WYUCUs3r\u002BYpU5q7W5debhm5BPjolrX\u002B96E09yoGUa5w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"104918"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022WYUCUs3r\u002BYpU5q7W5debhm5BPjolrX\u002B96E09yoGUa5w=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/sherlock-holmes.e3y5lzumur.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\sherlock-holmes.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e3y5lzumur"},{"Name":"integrity","Value":"sha256-JsP1kD4zFVL3U23oUbT/899OvmNv6ful\u002B5l7Oqo27GY="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/sherlock-holmes.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"107381"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022JsP1kD4zFVL3U23oUbT/899OvmNv6ful\u002B5l7Oqo27GY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/sherlock-holmes.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\sherlock-holmes.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JsP1kD4zFVL3U23oUbT/899OvmNv6ful\u002B5l7Oqo27GY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"107381"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022JsP1kD4zFVL3U23oUbT/899OvmNv6ful\u002B5l7Oqo27GY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the compound-effect.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the compound-effect.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XpFQ0I89ykwMFz3NgKRsmrVvaNCtBf5hWNdn0J1JjLY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"288903"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022XpFQ0I89ykwMFz3NgKRsmrVvaNCtBf5hWNdn0J1JjLY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the compound-effect.yfioizihg3.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the compound-effect.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yfioizihg3"},{"Name":"integrity","Value":"sha256-XpFQ0I89ykwMFz3NgKRsmrVvaNCtBf5hWNdn0J1JjLY="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the compound-effect.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"288903"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022XpFQ0I89ykwMFz3NgKRsmrVvaNCtBf5hWNdn0J1JjLY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-48-laws-of-power.8k3bot698b.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-48-laws-of-power.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8k3bot698b"},{"Name":"integrity","Value":"sha256-yDKSZk4dLxwPicCERJx6IgZwtsokku6b5pxrr0TLGW8="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-48-laws-of-power.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"118157"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yDKSZk4dLxwPicCERJx6IgZwtsokku6b5pxrr0TLGW8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-48-laws-of-power.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-48-laws-of-power.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yDKSZk4dLxwPicCERJx6IgZwtsokku6b5pxrr0TLGW8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"118157"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yDKSZk4dLxwPicCERJx6IgZwtsokku6b5pxrr0TLGW8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-alchemist.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-alchemist.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y9JMpqZoqxrF0YHzv95JNEmH1hk8JAhAY6YBt5lItXA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"463852"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022y9JMpqZoqxrF0YHzv95JNEmH1hk8JAhAY6YBt5lItXA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-alchemist.tq35rc23fd.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-alchemist.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tq35rc23fd"},{"Name":"integrity","Value":"sha256-y9JMpqZoqxrF0YHzv95JNEmH1hk8JAhAY6YBt5lItXA="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-alchemist.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"463852"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022y9JMpqZoqxrF0YHzv95JNEmH1hk8JAhAY6YBt5lItXA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-courage-to-be-disliked.l8rqdcmb9z.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-courage-to-be-disliked.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -95,6 +323,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-m/YiHwnVWlrn6\u002Bxjb2GERIUhTCDA7MPOVzPwuKFZrfs="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"294775"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022m/YiHwnVWlrn6\u002Bxjb2GERIUhTCDA7MPOVzPwuKFZrfs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-history-book.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-history-book.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j64//UddUTQNwMolqaZsl8T1bDl09Ho1kSYlc23Z5sk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3677860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022j64//UddUTQNwMolqaZsl8T1bDl09Ho1kSYlc23Z5sk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-history-book.vwnqvp7ba6.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-history-book.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vwnqvp7ba6"},{"Name":"integrity","Value":"sha256-j64//UddUTQNwMolqaZsl8T1bDl09Ho1kSYlc23Z5sk="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-history-book.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3677860"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022j64//UddUTQNwMolqaZsl8T1bDl09Ho1kSYlc23Z5sk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-hobbit.8z3qedkk8d.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-hobbit.pdf'))</AssetFile>
@@ -108,6 +348,42 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"388359"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022pPj5hy1NvuxE2IHvrq3K90xpokCPzfYC3zyqfVUxeh8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-intelligent-investor.dhpjydn1h4.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-intelligent-investor.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dhpjydn1h4"},{"Name":"integrity","Value":"sha256-wW0JmEZcfggHqQx6UhOxOgMbvN7Ff3UOIX4MSg0YOzo="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-intelligent-investor.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"205064"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022wW0JmEZcfggHqQx6UhOxOgMbvN7Ff3UOIX4MSg0YOzo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-intelligent-investor.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-intelligent-investor.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wW0JmEZcfggHqQx6UhOxOgMbvN7Ff3UOIX4MSg0YOzo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"205064"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022wW0JmEZcfggHqQx6UhOxOgMbvN7Ff3UOIX4MSg0YOzo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-little-prince.f0s9vjim98.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-little-prince.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f0s9vjim98"},{"Name":"integrity","Value":"sha256-8b6yB2wsPtCyzCUTZsvhjKn2kzh/ia9sGvx9hbyH5nY="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-little-prince.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"171335"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00228b6yB2wsPtCyzCUTZsvhjKn2kzh/ia9sGvx9hbyH5nY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-little-prince.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-little-prince.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8b6yB2wsPtCyzCUTZsvhjKn2kzh/ia9sGvx9hbyH5nY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"171335"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00228b6yB2wsPtCyzCUTZsvhjKn2kzh/ia9sGvx9hbyH5nY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-memory-man.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-memory-man.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0qTqprOHJhEVztO6G4JMHyitq9Gki17\u002BQdnVFlNt4Ag="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"488615"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00220qTqprOHJhEVztO6G4JMHyitq9Gki17\u002BQdnVFlNt4Ag=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-memory-man.u151xxfs07.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-memory-man.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u151xxfs07"},{"Name":"integrity","Value":"sha256-0qTqprOHJhEVztO6G4JMHyitq9Gki17\u002BQdnVFlNt4Ag="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-memory-man.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"488615"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00220qTqprOHJhEVztO6G4JMHyitq9Gki17\u002BQdnVFlNt4Ag=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-midnight-library.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-midnight-library.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -119,6 +395,66 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"scvmj7ysqg"},{"Name":"integrity","Value":"sha256-PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-midnight-library.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"178068"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022PNf6T4A2N6Fn7Cq0iqYXrg8mx4nWZ4J2BrWDk0EC9uM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 02:38:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-mountain-is-you.i5xj13th22.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-mountain-is-you.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i5xj13th22"},{"Name":"integrity","Value":"sha256-lsuoywH6OT13eRHxGihP2xuhfnG2XRn240qw7AnJsYM="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-mountain-is-you.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"425146"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022lsuoywH6OT13eRHxGihP2xuhfnG2XRn240qw7AnJsYM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-mountain-is-you.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-mountain-is-you.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lsuoywH6OT13eRHxGihP2xuhfnG2XRn240qw7AnJsYM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"425146"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022lsuoywH6OT13eRHxGihP2xuhfnG2XRn240qw7AnJsYM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-psychology-of-money.bfy62yqi6w.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-psychology-of-money.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bfy62yqi6w"},{"Name":"integrity","Value":"sha256-xx3w1dGpWWl12B2eosq318ApFHD3cB24MKuaKeaFFCU="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-psychology-of-money.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"758558"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022xx3w1dGpWWl12B2eosq318ApFHD3cB24MKuaKeaFFCU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-psychology-of-money.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-psychology-of-money.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xx3w1dGpWWl12B2eosq318ApFHD3cB24MKuaKeaFFCU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"758558"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022xx3w1dGpWWl12B2eosq318ApFHD3cB24MKuaKeaFFCU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-universe-in-a-nutshell.5696blvx9w.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-universe-in-a-nutshell.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5696blvx9w"},{"Name":"integrity","Value":"sha256-E/1vQcmHDHWIPWXgaIU/UIGEd\u002BrfvyxKtrtckIh5DDU="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/the-universe-in-a-nutshell.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1080562"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022E/1vQcmHDHWIPWXgaIU/UIGEd\u002BrfvyxKtrtckIh5DDU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/the-universe-in-a-nutshell.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\the-universe-in-a-nutshell.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E/1vQcmHDHWIPWXgaIU/UIGEd\u002BrfvyxKtrtckIh5DDU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1080562"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022E/1vQcmHDHWIPWXgaIU/UIGEd\u002BrfvyxKtrtckIh5DDU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/think-and-grow-rich.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\think-and-grow-rich.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3kR1yfA/JEacrwmE9Pph\u002BbL8DFRbZ5uWmYwF3\u002B/t9uE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"427740"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00223kR1yfA/JEacrwmE9Pph\u002BbL8DFRbZ5uWmYwF3\u002B/t9uE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/think-and-grow-rich.yo6lms66uk.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\think-and-grow-rich.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yo6lms66uk"},{"Name":"integrity","Value":"sha256-3kR1yfA/JEacrwmE9Pph\u002BbL8DFRbZ5uWmYwF3\u002B/t9uE="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/think-and-grow-rich.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"427740"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00223kR1yfA/JEacrwmE9Pph\u002BbL8DFRbZ5uWmYwF3\u002B/t9uE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/zero-to-one.1o1y8tjkyq.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\zero-to-one.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1o1y8tjkyq"},{"Name":"integrity","Value":"sha256-D/dgxFjRV1/IJ5SY4vuTGQpruWzEjjTF\u002BBQ8hkjXDak="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/books/zero-to-one.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1692549"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022D/dgxFjRV1/IJ5SY4vuTGQpruWzEjjTF\u002BBQ8hkjXDak=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/books/zero-to-one.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\books\zero-to-one.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-D/dgxFjRV1/IJ5SY4vuTGQpruWzEjjTF\u002BBQ8hkjXDak="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1692549"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022D/dgxFjRV1/IJ5SY4vuTGQpruWzEjjTF\u002BBQ8hkjXDak=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:47:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/icon/admin-icon-1.avif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\icon\admin-icon-1.avif'))</AssetFile>
@@ -180,6 +516,66 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5\u002B/kF6xy6sOIvkiJRqnjpcGoDb5F\u002BMa4rskr/y6xjJs="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"167219"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00225\u002B/kF6xy6sOIvkiJRqnjpcGoDb5F\u002BMa4rskr/y6xjJs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 10:14:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/a-brief-history-of-time-cover.7s1b19c3ki.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\a-brief-history-of-time-cover.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7s1b19c3ki"},{"Name":"integrity","Value":"sha256-OT0jW5qVaq3j3BMGzU9\u002B66bq9nRNzEDZ\u002BYVvYqSRU9w="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/a-brief-history-of-time-cover.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"994821"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OT0jW5qVaq3j3BMGzU9\u002B66bq9nRNzEDZ\u002BYVvYqSRU9w=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:33:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/a-brief-history-of-time-cover.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\a-brief-history-of-time-cover.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OT0jW5qVaq3j3BMGzU9\u002B66bq9nRNzEDZ\u002BYVvYqSRU9w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"994821"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OT0jW5qVaq3j3BMGzU9\u002B66bq9nRNzEDZ\u002BYVvYqSRU9w=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:33:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/a-gentle-reminder-cover.gog5whms59.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\a-gentle-reminder-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gog5whms59"},{"Name":"integrity","Value":"sha256-sEcwsIB63Ad8i6/ctGvoWROtvKwUysSg94r8Jd38ObM="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/a-gentle-reminder-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16950"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022sEcwsIB63Ad8i6/ctGvoWROtvKwUysSg94r8Jd38ObM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:25:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/a-gentle-reminder-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\a-gentle-reminder-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sEcwsIB63Ad8i6/ctGvoWROtvKwUysSg94r8Jd38ObM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"16950"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022sEcwsIB63Ad8i6/ctGvoWROtvKwUysSg94r8Jd38ObM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:25:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/algorithms-to-live-by-cover.4s1qwwjrub.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\algorithms-to-live-by-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4s1qwwjrub"},{"Name":"integrity","Value":"sha256-fOTrM/yu\u002BNeN4Ma5Jen8Nh7KujYyAabZdRQda8avBOE="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/algorithms-to-live-by-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29958"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fOTrM/yu\u002BNeN4Ma5Jen8Nh7KujYyAabZdRQda8avBOE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:20:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/algorithms-to-live-by-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\algorithms-to-live-by-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fOTrM/yu\u002BNeN4Ma5Jen8Nh7KujYyAabZdRQda8avBOE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29958"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fOTrM/yu\u002BNeN4Ma5Jen8Nh7KujYyAabZdRQda8avBOE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:20:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/art-of-war-cover.ebo1gxtdta.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\art-of-war-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ebo1gxtdta"},{"Name":"integrity","Value":"sha256-pori6eAgDaaFkIYE5oRGV8VosmD9aGqbn2hhiqz6HOQ="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/art-of-war-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50384"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pori6eAgDaaFkIYE5oRGV8VosmD9aGqbn2hhiqz6HOQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/art-of-war-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\art-of-war-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pori6eAgDaaFkIYE5oRGV8VosmD9aGqbn2hhiqz6HOQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50384"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pori6eAgDaaFkIYE5oRGV8VosmD9aGqbn2hhiqz6HOQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/asp-net-core-in-action-cover.6292ok5a3w.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\asp-net-core-in-action-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6292ok5a3w"},{"Name":"integrity","Value":"sha256-oq01NaBACFiABREhA5t0EYIYOg\u002B1z9pu\u002BHMQAeh/T50="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/asp-net-core-in-action-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28280"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oq01NaBACFiABREhA5t0EYIYOg\u002B1z9pu\u002BHMQAeh/T50=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:34:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/asp-net-core-in-action-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\asp-net-core-in-action-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oq01NaBACFiABREhA5t0EYIYOg\u002B1z9pu\u002BHMQAeh/T50="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28280"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oq01NaBACFiABREhA5t0EYIYOg\u002B1z9pu\u002BHMQAeh/T50=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:34:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/atomic-habits-cover.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\atomic-habits-cover.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -204,6 +600,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"krawnp1oi9"},{"Name":"integrity","Value":"sha256-gHZ2q5hk0X2ufVz0PDPYhBxlSaY7KmytYr3lsa7BB6I="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/automate-the-boring-stuff-with-python-cover.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"43572"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gHZ2q5hk0X2ufVz0PDPYhBxlSaY7KmytYr3lsa7BB6I=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:11:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/biochemistry-cover.d4juqoy31o.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\biochemistry-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d4juqoy31o"},{"Name":"integrity","Value":"sha256-s6mU6Vy1oN2if38YC5caltBn\u002BJ5XFwNbOBWu27TG8rU="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/biochemistry-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"33434"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022s6mU6Vy1oN2if38YC5caltBn\u002BJ5XFwNbOBWu27TG8rU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:39:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/biochemistry-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\biochemistry-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-s6mU6Vy1oN2if38YC5caltBn\u002BJ5XFwNbOBWu27TG8rU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"33434"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022s6mU6Vy1oN2if38YC5caltBn\u002BJ5XFwNbOBWu27TG8rU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:39:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/cosmos-cover.8a04ub1x03.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\cosmos-cover.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -216,6 +624,90 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cBSanikmfBtOzObkBqtUPHi9Ps\u002B39E2KI12ptRFqBSM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62735"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cBSanikmfBtOzObkBqtUPHi9Ps\u002B39E2KI12ptRFqBSM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:18:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/cracking-the-coding-interview-cover.2dfg04iwhr.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\cracking-the-coding-interview-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2dfg04iwhr"},{"Name":"integrity","Value":"sha256-xmGKICg/mM93PggQnzbbSH57WeNhBh0K8jQto/Qz1oc="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/cracking-the-coding-interview-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38341"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xmGKICg/mM93PggQnzbbSH57WeNhBh0K8jQto/Qz1oc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:14:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/cracking-the-coding-interview-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\cracking-the-coding-interview-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xmGKICg/mM93PggQnzbbSH57WeNhBh0K8jQto/Qz1oc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"38341"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xmGKICg/mM93PggQnzbbSH57WeNhBh0K8jQto/Qz1oc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:14:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/data-science-from-scratch-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\data-science-from-scratch-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gGHLGZM52RQ95KwrTj176aJuQIrVvCAjV7Hf8x4W84w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"30974"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gGHLGZM52RQ95KwrTj176aJuQIrVvCAjV7Hf8x4W84w=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:36:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/data-science-from-scratch-cover.sxk2nto0yn.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\data-science-from-scratch-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sxk2nto0yn"},{"Name":"integrity","Value":"sha256-gGHLGZM52RQ95KwrTj176aJuQIrVvCAjV7Hf8x4W84w="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/data-science-from-scratch-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30974"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gGHLGZM52RQ95KwrTj176aJuQIrVvCAjV7Hf8x4W84w=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:36:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/ego-is-the-enemy-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\ego-is-the-enemy-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M3DELIFtND8FaQbeTU4ajnybA3g7Ogps/ezZzvS/OF0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28159"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022M3DELIFtND8FaQbeTU4ajnybA3g7Ogps/ezZzvS/OF0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:31:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/ego-is-the-enemy-cover.njz5xzo2gm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\ego-is-the-enemy-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"njz5xzo2gm"},{"Name":"integrity","Value":"sha256-M3DELIFtND8FaQbeTU4ajnybA3g7Ogps/ezZzvS/OF0="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/ego-is-the-enemy-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28159"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022M3DELIFtND8FaQbeTU4ajnybA3g7Ogps/ezZzvS/OF0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:31:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/grokking-deep-learning-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\grokking-deep-learning-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-s4sDQ\u002Bib7mx6X8bU9IPNCoMeeSxaCCwW3gxlvhGkheo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"43920"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022s4sDQ\u002Bib7mx6X8bU9IPNCoMeeSxaCCwW3gxlvhGkheo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:31:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/grokking-deep-learning-cover.v1j9vpcinf.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\grokking-deep-learning-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v1j9vpcinf"},{"Name":"integrity","Value":"sha256-s4sDQ\u002Bib7mx6X8bU9IPNCoMeeSxaCCwW3gxlvhGkheo="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/grokking-deep-learning-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"43920"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022s4sDQ\u002Bib7mx6X8bU9IPNCoMeeSxaCCwW3gxlvhGkheo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:31:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/hyperspace-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\hyperspace-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cGcFqMqI3hfMsZQ66Rs6P9aimWvTSqY8/91sTKm5WZs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"52746"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cGcFqMqI3hfMsZQ66Rs6P9aimWvTSqY8/91sTKm5WZs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:29:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/hyperspace-cover.k78gvzep1u.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\hyperspace-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k78gvzep1u"},{"Name":"integrity","Value":"sha256-cGcFqMqI3hfMsZQ66Rs6P9aimWvTSqY8/91sTKm5WZs="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/hyperspace-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"52746"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cGcFqMqI3hfMsZQ66Rs6P9aimWvTSqY8/91sTKm5WZs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:29:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/ikigai-cover.aos6z1a90l.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\ikigai-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aos6z1a90l"},{"Name":"integrity","Value":"sha256-VqJEV7dR/6bfobmOX3TtMl2pnmtOErZkAvJHAbxCjDI="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/ikigai-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35783"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VqJEV7dR/6bfobmOX3TtMl2pnmtOErZkAvJHAbxCjDI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:24:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/ikigai-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\ikigai-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VqJEV7dR/6bfobmOX3TtMl2pnmtOErZkAvJHAbxCjDI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"35783"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VqJEV7dR/6bfobmOX3TtMl2pnmtOErZkAvJHAbxCjDI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:24:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/introduction-to-algorithms-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\introduction-to-algorithms-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nBk5l\u002Bvg76bWKezAjK8uqAvq4QjTqWpiPYfyhJtkUig="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23367"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nBk5l\u002Bvg76bWKezAjK8uqAvq4QjTqWpiPYfyhJtkUig=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:33:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/introduction-to-algorithms-cover.syow82p32a.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\introduction-to-algorithms-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"syow82p32a"},{"Name":"integrity","Value":"sha256-nBk5l\u002Bvg76bWKezAjK8uqAvq4QjTqWpiPYfyhJtkUig="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/introduction-to-algorithms-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23367"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nBk5l\u002Bvg76bWKezAjK8uqAvq4QjTqWpiPYfyhJtkUig=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:33:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/man-search-for-meaning-cover.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\man-search-for-meaning-cover.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -227,6 +719,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pqufs49pr9"},{"Name":"integrity","Value":"sha256-n7rhp7nTS2n3Qb7QDXYuoyhz1OzVaMd/m5rIxQe2Z3o="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/man-search-for-meaning-cover.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37259"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022n7rhp7nTS2n3Qb7QDXYuoyhz1OzVaMd/m5rIxQe2Z3o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:20:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/memory-man-cover.5lhjyx3u82.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\memory-man-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5lhjyx3u82"},{"Name":"integrity","Value":"sha256-yRUtsJq1yENnj0cZRMtGrrds5c3nFBlRrpKnXeil81Q="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/memory-man-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"46843"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yRUtsJq1yENnj0cZRMtGrrds5c3nFBlRrpKnXeil81Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:15:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/memory-man-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\memory-man-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yRUtsJq1yENnj0cZRMtGrrds5c3nFBlRrpKnXeil81Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"46843"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yRUtsJq1yENnj0cZRMtGrrds5c3nFBlRrpKnXeil81Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:15:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/philosophy-101-cover.4v1dm10ole.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\philosophy-101-cover.jpg'))</AssetFile>
@@ -264,6 +768,78 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lzsiiy8gzp"},{"Name":"integrity","Value":"sha256-Qf3H0sXNnQAW1OYTloBA1ffyJYKX/Q\u002BbK7CMs0ciPgk="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/quantum-supremacy-cover.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50428"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Qf3H0sXNnQAW1OYTloBA1ffyJYKX/Q\u002BbK7CMs0ciPgk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:19:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/rich-dad-poor-dad-cover.hh7op69xo8.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\rich-dad-poor-dad-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hh7op69xo8"},{"Name":"integrity","Value":"sha256-G2NIVH5U1iOGyY/g8cbkPsNafOPACySJF4j/fw2Fo0s="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/rich-dad-poor-dad-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"48319"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022G2NIVH5U1iOGyY/g8cbkPsNafOPACySJF4j/fw2Fo0s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:42:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/rich-dad-poor-dad-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\rich-dad-poor-dad-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G2NIVH5U1iOGyY/g8cbkPsNafOPACySJF4j/fw2Fo0s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"48319"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022G2NIVH5U1iOGyY/g8cbkPsNafOPACySJF4j/fw2Fo0s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:42:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/sapiens-cover.0q6vy3woic.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\sapiens-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0q6vy3woic"},{"Name":"integrity","Value":"sha256-OH6IaCl7pVKek5lkBEiojaieHqPbEVm\u002B8hudPIF2Vvo="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/sapiens-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34157"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OH6IaCl7pVKek5lkBEiojaieHqPbEVm\u002B8hudPIF2Vvo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:10:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/sapiens-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\sapiens-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OH6IaCl7pVKek5lkBEiojaieHqPbEVm\u002B8hudPIF2Vvo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34157"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OH6IaCl7pVKek5lkBEiojaieHqPbEVm\u002B8hudPIF2Vvo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:10:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/sherlock-holmes-cover.7du0d39hds.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\sherlock-holmes-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7du0d39hds"},{"Name":"integrity","Value":"sha256-RX0LfKzGbXyCgqu6OattVRnlUsyHlYAfxZSW3gv6YoQ="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/sherlock-holmes-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50172"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RX0LfKzGbXyCgqu6OattVRnlUsyHlYAfxZSW3gv6YoQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:17:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/sherlock-holmes-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\sherlock-holmes-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RX0LfKzGbXyCgqu6OattVRnlUsyHlYAfxZSW3gv6YoQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50172"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RX0LfKzGbXyCgqu6OattVRnlUsyHlYAfxZSW3gv6YoQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:17:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-48-laws-of-power-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-48-laws-of-power-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9wtNHWK/REAdL4C0IaxmQn5wD05kCmSygQLNvYzc5Nk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"21547"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wtNHWK/REAdL4C0IaxmQn5wD05kCmSygQLNvYzc5Nk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:16:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-48-laws-of-power-cover.jt9h4jddvx.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-48-laws-of-power-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jt9h4jddvx"},{"Name":"integrity","Value":"sha256-9wtNHWK/REAdL4C0IaxmQn5wD05kCmSygQLNvYzc5Nk="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-48-laws-of-power-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"21547"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wtNHWK/REAdL4C0IaxmQn5wD05kCmSygQLNvYzc5Nk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:16:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-alchemist-cover.0m1m7of9x5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-alchemist-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0m1m7of9x5"},{"Name":"integrity","Value":"sha256-WFcGR8c5sG/E9RIW4Oce4vUDndbmKxWH7GET9mzkVaM="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-alchemist-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49712"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022WFcGR8c5sG/E9RIW4Oce4vUDndbmKxWH7GET9mzkVaM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:19:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-alchemist-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-alchemist-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WFcGR8c5sG/E9RIW4Oce4vUDndbmKxWH7GET9mzkVaM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49712"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022WFcGR8c5sG/E9RIW4Oce4vUDndbmKxWH7GET9mzkVaM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:19:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-compound-effect-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-compound-effect-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9MCErHdZejqcsOj22GwFC6NwbRLyBo7MCQWAWDn/xt4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37992"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229MCErHdZejqcsOj22GwFC6NwbRLyBo7MCQWAWDn/xt4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:41:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-compound-effect-cover.s0v8w091bg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-compound-effect-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s0v8w091bg"},{"Name":"integrity","Value":"sha256-9MCErHdZejqcsOj22GwFC6NwbRLyBo7MCQWAWDn/xt4="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-compound-effect-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37992"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229MCErHdZejqcsOj22GwFC6NwbRLyBo7MCQWAWDn/xt4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:41:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-courage-to-be-disliked-cover.1gadw40rqu.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-courage-to-be-disliked-cover.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -275,6 +851,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IebKI4xWhFJRm05PWbCHMHMVZ0LyYcS3wv7ai5DvPzU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25147"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IebKI4xWhFJRm05PWbCHMHMVZ0LyYcS3wv7ai5DvPzU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:09:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-history-book-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-history-book-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002Bs/BClmeCRSyB36iZw4ozFlGzqFeed4a5cP\u002BT0d6gU4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"57487"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002Bs/BClmeCRSyB36iZw4ozFlGzqFeed4a5cP\u002BT0d6gU4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:38:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-history-book-cover.uiilrtlweh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-history-book-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uiilrtlweh"},{"Name":"integrity","Value":"sha256-\u002Bs/BClmeCRSyB36iZw4ozFlGzqFeed4a5cP\u002BT0d6gU4="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-history-book-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"57487"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002Bs/BClmeCRSyB36iZw4ozFlGzqFeed4a5cP\u002BT0d6gU4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:38:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-hobbit-cover.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-hobbit-cover.jpg'))</AssetFile>
@@ -288,6 +876,30 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rm1q77dn0w"},{"Name":"integrity","Value":"sha256-PQL0f0rrdfPUcQu5RSowbhtmmkT2KsX\u002BHcaCWsObLyc="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-hobbit-cover.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"57592"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PQL0f0rrdfPUcQu5RSowbhtmmkT2KsX\u002BHcaCWsObLyc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:17:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-intelligent-investor-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-intelligent-investor-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PQ8NYpl3bONz2ZCA3/gTU3vukDNSd3p5N/WWzBSez4s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"35503"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PQ8NYpl3bONz2ZCA3/gTU3vukDNSd3p5N/WWzBSez4s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:21:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-intelligent-investor-cover.l26mz5pe70.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-intelligent-investor-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l26mz5pe70"},{"Name":"integrity","Value":"sha256-PQ8NYpl3bONz2ZCA3/gTU3vukDNSd3p5N/WWzBSez4s="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-intelligent-investor-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35503"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PQ8NYpl3bONz2ZCA3/gTU3vukDNSd3p5N/WWzBSez4s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:21:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-little-prince-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-little-prince-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-a3G5R8XuPRkZNzBsg2Ol1CohSLKBvopMX/JCNKb5Yuo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44877"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022a3G5R8XuPRkZNzBsg2Ol1CohSLKBvopMX/JCNKb5Yuo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:26:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-little-prince-cover.ze9jr4b628.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-little-prince-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ze9jr4b628"},{"Name":"integrity","Value":"sha256-a3G5R8XuPRkZNzBsg2Ol1CohSLKBvopMX/JCNKb5Yuo="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-little-prince-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44877"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022a3G5R8XuPRkZNzBsg2Ol1CohSLKBvopMX/JCNKb5Yuo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:26:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-midnight-library-cover.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-midnight-library-cover.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -299,6 +911,66 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"njey8ztt20"},{"Name":"integrity","Value":"sha256-3f0xg1mMOT\u002Bman5b0PqxFgVsak08f9F63ZtceE1NxOs="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-midnight-library-cover.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"51784"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223f0xg1mMOT\u002Bman5b0PqxFgVsak08f9F63ZtceE1NxOs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 10:13:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-mountain-is-you-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-mountain-is-you-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gj6zQIyjRimnF11VGy9s/DDAgILXf2cC2Wscr0paDk4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17076"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gj6zQIyjRimnF11VGy9s/DDAgILXf2cC2Wscr0paDk4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:22:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-mountain-is-you-cover.qt5087qyx6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-mountain-is-you-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qt5087qyx6"},{"Name":"integrity","Value":"sha256-gj6zQIyjRimnF11VGy9s/DDAgILXf2cC2Wscr0paDk4="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-mountain-is-you-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17076"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gj6zQIyjRimnF11VGy9s/DDAgILXf2cC2Wscr0paDk4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:22:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-psychology-of-money-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-psychology-of-money-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5M9k9wOhavbpLl5VXb90ZGbWVpryJN4Rj3hOpyRyHrw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"40125"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225M9k9wOhavbpLl5VXb90ZGbWVpryJN4Rj3hOpyRyHrw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:17:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-psychology-of-money-cover.ol5fip5n6g.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-psychology-of-money-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ol5fip5n6g"},{"Name":"integrity","Value":"sha256-5M9k9wOhavbpLl5VXb90ZGbWVpryJN4Rj3hOpyRyHrw="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-psychology-of-money-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40125"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225M9k9wOhavbpLl5VXb90ZGbWVpryJN4Rj3hOpyRyHrw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:17:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-universe-in-a-nutshell-cover.9w0crcg1ds.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-universe-in-a-nutshell-cover.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9w0crcg1ds"},{"Name":"integrity","Value":"sha256-d4WHYC4sZ1TepE3zwL0CJezndroX1tnAa7GEvPV80Fk="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/the-universe-in-a-nutshell-cover.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"497438"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022d4WHYC4sZ1TepE3zwL0CJezndroX1tnAa7GEvPV80Fk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:28:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/the-universe-in-a-nutshell-cover.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\the-universe-in-a-nutshell-cover.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4WHYC4sZ1TepE3zwL0CJezndroX1tnAa7GEvPV80Fk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"497438"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022d4WHYC4sZ1TepE3zwL0CJezndroX1tnAa7GEvPV80Fk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:28:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/think-and-grow-rich-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\think-and-grow-rich-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9p2FPHjGdTeBj1u2axmquTlsBv97aEkeCcvf2RAON\u002BY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47259"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229p2FPHjGdTeBj1u2axmquTlsBv97aEkeCcvf2RAON\u002BY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:44:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/think-and-grow-rich-cover.yyy8fwp2ag.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\think-and-grow-rich-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yyy8fwp2ag"},{"Name":"integrity","Value":"sha256-9p2FPHjGdTeBj1u2axmquTlsBv97aEkeCcvf2RAON\u002BY="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/think-and-grow-rich-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47259"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229p2FPHjGdTeBj1u2axmquTlsBv97aEkeCcvf2RAON\u002BY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 06:44:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/zero-to-one-cover.dbunscc6p2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\zero-to-one-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dbunscc6p2"},{"Name":"integrity","Value":"sha256-x3pW4dxJDMOedRooPkPiNSX8SPpAJdJ3hz7f3RU8wbI="},{"Name":"label","Value":"_content/MvcReadMe_Group4/assets/img/covers/zero-to-one-cover.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38182"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022x3pW4dxJDMOedRooPkPiNSX8SPpAJdJ3hz7f3RU8wbI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:22:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/img/covers/zero-to-one-cover.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\img\covers\zero-to-one-cover.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x3pW4dxJDMOedRooPkPiNSX8SPpAJdJ3hz7f3RU8wbI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"38182"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022x3pW4dxJDMOedRooPkPiNSX8SPpAJdJ3hz7f3RU8wbI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 16:22:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MvcReadMe_Group4/assets/logos/aspnet.a95u5utf8l.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\logos\aspnet.png'))</AssetFile>

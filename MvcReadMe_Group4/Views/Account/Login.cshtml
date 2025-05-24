@@ -92,13 +92,13 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(45deg, rgba(64, 143, 247, 0.12), rgba(96, 165, 250, 0.12)); /* Slightly increased blue overlay */
+            background: linear-gradient(45deg, rgba(64, 143, 247, 0.12), rgba(96, 165, 250, 0.12));
             z-index: 0;
         }
 
     .login-form-section {
         flex: 1;
-        background-color: rgba(15, 23, 42, 0.97); /* Slightly increased opacity */
+        background-color: rgba(15, 23, 42, 0.97);
         padding: 60px;
         display: flex;
         flex-direction: column;
@@ -170,8 +170,8 @@
 
     input[type="text"],
     input[type="password"] {
-        background-color: rgba(30, 41, 59, 0.75); /* Slightly increased opacity */
-        border: 1px solid rgba(64, 143, 247, 0.32); /* Slightly increased border visibility */
+        background-color: rgba(30, 41, 59, 0.75); 
+        border: 1px solid rgba(64, 143, 247, 0.32); 
         border-radius: 8px;
         padding: 12px 16px;
         font-size: 1rem;
@@ -183,9 +183,9 @@
 
         input[type="text"]:focus,
         input[type="password"]:focus {
-            background-color: rgba(51, 65, 85, 0.75); /* Slightly increased opacity */
-            border-color: rgba(64, 143, 247, 0.42); /* Slightly increased focus visibility */
-            box-shadow: 0 0 6px 2px rgba(64, 143, 247, 0.22); /* Slightly increased glow */
+            background-color: rgba(51, 65, 85, 0.75); 
+            border-color: rgba(64, 143, 247, 0.42); 
+            box-shadow: 0 0 6px 2px rgba(64, 143, 247, 0.22); 
         }
 
     .password-toggle {
@@ -236,7 +236,7 @@
     }
 
     button[type="submit"] {
-        background: linear-gradient(45deg, rgba(59, 130, 246, 0.6), rgba(96, 165, 250, 0.6)); /* Slightly deeper and less saturated */
+        background: linear-gradient(45deg, rgba(59, 130, 246, 0.6), rgba(96, 165, 250, 0.6)); 
         color: white;
         font-size: 1.15rem;
         font-weight: 600;
@@ -251,13 +251,13 @@
     }
 
         button[type="submit"]:hover {
-            background: linear-gradient(45deg, rgba(96, 165, 250, 0.85), rgba(59, 130, 246, 0.85)); /* Slightly deeper and less saturated */
+            background: linear-gradient(45deg, rgba(96, 165, 250, 0.85), rgba(59, 130, 246, 0.85));
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
         }
 
     .forgot-password {
-        display: none; /* Hide the forgot password link */
+        display: none;
     }
 
     .waves {
@@ -280,17 +280,16 @@
         <h2>Welcome to ReadMe</h2>
         <p class="subtitle">
             Unlock a growing collection of ideas, perspectives, and possibilities designed to feed your curiosity.
-        </p> @* User's manual change *@
-        @* Add any other elements for the left section here, like an image or illustration if desired *@
+        </p>
+        
     </div>
 
     <div class="login-form-section">
-        @* The form was previously inside the login-card directly, now it's inside login-form-section *@
         <form asp-controller="Account" asp-action="Login" method="post">
             <div asp-validation-summary="ModelOnly" class="validation-summary-errors"></div>
 
             <div class="form-group">
-                <label asp-for="UserName">Email</label>
+                <label asp-for="UserName">Username</label>
                 <div class="input-wrapper">
                     <input asp-for="UserName" autocomplete="username" />
                 </div>
@@ -302,7 +301,7 @@
                 <div class="input-wrapper">
                     <input asp-for="Password" type="password" autocomplete="current-password" id="password-input" />
                     <button type="button" class="password-toggle" id="password-toggle">
-                        <i class="fas fa-eye"></i> <!-- Requires Font Awesome -->
+                        <i class="fas fa-eye"></i>
                     </button>
                 </div>
                 <span asp-validation-for="Password" class="text-danger"></span>
@@ -310,12 +309,9 @@
 
             <button type="submit">LOGIN</button>
 
-            @* Removed Forgot your password link as requested *@
-
         </form>
     </div>
 
-    @* The waves are positioned absolutely within the login-card, so they should adapt to the new width and height *@
     <div class="waves"></div>
 
 </div>
@@ -323,6 +319,7 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
     <script>
+        // Script for toggle show or hide password
         document.addEventListener('DOMContentLoaded', function () {
             const passwordInput = document.getElementById('password-input');
             const passwordToggle = document.getElementById('password-toggle');
@@ -332,7 +329,6 @@
                 const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
                 passwordInput.setAttribute('type', type);
 
-                // Toggle eye icon class (requires Font Awesome)
                 if (type === 'password') {
                     eyeIcon.classList.remove('fa-eye-slash');
                     eyeIcon.classList.add('fa-eye');

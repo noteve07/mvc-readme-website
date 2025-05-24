@@ -1,6 +1,26 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\a-brief-history-of-time.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\a-brief-history-of-time.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\a-gentle-reminder.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\a-gentle-reminder.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\algorithms-to-live-by.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\algorithms-to-live-by.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\art-of-war.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\art-of-war.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\asp-net-core-in-action.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\asp-net-core-in-action.pdf"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\atomic-habits.pdf",
       "PackagePath": "staticwebassets\\assets\\books\\atomic-habits.pdf"
     },
@@ -9,8 +29,40 @@
       "PackagePath": "staticwebassets\\assets\\books\\automate-the-boring-stuff-with-python.pdf"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\biochemistry.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\biochemistry.pdf"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\cosmos.pdf",
       "PackagePath": "staticwebassets\\assets\\books\\cosmos.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\cracking-the-coding-interview.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\cracking-the-coding-interview.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\data-science-from-scratch.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\data-science-from-scratch.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\ego-is-the-enemy.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\ego-is-the-enemy.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\grokking-deep-learning.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\grokking-deep-learning.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\hyperspace.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\hyperspace.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\ikigai.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\ikigai.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\introduction-to-algorithms.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\introduction-to-algorithms.pdf"
     },
     {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\man-search-for-meaning.pdf",
@@ -29,16 +81,76 @@
       "PackagePath": "staticwebassets\\assets\\books\\quantum-supremacy.pdf"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\rich-dad-poor-dad.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\rich-dad-poor-dad.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\sapiens.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\sapiens.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\sherlock-holmes.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\sherlock-holmes.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the compound-effect.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the compound-effect.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-48-laws-of-power.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-48-laws-of-power.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-alchemist.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-alchemist.pdf"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-courage-to-be-disliked.pdf",
       "PackagePath": "staticwebassets\\assets\\books\\the-courage-to-be-disliked.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-history-book.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-history-book.pdf"
     },
     {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-hobbit.pdf",
       "PackagePath": "staticwebassets\\assets\\books\\the-hobbit.pdf"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-intelligent-investor.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-intelligent-investor.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-little-prince.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-little-prince.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-memory-man.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-memory-man.pdf"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-midnight-library.pdf",
       "PackagePath": "staticwebassets\\assets\\books\\the-midnight-library.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-mountain-is-you.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-mountain-is-you.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-psychology-of-money.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-psychology-of-money.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\the-universe-in-a-nutshell.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\the-universe-in-a-nutshell.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\think-and-grow-rich.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\think-and-grow-rich.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\books\\zero-to-one.pdf",
+      "PackagePath": "staticwebassets\\assets\\books\\zero-to-one.pdf"
     },
     {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\icon\\admin-icon-1.avif",
@@ -61,6 +173,26 @@
       "PackagePath": "staticwebassets\\assets\\icon\\reinald-icon.png"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\a-brief-history-of-time-cover.png",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\a-brief-history-of-time-cover.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\a-gentle-reminder-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\a-gentle-reminder-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\algorithms-to-live-by-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\algorithms-to-live-by-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\art-of-war-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\art-of-war-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\asp-net-core-in-action-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\asp-net-core-in-action-cover.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\atomic-habits-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\covers\\atomic-habits-cover.jpg"
     },
@@ -69,12 +201,48 @@
       "PackagePath": "staticwebassets\\assets\\img\\covers\\automate-the-boring-stuff-with-python-cover.jpg"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\biochemistry-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\biochemistry-cover.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\cosmos-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\covers\\cosmos-cover.jpg"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\cracking-the-coding-interview-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\cracking-the-coding-interview-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\data-science-from-scratch-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\data-science-from-scratch-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\ego-is-the-enemy-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\ego-is-the-enemy-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\grokking-deep-learning-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\grokking-deep-learning-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\hyperspace-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\hyperspace-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\ikigai-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\ikigai-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\introduction-to-algorithms-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\introduction-to-algorithms-cover.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\man-search-for-meaning-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\covers\\man-search-for-meaning-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\memory-man-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\memory-man-cover.jpg"
     },
     {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\philosophy-101-cover.jpg",
@@ -89,16 +257,72 @@
       "PackagePath": "staticwebassets\\assets\\img\\covers\\quantum-supremacy-cover.jpg"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\rich-dad-poor-dad-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\rich-dad-poor-dad-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\sapiens-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\sapiens-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\sherlock-holmes-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\sherlock-holmes-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-48-laws-of-power-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-48-laws-of-power-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-alchemist-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-alchemist-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-compound-effect-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-compound-effect-cover.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-courage-to-be-disliked-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\covers\\the-courage-to-be-disliked-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-history-book-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-history-book-cover.jpg"
     },
     {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-hobbit-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\covers\\the-hobbit-cover.jpg"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-intelligent-investor-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-intelligent-investor-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-little-prince-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-little-prince-cover.jpg"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-midnight-library-cover.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\covers\\the-midnight-library-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-mountain-is-you-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-mountain-is-you-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-psychology-of-money-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-psychology-of-money-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\the-universe-in-a-nutshell-cover.png",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\the-universe-in-a-nutshell-cover.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\think-and-grow-rich-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\think-and-grow-rich-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\img\\covers\\zero-to-one-cover.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\covers\\zero-to-one-cover.jpg"
     },
     {
       "Id": "C:\\Users\\ADMIN\\Documents\\GitHub\\mvc-readme-website\\MvcReadMe_Group4\\wwwroot\\assets\\logos\\aspnet.png",

@@ -3,6 +3,416 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "assets/books/a-brief-history-of-time.463ti5gfy5.pdf",
+      "AssetFile": "assets/books/a-brief-history-of-time.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "452875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TPuj5pz8oMkYFNfx0FMoiTI7WdgyyhN9vfewsVJj3bI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "463ti5gfy5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TPuj5pz8oMkYFNfx0FMoiTI7WdgyyhN9vfewsVJj3bI="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/a-brief-history-of-time.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/a-brief-history-of-time.pdf",
+      "AssetFile": "assets/books/a-brief-history-of-time.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "452875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TPuj5pz8oMkYFNfx0FMoiTI7WdgyyhN9vfewsVJj3bI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TPuj5pz8oMkYFNfx0FMoiTI7WdgyyhN9vfewsVJj3bI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/a-gentle-reminder.lpuohq3he0.pdf",
+      "AssetFile": "assets/books/a-gentle-reminder.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h4VI0V6fasndeIjf3OJtwDRuR94hwfTpo03u8nMaGFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lpuohq3he0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h4VI0V6fasndeIjf3OJtwDRuR94hwfTpo03u8nMaGFk="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/a-gentle-reminder.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/a-gentle-reminder.pdf",
+      "AssetFile": "assets/books/a-gentle-reminder.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156003"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h4VI0V6fasndeIjf3OJtwDRuR94hwfTpo03u8nMaGFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h4VI0V6fasndeIjf3OJtwDRuR94hwfTpo03u8nMaGFk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/algorithms-to-live-by.pdf",
+      "AssetFile": "assets/books/algorithms-to-live-by.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "590592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3adWBottNRYaQFMHwWaRsYKx+NvLkWtf7GgG/sqZLSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3adWBottNRYaQFMHwWaRsYKx+NvLkWtf7GgG/sqZLSM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/algorithms-to-live-by.ptzyinbszt.pdf",
+      "AssetFile": "assets/books/algorithms-to-live-by.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "590592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3adWBottNRYaQFMHwWaRsYKx+NvLkWtf7GgG/sqZLSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ptzyinbszt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3adWBottNRYaQFMHwWaRsYKx+NvLkWtf7GgG/sqZLSM="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/algorithms-to-live-by.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/art-of-war.f1b8nqani7.pdf",
+      "AssetFile": "assets/books/art-of-war.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42iUU7mCsUhowjOFtdCZYN9csYRYn+YjaQl3Hw/3I/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f1b8nqani7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-42iUU7mCsUhowjOFtdCZYN9csYRYn+YjaQl3Hw/3I/U="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/art-of-war.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/art-of-war.pdf",
+      "AssetFile": "assets/books/art-of-war.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42iUU7mCsUhowjOFtdCZYN9csYRYn+YjaQl3Hw/3I/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-42iUU7mCsUhowjOFtdCZYN9csYRYn+YjaQl3Hw/3I/U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/asp-net-core-in-action.orlr0a5tfj.pdf",
+      "AssetFile": "assets/books/asp-net-core-in-action.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28874446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9J7RKT7vArUN9pI7iORsrHNBTvFkb4tn6T+uTXTaQw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "orlr0a5tfj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9J7RKT7vArUN9pI7iORsrHNBTvFkb4tn6T+uTXTaQw8="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/asp-net-core-in-action.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/asp-net-core-in-action.pdf",
+      "AssetFile": "assets/books/asp-net-core-in-action.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28874446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9J7RKT7vArUN9pI7iORsrHNBTvFkb4tn6T+uTXTaQw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9J7RKT7vArUN9pI7iORsrHNBTvFkb4tn6T+uTXTaQw8="
+        }
+      ]
+    },
+    {
       "Route": "assets/books/atomic-habits.9f0sagcyji.pdf",
       "AssetFile": "assets/books/atomic-habits.pdf",
       "Selectors": [],
@@ -167,6 +577,88 @@
       ]
     },
     {
+      "Route": "assets/books/biochemistry.pdf",
+      "AssetFile": "assets/books/biochemistry.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3272899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ay8feVGzsITuEBlzgAJO1UUh4A/FrIkIRXWYckkl18o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ay8feVGzsITuEBlzgAJO1UUh4A/FrIkIRXWYckkl18o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/biochemistry.ph4h4rxnqv.pdf",
+      "AssetFile": "assets/books/biochemistry.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3272899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ay8feVGzsITuEBlzgAJO1UUh4A/FrIkIRXWYckkl18o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ph4h4rxnqv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ay8feVGzsITuEBlzgAJO1UUh4A/FrIkIRXWYckkl18o="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/biochemistry.pdf"
+        }
+      ]
+    },
+    {
       "Route": "assets/books/cosmos.pdf",
       "AssetFile": "assets/books/cosmos.pdf",
       "Selectors": [],
@@ -245,6 +737,580 @@
         {
           "Name": "label",
           "Value": "assets/books/cosmos.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/cracking-the-coding-interview.pdf",
+      "AssetFile": "assets/books/cracking-the-coding-interview.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bU4eZgqKQ6ftCOuG/O9Qz0gac+M4R173dHbi/FrOFO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bU4eZgqKQ6ftCOuG/O9Qz0gac+M4R173dHbi/FrOFO4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/cracking-the-coding-interview.zs4hzz18jv.pdf",
+      "AssetFile": "assets/books/cracking-the-coding-interview.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bU4eZgqKQ6ftCOuG/O9Qz0gac+M4R173dHbi/FrOFO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zs4hzz18jv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bU4eZgqKQ6ftCOuG/O9Qz0gac+M4R173dHbi/FrOFO4="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/cracking-the-coding-interview.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/data-science-from-scratch.lear8it028.pdf",
+      "AssetFile": "assets/books/data-science-from-scratch.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1370659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kzLJndfP6QaTZhjUGOZXnPCXDtDpqjF/lxHTUG0dQ/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lear8it028"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kzLJndfP6QaTZhjUGOZXnPCXDtDpqjF/lxHTUG0dQ/M="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/data-science-from-scratch.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/data-science-from-scratch.pdf",
+      "AssetFile": "assets/books/data-science-from-scratch.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1370659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kzLJndfP6QaTZhjUGOZXnPCXDtDpqjF/lxHTUG0dQ/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kzLJndfP6QaTZhjUGOZXnPCXDtDpqjF/lxHTUG0dQ/M="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/ego-is-the-enemy.eq1ihs4l5z.pdf",
+      "AssetFile": "assets/books/ego-is-the-enemy.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "512304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugWNo2rVTwuX3VFoeUsoPRIPP6E007FyL3rB0mItABk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eq1ihs4l5z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugWNo2rVTwuX3VFoeUsoPRIPP6E007FyL3rB0mItABk="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/ego-is-the-enemy.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/ego-is-the-enemy.pdf",
+      "AssetFile": "assets/books/ego-is-the-enemy.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "512304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugWNo2rVTwuX3VFoeUsoPRIPP6E007FyL3rB0mItABk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugWNo2rVTwuX3VFoeUsoPRIPP6E007FyL3rB0mItABk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/grokking-deep-learning.4wqep4c5l7.pdf",
+      "AssetFile": "assets/books/grokking-deep-learning.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "620252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMiC04PO9q1eHMDgeDPHJHuPchPQrINuJ21IkhWN+Uo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4wqep4c5l7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMiC04PO9q1eHMDgeDPHJHuPchPQrINuJ21IkhWN+Uo="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/grokking-deep-learning.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/grokking-deep-learning.pdf",
+      "AssetFile": "assets/books/grokking-deep-learning.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "620252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMiC04PO9q1eHMDgeDPHJHuPchPQrINuJ21IkhWN+Uo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMiC04PO9q1eHMDgeDPHJHuPchPQrINuJ21IkhWN+Uo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/hyperspace.pdf",
+      "AssetFile": "assets/books/hyperspace.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "669935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ntbm2/BiJr93DIRviSZrl/9ZBz8v0TJ7fTdNOVSHX1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ntbm2/BiJr93DIRviSZrl/9ZBz8v0TJ7fTdNOVSHX1o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/hyperspace.qn23a7izsn.pdf",
+      "AssetFile": "assets/books/hyperspace.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "669935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ntbm2/BiJr93DIRviSZrl/9ZBz8v0TJ7fTdNOVSHX1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn23a7izsn"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ntbm2/BiJr93DIRviSZrl/9ZBz8v0TJ7fTdNOVSHX1o="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/hyperspace.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/ikigai.l53bkap374.pdf",
+      "AssetFile": "assets/books/ikigai.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "766973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uTAdxdAh5s0sTkXBvSQg/P4+d2KYar5DxwxWoWcsZOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l53bkap374"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uTAdxdAh5s0sTkXBvSQg/P4+d2KYar5DxwxWoWcsZOQ="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/ikigai.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/ikigai.pdf",
+      "AssetFile": "assets/books/ikigai.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "766973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uTAdxdAh5s0sTkXBvSQg/P4+d2KYar5DxwxWoWcsZOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uTAdxdAh5s0sTkXBvSQg/P4+d2KYar5DxwxWoWcsZOQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/introduction-to-algorithms.9cgmcty3w3.pdf",
+      "AssetFile": "assets/books/introduction-to-algorithms.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwMhBcA+YAG18IRS8IvI5cKP7SgOWkiIlpMlUpNmW34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9cgmcty3w3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwMhBcA+YAG18IRS8IvI5cKP7SgOWkiIlpMlUpNmW34="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/introduction-to-algorithms.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/introduction-to-algorithms.pdf",
+      "AssetFile": "assets/books/introduction-to-algorithms.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwMhBcA+YAG18IRS8IvI5cKP7SgOWkiIlpMlUpNmW34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwMhBcA+YAG18IRS8IvI5cKP7SgOWkiIlpMlUpNmW34="
         }
       ]
     },
@@ -577,6 +1643,498 @@
       ]
     },
     {
+      "Route": "assets/books/rich-dad-poor-dad.pdf",
+      "AssetFile": "assets/books/rich-dad-poor-dad.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QtO3PDc9tA/a3CbcKaGYP3fFqYzHfFGjq3hMfg7VUTQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QtO3PDc9tA/a3CbcKaGYP3fFqYzHfFGjq3hMfg7VUTQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/rich-dad-poor-dad.q5n6aq8kxa.pdf",
+      "AssetFile": "assets/books/rich-dad-poor-dad.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QtO3PDc9tA/a3CbcKaGYP3fFqYzHfFGjq3hMfg7VUTQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q5n6aq8kxa"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QtO3PDc9tA/a3CbcKaGYP3fFqYzHfFGjq3hMfg7VUTQ="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/rich-dad-poor-dad.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/sapiens.hmb615vl5r.pdf",
+      "AssetFile": "assets/books/sapiens.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WYUCUs3r+YpU5q7W5debhm5BPjolrX+96E09yoGUa5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hmb615vl5r"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WYUCUs3r+YpU5q7W5debhm5BPjolrX+96E09yoGUa5w="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/sapiens.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/sapiens.pdf",
+      "AssetFile": "assets/books/sapiens.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WYUCUs3r+YpU5q7W5debhm5BPjolrX+96E09yoGUa5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WYUCUs3r+YpU5q7W5debhm5BPjolrX+96E09yoGUa5w="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/sherlock-holmes.e3y5lzumur.pdf",
+      "AssetFile": "assets/books/sherlock-holmes.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107381"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsP1kD4zFVL3U23oUbT/899OvmNv6ful+5l7Oqo27GY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3y5lzumur"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JsP1kD4zFVL3U23oUbT/899OvmNv6ful+5l7Oqo27GY="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/sherlock-holmes.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/sherlock-holmes.pdf",
+      "AssetFile": "assets/books/sherlock-holmes.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107381"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsP1kD4zFVL3U23oUbT/899OvmNv6ful+5l7Oqo27GY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JsP1kD4zFVL3U23oUbT/899OvmNv6ful+5l7Oqo27GY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the compound-effect.pdf",
+      "AssetFile": "assets/books/the compound-effect.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpFQ0I89ykwMFz3NgKRsmrVvaNCtBf5hWNdn0J1JjLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpFQ0I89ykwMFz3NgKRsmrVvaNCtBf5hWNdn0J1JjLY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the compound-effect.yfioizihg3.pdf",
+      "AssetFile": "assets/books/the compound-effect.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpFQ0I89ykwMFz3NgKRsmrVvaNCtBf5hWNdn0J1JjLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yfioizihg3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpFQ0I89ykwMFz3NgKRsmrVvaNCtBf5hWNdn0J1JjLY="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the compound-effect.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-48-laws-of-power.8k3bot698b.pdf",
+      "AssetFile": "assets/books/the-48-laws-of-power.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yDKSZk4dLxwPicCERJx6IgZwtsokku6b5pxrr0TLGW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8k3bot698b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yDKSZk4dLxwPicCERJx6IgZwtsokku6b5pxrr0TLGW8="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-48-laws-of-power.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-48-laws-of-power.pdf",
+      "AssetFile": "assets/books/the-48-laws-of-power.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yDKSZk4dLxwPicCERJx6IgZwtsokku6b5pxrr0TLGW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yDKSZk4dLxwPicCERJx6IgZwtsokku6b5pxrr0TLGW8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-alchemist.pdf",
+      "AssetFile": "assets/books/the-alchemist.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "463852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y9JMpqZoqxrF0YHzv95JNEmH1hk8JAhAY6YBt5lItXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y9JMpqZoqxrF0YHzv95JNEmH1hk8JAhAY6YBt5lItXA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-alchemist.tq35rc23fd.pdf",
+      "AssetFile": "assets/books/the-alchemist.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "463852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y9JMpqZoqxrF0YHzv95JNEmH1hk8JAhAY6YBt5lItXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tq35rc23fd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y9JMpqZoqxrF0YHzv95JNEmH1hk8JAhAY6YBt5lItXA="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-alchemist.pdf"
+        }
+      ]
+    },
+    {
       "Route": "assets/books/the-courage-to-be-disliked.l8rqdcmb9z.pdf",
       "AssetFile": "assets/books/the-courage-to-be-disliked.pdf",
       "Selectors": [],
@@ -655,6 +2213,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-m/YiHwnVWlrn6+xjb2GERIUhTCDA7MPOVzPwuKFZrfs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-history-book.pdf",
+      "AssetFile": "assets/books/the-history-book.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3677860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j64//UddUTQNwMolqaZsl8T1bDl09Ho1kSYlc23Z5sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j64//UddUTQNwMolqaZsl8T1bDl09Ho1kSYlc23Z5sk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-history-book.vwnqvp7ba6.pdf",
+      "AssetFile": "assets/books/the-history-book.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3677860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j64//UddUTQNwMolqaZsl8T1bDl09Ho1kSYlc23Z5sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vwnqvp7ba6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j64//UddUTQNwMolqaZsl8T1bDl09Ho1kSYlc23Z5sk="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-history-book.pdf"
         }
       ]
     },
@@ -741,6 +2381,252 @@
       ]
     },
     {
+      "Route": "assets/books/the-intelligent-investor.dhpjydn1h4.pdf",
+      "AssetFile": "assets/books/the-intelligent-investor.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wW0JmEZcfggHqQx6UhOxOgMbvN7Ff3UOIX4MSg0YOzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dhpjydn1h4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wW0JmEZcfggHqQx6UhOxOgMbvN7Ff3UOIX4MSg0YOzo="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-intelligent-investor.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-intelligent-investor.pdf",
+      "AssetFile": "assets/books/the-intelligent-investor.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wW0JmEZcfggHqQx6UhOxOgMbvN7Ff3UOIX4MSg0YOzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wW0JmEZcfggHqQx6UhOxOgMbvN7Ff3UOIX4MSg0YOzo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-little-prince.f0s9vjim98.pdf",
+      "AssetFile": "assets/books/the-little-prince.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8b6yB2wsPtCyzCUTZsvhjKn2kzh/ia9sGvx9hbyH5nY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f0s9vjim98"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8b6yB2wsPtCyzCUTZsvhjKn2kzh/ia9sGvx9hbyH5nY="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-little-prince.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-little-prince.pdf",
+      "AssetFile": "assets/books/the-little-prince.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8b6yB2wsPtCyzCUTZsvhjKn2kzh/ia9sGvx9hbyH5nY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8b6yB2wsPtCyzCUTZsvhjKn2kzh/ia9sGvx9hbyH5nY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-memory-man.pdf",
+      "AssetFile": "assets/books/the-memory-man.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "488615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0qTqprOHJhEVztO6G4JMHyitq9Gki17+QdnVFlNt4Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0qTqprOHJhEVztO6G4JMHyitq9Gki17+QdnVFlNt4Ag="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-memory-man.u151xxfs07.pdf",
+      "AssetFile": "assets/books/the-memory-man.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "488615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0qTqprOHJhEVztO6G4JMHyitq9Gki17+QdnVFlNt4Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u151xxfs07"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0qTqprOHJhEVztO6G4JMHyitq9Gki17+QdnVFlNt4Ag="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-memory-man.pdf"
+        }
+      ]
+    },
+    {
       "Route": "assets/books/the-midnight-library.pdf",
       "AssetFile": "assets/books/the-midnight-library.pdf",
       "Selectors": [],
@@ -819,6 +2705,416 @@
         {
           "Name": "label",
           "Value": "assets/books/the-midnight-library.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-mountain-is-you.i5xj13th22.pdf",
+      "AssetFile": "assets/books/the-mountain-is-you.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lsuoywH6OT13eRHxGihP2xuhfnG2XRn240qw7AnJsYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i5xj13th22"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lsuoywH6OT13eRHxGihP2xuhfnG2XRn240qw7AnJsYM="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-mountain-is-you.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-mountain-is-you.pdf",
+      "AssetFile": "assets/books/the-mountain-is-you.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lsuoywH6OT13eRHxGihP2xuhfnG2XRn240qw7AnJsYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lsuoywH6OT13eRHxGihP2xuhfnG2XRn240qw7AnJsYM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-psychology-of-money.bfy62yqi6w.pdf",
+      "AssetFile": "assets/books/the-psychology-of-money.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "758558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xx3w1dGpWWl12B2eosq318ApFHD3cB24MKuaKeaFFCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfy62yqi6w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xx3w1dGpWWl12B2eosq318ApFHD3cB24MKuaKeaFFCU="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-psychology-of-money.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-psychology-of-money.pdf",
+      "AssetFile": "assets/books/the-psychology-of-money.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "758558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xx3w1dGpWWl12B2eosq318ApFHD3cB24MKuaKeaFFCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xx3w1dGpWWl12B2eosq318ApFHD3cB24MKuaKeaFFCU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-universe-in-a-nutshell.5696blvx9w.pdf",
+      "AssetFile": "assets/books/the-universe-in-a-nutshell.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1080562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E/1vQcmHDHWIPWXgaIU/UIGEd+rfvyxKtrtckIh5DDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5696blvx9w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E/1vQcmHDHWIPWXgaIU/UIGEd+rfvyxKtrtckIh5DDU="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/the-universe-in-a-nutshell.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/the-universe-in-a-nutshell.pdf",
+      "AssetFile": "assets/books/the-universe-in-a-nutshell.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1080562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E/1vQcmHDHWIPWXgaIU/UIGEd+rfvyxKtrtckIh5DDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E/1vQcmHDHWIPWXgaIU/UIGEd+rfvyxKtrtckIh5DDU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/think-and-grow-rich.pdf",
+      "AssetFile": "assets/books/think-and-grow-rich.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "427740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3kR1yfA/JEacrwmE9Pph+bL8DFRbZ5uWmYwF3+/t9uE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3kR1yfA/JEacrwmE9Pph+bL8DFRbZ5uWmYwF3+/t9uE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/think-and-grow-rich.yo6lms66uk.pdf",
+      "AssetFile": "assets/books/think-and-grow-rich.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "427740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3kR1yfA/JEacrwmE9Pph+bL8DFRbZ5uWmYwF3+/t9uE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yo6lms66uk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3kR1yfA/JEacrwmE9Pph+bL8DFRbZ5uWmYwF3+/t9uE="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/think-and-grow-rich.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/zero-to-one.1o1y8tjkyq.pdf",
+      "AssetFile": "assets/books/zero-to-one.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1692549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D/dgxFjRV1/IJ5SY4vuTGQpruWzEjjTF+BQ8hkjXDak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1o1y8tjkyq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D/dgxFjRV1/IJ5SY4vuTGQpruWzEjjTF+BQ8hkjXDak="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/books/zero-to-one.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "assets/books/zero-to-one.pdf",
+      "AssetFile": "assets/books/zero-to-one.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1692549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D/dgxFjRV1/IJ5SY4vuTGQpruWzEjjTF+BQ8hkjXDak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:47:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D/dgxFjRV1/IJ5SY4vuTGQpruWzEjjTF+BQ8hkjXDak="
         }
       ]
     },
@@ -1233,6 +3529,416 @@
       ]
     },
     {
+      "Route": "assets/img/covers/a-brief-history-of-time-cover.7s1b19c3ki.png",
+      "AssetFile": "assets/img/covers/a-brief-history-of-time-cover.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OT0jW5qVaq3j3BMGzU9+66bq9nRNzEDZ+YVvYqSRU9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:33:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7s1b19c3ki"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OT0jW5qVaq3j3BMGzU9+66bq9nRNzEDZ+YVvYqSRU9w="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/a-brief-history-of-time-cover.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/a-brief-history-of-time-cover.png",
+      "AssetFile": "assets/img/covers/a-brief-history-of-time-cover.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OT0jW5qVaq3j3BMGzU9+66bq9nRNzEDZ+YVvYqSRU9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:33:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OT0jW5qVaq3j3BMGzU9+66bq9nRNzEDZ+YVvYqSRU9w="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/a-gentle-reminder-cover.gog5whms59.jpg",
+      "AssetFile": "assets/img/covers/a-gentle-reminder-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sEcwsIB63Ad8i6/ctGvoWROtvKwUysSg94r8Jd38ObM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:25:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gog5whms59"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sEcwsIB63Ad8i6/ctGvoWROtvKwUysSg94r8Jd38ObM="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/a-gentle-reminder-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/a-gentle-reminder-cover.jpg",
+      "AssetFile": "assets/img/covers/a-gentle-reminder-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sEcwsIB63Ad8i6/ctGvoWROtvKwUysSg94r8Jd38ObM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:25:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sEcwsIB63Ad8i6/ctGvoWROtvKwUysSg94r8Jd38ObM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/algorithms-to-live-by-cover.4s1qwwjrub.jpg",
+      "AssetFile": "assets/img/covers/algorithms-to-live-by-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fOTrM/yu+NeN4Ma5Jen8Nh7KujYyAabZdRQda8avBOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:20:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4s1qwwjrub"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fOTrM/yu+NeN4Ma5Jen8Nh7KujYyAabZdRQda8avBOE="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/algorithms-to-live-by-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/algorithms-to-live-by-cover.jpg",
+      "AssetFile": "assets/img/covers/algorithms-to-live-by-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fOTrM/yu+NeN4Ma5Jen8Nh7KujYyAabZdRQda8avBOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:20:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fOTrM/yu+NeN4Ma5Jen8Nh7KujYyAabZdRQda8avBOE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/art-of-war-cover.ebo1gxtdta.jpg",
+      "AssetFile": "assets/img/covers/art-of-war-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pori6eAgDaaFkIYE5oRGV8VosmD9aGqbn2hhiqz6HOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:13:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ebo1gxtdta"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pori6eAgDaaFkIYE5oRGV8VosmD9aGqbn2hhiqz6HOQ="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/art-of-war-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/art-of-war-cover.jpg",
+      "AssetFile": "assets/img/covers/art-of-war-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pori6eAgDaaFkIYE5oRGV8VosmD9aGqbn2hhiqz6HOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:13:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pori6eAgDaaFkIYE5oRGV8VosmD9aGqbn2hhiqz6HOQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/asp-net-core-in-action-cover.6292ok5a3w.jpg",
+      "AssetFile": "assets/img/covers/asp-net-core-in-action-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oq01NaBACFiABREhA5t0EYIYOg+1z9pu+HMQAeh/T50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:34:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6292ok5a3w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oq01NaBACFiABREhA5t0EYIYOg+1z9pu+HMQAeh/T50="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/asp-net-core-in-action-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/asp-net-core-in-action-cover.jpg",
+      "AssetFile": "assets/img/covers/asp-net-core-in-action-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oq01NaBACFiABREhA5t0EYIYOg+1z9pu+HMQAeh/T50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:34:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oq01NaBACFiABREhA5t0EYIYOg+1z9pu+HMQAeh/T50="
+        }
+      ]
+    },
+    {
       "Route": "assets/img/covers/atomic-habits-cover.jpg",
       "AssetFile": "assets/img/covers/atomic-habits-cover.jpg",
       "Selectors": [],
@@ -1397,6 +4103,88 @@
       ]
     },
     {
+      "Route": "assets/img/covers/biochemistry-cover.d4juqoy31o.jpg",
+      "AssetFile": "assets/img/covers/biochemistry-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6mU6Vy1oN2if38YC5caltBn+J5XFwNbOBWu27TG8rU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:39:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d4juqoy31o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s6mU6Vy1oN2if38YC5caltBn+J5XFwNbOBWu27TG8rU="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/biochemistry-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/biochemistry-cover.jpg",
+      "AssetFile": "assets/img/covers/biochemistry-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6mU6Vy1oN2if38YC5caltBn+J5XFwNbOBWu27TG8rU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:39:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s6mU6Vy1oN2if38YC5caltBn+J5XFwNbOBWu27TG8rU="
+        }
+      ]
+    },
+    {
       "Route": "assets/img/covers/cosmos-cover.8a04ub1x03.jpg",
       "AssetFile": "assets/img/covers/cosmos-cover.jpg",
       "Selectors": [],
@@ -1479,6 +4267,580 @@
       ]
     },
     {
+      "Route": "assets/img/covers/cracking-the-coding-interview-cover.2dfg04iwhr.jpg",
+      "AssetFile": "assets/img/covers/cracking-the-coding-interview-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmGKICg/mM93PggQnzbbSH57WeNhBh0K8jQto/Qz1oc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:14:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2dfg04iwhr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmGKICg/mM93PggQnzbbSH57WeNhBh0K8jQto/Qz1oc="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/cracking-the-coding-interview-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/cracking-the-coding-interview-cover.jpg",
+      "AssetFile": "assets/img/covers/cracking-the-coding-interview-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmGKICg/mM93PggQnzbbSH57WeNhBh0K8jQto/Qz1oc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:14:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmGKICg/mM93PggQnzbbSH57WeNhBh0K8jQto/Qz1oc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/data-science-from-scratch-cover.jpg",
+      "AssetFile": "assets/img/covers/data-science-from-scratch-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gGHLGZM52RQ95KwrTj176aJuQIrVvCAjV7Hf8x4W84w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:36:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gGHLGZM52RQ95KwrTj176aJuQIrVvCAjV7Hf8x4W84w="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/data-science-from-scratch-cover.sxk2nto0yn.jpg",
+      "AssetFile": "assets/img/covers/data-science-from-scratch-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gGHLGZM52RQ95KwrTj176aJuQIrVvCAjV7Hf8x4W84w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:36:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sxk2nto0yn"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gGHLGZM52RQ95KwrTj176aJuQIrVvCAjV7Hf8x4W84w="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/data-science-from-scratch-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/ego-is-the-enemy-cover.jpg",
+      "AssetFile": "assets/img/covers/ego-is-the-enemy-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M3DELIFtND8FaQbeTU4ajnybA3g7Ogps/ezZzvS/OF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:31:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M3DELIFtND8FaQbeTU4ajnybA3g7Ogps/ezZzvS/OF0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/ego-is-the-enemy-cover.njz5xzo2gm.jpg",
+      "AssetFile": "assets/img/covers/ego-is-the-enemy-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M3DELIFtND8FaQbeTU4ajnybA3g7Ogps/ezZzvS/OF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:31:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njz5xzo2gm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M3DELIFtND8FaQbeTU4ajnybA3g7Ogps/ezZzvS/OF0="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/ego-is-the-enemy-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/grokking-deep-learning-cover.jpg",
+      "AssetFile": "assets/img/covers/grokking-deep-learning-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s4sDQ+ib7mx6X8bU9IPNCoMeeSxaCCwW3gxlvhGkheo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:31:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s4sDQ+ib7mx6X8bU9IPNCoMeeSxaCCwW3gxlvhGkheo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/grokking-deep-learning-cover.v1j9vpcinf.jpg",
+      "AssetFile": "assets/img/covers/grokking-deep-learning-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s4sDQ+ib7mx6X8bU9IPNCoMeeSxaCCwW3gxlvhGkheo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:31:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v1j9vpcinf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s4sDQ+ib7mx6X8bU9IPNCoMeeSxaCCwW3gxlvhGkheo="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/grokking-deep-learning-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/hyperspace-cover.jpg",
+      "AssetFile": "assets/img/covers/hyperspace-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cGcFqMqI3hfMsZQ66Rs6P9aimWvTSqY8/91sTKm5WZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:29:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGcFqMqI3hfMsZQ66Rs6P9aimWvTSqY8/91sTKm5WZs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/hyperspace-cover.k78gvzep1u.jpg",
+      "AssetFile": "assets/img/covers/hyperspace-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cGcFqMqI3hfMsZQ66Rs6P9aimWvTSqY8/91sTKm5WZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:29:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k78gvzep1u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cGcFqMqI3hfMsZQ66Rs6P9aimWvTSqY8/91sTKm5WZs="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/hyperspace-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/ikigai-cover.aos6z1a90l.jpg",
+      "AssetFile": "assets/img/covers/ikigai-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35783"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VqJEV7dR/6bfobmOX3TtMl2pnmtOErZkAvJHAbxCjDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:24:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aos6z1a90l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VqJEV7dR/6bfobmOX3TtMl2pnmtOErZkAvJHAbxCjDI="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/ikigai-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/ikigai-cover.jpg",
+      "AssetFile": "assets/img/covers/ikigai-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35783"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VqJEV7dR/6bfobmOX3TtMl2pnmtOErZkAvJHAbxCjDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:24:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VqJEV7dR/6bfobmOX3TtMl2pnmtOErZkAvJHAbxCjDI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/introduction-to-algorithms-cover.jpg",
+      "AssetFile": "assets/img/covers/introduction-to-algorithms-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nBk5l+vg76bWKezAjK8uqAvq4QjTqWpiPYfyhJtkUig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:33:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBk5l+vg76bWKezAjK8uqAvq4QjTqWpiPYfyhJtkUig="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/introduction-to-algorithms-cover.syow82p32a.jpg",
+      "AssetFile": "assets/img/covers/introduction-to-algorithms-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nBk5l+vg76bWKezAjK8uqAvq4QjTqWpiPYfyhJtkUig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:33:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "syow82p32a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBk5l+vg76bWKezAjK8uqAvq4QjTqWpiPYfyhJtkUig="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/introduction-to-algorithms-cover.jpg"
+        }
+      ]
+    },
+    {
       "Route": "assets/img/covers/man-search-for-meaning-cover.jpg",
       "AssetFile": "assets/img/covers/man-search-for-meaning-cover.jpg",
       "Selectors": [],
@@ -1557,6 +4919,88 @@
         {
           "Name": "label",
           "Value": "assets/img/covers/man-search-for-meaning-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/memory-man-cover.5lhjyx3u82.jpg",
+      "AssetFile": "assets/img/covers/memory-man-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yRUtsJq1yENnj0cZRMtGrrds5c3nFBlRrpKnXeil81Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:15:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5lhjyx3u82"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yRUtsJq1yENnj0cZRMtGrrds5c3nFBlRrpKnXeil81Q="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/memory-man-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/memory-man-cover.jpg",
+      "AssetFile": "assets/img/covers/memory-man-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yRUtsJq1yENnj0cZRMtGrrds5c3nFBlRrpKnXeil81Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:15:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yRUtsJq1yENnj0cZRMtGrrds5c3nFBlRrpKnXeil81Q="
         }
       ]
     },
@@ -1807,6 +5251,498 @@
       ]
     },
     {
+      "Route": "assets/img/covers/rich-dad-poor-dad-cover.hh7op69xo8.jpg",
+      "AssetFile": "assets/img/covers/rich-dad-poor-dad-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G2NIVH5U1iOGyY/g8cbkPsNafOPACySJF4j/fw2Fo0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:42:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hh7op69xo8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G2NIVH5U1iOGyY/g8cbkPsNafOPACySJF4j/fw2Fo0s="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/rich-dad-poor-dad-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/rich-dad-poor-dad-cover.jpg",
+      "AssetFile": "assets/img/covers/rich-dad-poor-dad-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G2NIVH5U1iOGyY/g8cbkPsNafOPACySJF4j/fw2Fo0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:42:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G2NIVH5U1iOGyY/g8cbkPsNafOPACySJF4j/fw2Fo0s="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/sapiens-cover.0q6vy3woic.jpg",
+      "AssetFile": "assets/img/covers/sapiens-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OH6IaCl7pVKek5lkBEiojaieHqPbEVm+8hudPIF2Vvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:10:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0q6vy3woic"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OH6IaCl7pVKek5lkBEiojaieHqPbEVm+8hudPIF2Vvo="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/sapiens-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/sapiens-cover.jpg",
+      "AssetFile": "assets/img/covers/sapiens-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OH6IaCl7pVKek5lkBEiojaieHqPbEVm+8hudPIF2Vvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:10:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OH6IaCl7pVKek5lkBEiojaieHqPbEVm+8hudPIF2Vvo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/sherlock-holmes-cover.7du0d39hds.jpg",
+      "AssetFile": "assets/img/covers/sherlock-holmes-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RX0LfKzGbXyCgqu6OattVRnlUsyHlYAfxZSW3gv6YoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:17:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7du0d39hds"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RX0LfKzGbXyCgqu6OattVRnlUsyHlYAfxZSW3gv6YoQ="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/sherlock-holmes-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/sherlock-holmes-cover.jpg",
+      "AssetFile": "assets/img/covers/sherlock-holmes-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RX0LfKzGbXyCgqu6OattVRnlUsyHlYAfxZSW3gv6YoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:17:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RX0LfKzGbXyCgqu6OattVRnlUsyHlYAfxZSW3gv6YoQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-48-laws-of-power-cover.jpg",
+      "AssetFile": "assets/img/covers/the-48-laws-of-power-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9wtNHWK/REAdL4C0IaxmQn5wD05kCmSygQLNvYzc5Nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:16:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9wtNHWK/REAdL4C0IaxmQn5wD05kCmSygQLNvYzc5Nk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-48-laws-of-power-cover.jt9h4jddvx.jpg",
+      "AssetFile": "assets/img/covers/the-48-laws-of-power-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9wtNHWK/REAdL4C0IaxmQn5wD05kCmSygQLNvYzc5Nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:16:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jt9h4jddvx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9wtNHWK/REAdL4C0IaxmQn5wD05kCmSygQLNvYzc5Nk="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-48-laws-of-power-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-alchemist-cover.0m1m7of9x5.jpg",
+      "AssetFile": "assets/img/covers/the-alchemist-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WFcGR8c5sG/E9RIW4Oce4vUDndbmKxWH7GET9mzkVaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:19:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0m1m7of9x5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WFcGR8c5sG/E9RIW4Oce4vUDndbmKxWH7GET9mzkVaM="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-alchemist-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-alchemist-cover.jpg",
+      "AssetFile": "assets/img/covers/the-alchemist-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WFcGR8c5sG/E9RIW4Oce4vUDndbmKxWH7GET9mzkVaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:19:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WFcGR8c5sG/E9RIW4Oce4vUDndbmKxWH7GET9mzkVaM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-compound-effect-cover.jpg",
+      "AssetFile": "assets/img/covers/the-compound-effect-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9MCErHdZejqcsOj22GwFC6NwbRLyBo7MCQWAWDn/xt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:41:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9MCErHdZejqcsOj22GwFC6NwbRLyBo7MCQWAWDn/xt4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-compound-effect-cover.s0v8w091bg.jpg",
+      "AssetFile": "assets/img/covers/the-compound-effect-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9MCErHdZejqcsOj22GwFC6NwbRLyBo7MCQWAWDn/xt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:41:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s0v8w091bg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9MCErHdZejqcsOj22GwFC6NwbRLyBo7MCQWAWDn/xt4="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-compound-effect-cover.jpg"
+        }
+      ]
+    },
+    {
       "Route": "assets/img/covers/the-courage-to-be-disliked-cover.1gadw40rqu.jpg",
       "AssetFile": "assets/img/covers/the-courage-to-be-disliked-cover.jpg",
       "Selectors": [],
@@ -1885,6 +5821,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-IebKI4xWhFJRm05PWbCHMHMVZ0LyYcS3wv7ai5DvPzU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-history-book-cover.jpg",
+      "AssetFile": "assets/img/covers/the-history-book-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+s/BClmeCRSyB36iZw4ozFlGzqFeed4a5cP+T0d6gU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:38:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+s/BClmeCRSyB36iZw4ozFlGzqFeed4a5cP+T0d6gU4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-history-book-cover.uiilrtlweh.jpg",
+      "AssetFile": "assets/img/covers/the-history-book-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+s/BClmeCRSyB36iZw4ozFlGzqFeed4a5cP+T0d6gU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:38:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uiilrtlweh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+s/BClmeCRSyB36iZw4ozFlGzqFeed4a5cP+T0d6gU4="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-history-book-cover.jpg"
         }
       ]
     },
@@ -1971,6 +5989,170 @@
       ]
     },
     {
+      "Route": "assets/img/covers/the-intelligent-investor-cover.jpg",
+      "AssetFile": "assets/img/covers/the-intelligent-investor-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PQ8NYpl3bONz2ZCA3/gTU3vukDNSd3p5N/WWzBSez4s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:21:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PQ8NYpl3bONz2ZCA3/gTU3vukDNSd3p5N/WWzBSez4s="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-intelligent-investor-cover.l26mz5pe70.jpg",
+      "AssetFile": "assets/img/covers/the-intelligent-investor-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PQ8NYpl3bONz2ZCA3/gTU3vukDNSd3p5N/WWzBSez4s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:21:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l26mz5pe70"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PQ8NYpl3bONz2ZCA3/gTU3vukDNSd3p5N/WWzBSez4s="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-intelligent-investor-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-little-prince-cover.jpg",
+      "AssetFile": "assets/img/covers/the-little-prince-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a3G5R8XuPRkZNzBsg2Ol1CohSLKBvopMX/JCNKb5Yuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:26:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a3G5R8XuPRkZNzBsg2Ol1CohSLKBvopMX/JCNKb5Yuo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-little-prince-cover.ze9jr4b628.jpg",
+      "AssetFile": "assets/img/covers/the-little-prince-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a3G5R8XuPRkZNzBsg2Ol1CohSLKBvopMX/JCNKb5Yuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:26:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ze9jr4b628"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a3G5R8XuPRkZNzBsg2Ol1CohSLKBvopMX/JCNKb5Yuo="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-little-prince-cover.jpg"
+        }
+      ]
+    },
+    {
       "Route": "assets/img/covers/the-midnight-library-cover.jpg",
       "AssetFile": "assets/img/covers/the-midnight-library-cover.jpg",
       "Selectors": [],
@@ -2049,6 +6231,416 @@
         {
           "Name": "label",
           "Value": "assets/img/covers/the-midnight-library-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-mountain-is-you-cover.jpg",
+      "AssetFile": "assets/img/covers/the-mountain-is-you-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gj6zQIyjRimnF11VGy9s/DDAgILXf2cC2Wscr0paDk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:22:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gj6zQIyjRimnF11VGy9s/DDAgILXf2cC2Wscr0paDk4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-mountain-is-you-cover.qt5087qyx6.jpg",
+      "AssetFile": "assets/img/covers/the-mountain-is-you-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gj6zQIyjRimnF11VGy9s/DDAgILXf2cC2Wscr0paDk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:22:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qt5087qyx6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gj6zQIyjRimnF11VGy9s/DDAgILXf2cC2Wscr0paDk4="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-mountain-is-you-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-psychology-of-money-cover.jpg",
+      "AssetFile": "assets/img/covers/the-psychology-of-money-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5M9k9wOhavbpLl5VXb90ZGbWVpryJN4Rj3hOpyRyHrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:17:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5M9k9wOhavbpLl5VXb90ZGbWVpryJN4Rj3hOpyRyHrw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-psychology-of-money-cover.ol5fip5n6g.jpg",
+      "AssetFile": "assets/img/covers/the-psychology-of-money-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5M9k9wOhavbpLl5VXb90ZGbWVpryJN4Rj3hOpyRyHrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:17:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ol5fip5n6g"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5M9k9wOhavbpLl5VXb90ZGbWVpryJN4Rj3hOpyRyHrw="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-psychology-of-money-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-universe-in-a-nutshell-cover.9w0crcg1ds.png",
+      "AssetFile": "assets/img/covers/the-universe-in-a-nutshell-cover.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "497438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4WHYC4sZ1TepE3zwL0CJezndroX1tnAa7GEvPV80Fk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:28:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9w0crcg1ds"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4WHYC4sZ1TepE3zwL0CJezndroX1tnAa7GEvPV80Fk="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/the-universe-in-a-nutshell-cover.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/the-universe-in-a-nutshell-cover.png",
+      "AssetFile": "assets/img/covers/the-universe-in-a-nutshell-cover.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "497438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4WHYC4sZ1TepE3zwL0CJezndroX1tnAa7GEvPV80Fk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:28:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4WHYC4sZ1TepE3zwL0CJezndroX1tnAa7GEvPV80Fk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/think-and-grow-rich-cover.jpg",
+      "AssetFile": "assets/img/covers/think-and-grow-rich-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9p2FPHjGdTeBj1u2axmquTlsBv97aEkeCcvf2RAON+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:44:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9p2FPHjGdTeBj1u2axmquTlsBv97aEkeCcvf2RAON+Y="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/think-and-grow-rich-cover.yyy8fwp2ag.jpg",
+      "AssetFile": "assets/img/covers/think-and-grow-rich-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9p2FPHjGdTeBj1u2axmquTlsBv97aEkeCcvf2RAON+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 06:44:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yyy8fwp2ag"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9p2FPHjGdTeBj1u2axmquTlsBv97aEkeCcvf2RAON+Y="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/think-and-grow-rich-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/zero-to-one-cover.dbunscc6p2.jpg",
+      "AssetFile": "assets/img/covers/zero-to-one-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x3pW4dxJDMOedRooPkPiNSX8SPpAJdJ3hz7f3RU8wbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:22:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbunscc6p2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x3pW4dxJDMOedRooPkPiNSX8SPpAJdJ3hz7f3RU8wbI="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/covers/zero-to-one-cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/covers/zero-to-one-cover.jpg",
+      "AssetFile": "assets/img/covers/zero-to-one-cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x3pW4dxJDMOedRooPkPiNSX8SPpAJdJ3hz7f3RU8wbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 16:22:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x3pW4dxJDMOedRooPkPiNSX8SPpAJdJ3hz7f3RU8wbI="
         }
       ]
     },

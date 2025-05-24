@@ -27,6 +27,7 @@ namespace MvcReadMe_Group4.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Login(LoginViewModel model)
         {
+            // Validate username and password input
             if (!ModelState.IsValid)
                 return View(model);
 
@@ -39,7 +40,6 @@ namespace MvcReadMe_Group4.Controllers
                 return View(model);
             }
 
-            // Just pass the role to LoginLoading
             ViewBag.Role = user.Role;
             return View("LoginLoading");
         }
@@ -54,6 +54,7 @@ namespace MvcReadMe_Group4.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
+            // Validate if username and password is valid and does not yet exist
             if (!ModelState.IsValid)
                 return View(model);
 
@@ -73,7 +74,7 @@ namespace MvcReadMe_Group4.Controllers
             {
                 UserName = model.UserName,
                 Password = model.Password,
-                Role = "User" // Default role
+                Role = "User" // default role
             };
 
             _context.Users.Add(newUser);
